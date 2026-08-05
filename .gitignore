@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+
+# IPEDS Access databases are huge (~600MB each, ~11GB total) and easily
+# re-downloadable from nces.ed.gov via code/extract_ipeds.py --download.
+# The per-school CSVs they produce live under data/scraped/ and are
+# committed.
+data/downloads/IPEDS/
+
+# raw_ipeds.csv is the consolidated all-institutions IPEDS extract
+# (~112 MB, ~1M rows). It exceeds GitHub's 100 MB per-file cap and is
+# reproducible by running `uv run code/extract_ipeds.py` once the .accdb
+# files are present. The 66-school subset (clean_ipeds.csv) and the
+# merged clean.csv ARE committed under data/processed/.
+data/processed/raw_ipeds.csv
+
+# Quarto render artifacts
+paper/paper_files/
+paper/paper.html

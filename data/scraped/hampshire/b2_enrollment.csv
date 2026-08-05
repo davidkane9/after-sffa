@@ -1,0 +1,157 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2004,Nonresident aliens,11,40,,hampshire-cds-2004-2005.pdf
+2004,"Black, non-Hispanic",17,42,,hampshire-cds-2004-2005.pdf
+2004,American Indian or Alaska Native,1,5,,hampshire-cds-2004-2005.pdf
+2004,Asian or Pacific Islander,12,49,,hampshire-cds-2004-2005.pdf
+2004,Hispanic,19,67,,hampshire-cds-2004-2005.pdf
+2004,"White, non-Hispanic",230,971,,hampshire-cds-2004-2005.pdf
+2004,Race/ethnicity unknown,80,170,,hampshire-cds-2004-2005.pdf
+2004,TOTAL,370,1344,0,hampshire-cds-2004-2005.pdf
+2005,Nonresident aliens,11,44,46,hampshire-cds-2005-2006.pdf
+2005,"Black, non-Hispanic",14,45,48,hampshire-cds-2005-2006.pdf
+2005,American Indian or Alaska Native,2,6,6,hampshire-cds-2005-2006.pdf
+2005,Asian or Pacific Islander,21,56,57,hampshire-cds-2005-2006.pdf
+2005,Hispanic,14,61,64,hampshire-cds-2005-2006.pdf
+2005,"White, non-Hispanic",328,1028,1028,hampshire-cds-2005-2006.pdf
+2005,Race/ethnicity unknown,2,122,127,hampshire-cds-2005-2006.pdf
+2005,TOTAL,392,1362,1376,hampshire-cds-2005-2006.pdf
+2006,Nonresident aliens,9,47,,hampshire-cds-2006-2007.pdf
+2006,"Black, non-Hispanic",16,53,,hampshire-cds-2006-2007.pdf
+2006,American Indian or Alaska Native,5,10,,hampshire-cds-2006-2007.pdf
+2006,Asian or Pacific Islander,6,45,,hampshire-cds-2006-2007.pdf
+2006,Hispanic,29,74,,hampshire-cds-2006-2007.pdf
+2006,"White, non-Hispanic",258,1012,,hampshire-cds-2006-2007.pdf
+2006,Race/ethnicity unknown,69,193,,hampshire-cds-2006-2007.pdf
+2006,TOTAL,392,1434,0,hampshire-cds-2006-2007.pdf
+2007,Nonresident aliens,15,43,52,hampshire-cds-2007-2008.pdf
+2007,"Black, non-Hispanic",16,57,61,hampshire-cds-2007-2008.pdf
+2007,American Indian or Alaska Native,3,9,10,hampshire-cds-2007-2008.pdf
+2007,Asian or Pacific Islander,21,55,55,hampshire-cds-2007-2008.pdf
+2007,Hispanic,20,77,81,hampshire-cds-2007-2008.pdf
+2007,"White, non-Hispanic",303,1022,1023,hampshire-cds-2007-2008.pdf
+2007,Race/ethnicity unknown,14,149,149,hampshire-cds-2007-2008.pdf
+2007,TOTAL,392,1412,1431,hampshire-cds-2007-2008.pdf
+2008,Nonresident aliens,19,55,67,hampshire-cds-2008-2009.pdf
+2008,"Black, non-Hispanic",8,57,64,hampshire-cds-2008-2009.pdf
+2008,American Indian or Alaska Native,6,14,14,hampshire-cds-2008-2009.pdf
+2008,Asian or Pacific Islander,14,51,51,hampshire-cds-2008-2009.pdf
+2008,Hispanic,26,86,88,hampshire-cds-2008-2009.pdf
+2008,"White, non-Hispanic",294,1038,1038,hampshire-cds-2008-2009.pdf
+2008,Race/ethnicity unknown,22,101,106,hampshire-cds-2008-2009.pdf
+2008,TOTAL,389,1402,1428,hampshire-cds-2008-2009.pdf
+2009,American Indian or Alaska Native,1,17,17,hampshire-cds-2009-2010.pdf
+2009,Asian or Pacific Islander,22,61,61,hampshire-cds-2009-2010.pdf
+2009,Hispanic,30,112,117,hampshire-cds-2009-2010.pdf
+2009,"White, non-Hispanic",208,975,976,hampshire-cds-2009-2010.pdf
+2009,Race/ethnicity unknown,72,151,153,hampshire-cds-2009-2010.pdf
+2009,TOTAL,363,1438,1463,hampshire-cds-2009-2010.pdf
+2010,Nonresident aliens,23,70,81,hampshire-cds-2010-2011.pdf
+2010,Hispanic,27,111,116,hampshire-cds-2010-2011.pdf
+2010,"Black or African American, non-Hispanic",5,43,45,hampshire-cds-2010-2011.pdf
+2010,"White, non-Hispanic",287,1028,1029,hampshire-cds-2010-2011.pdf
+2010,"American Indian or Alaska Native, non-Hispanic",0,8,9,hampshire-cds-2010-2011.pdf
+2010,"Asian, non-Hispanic",14,49,49,hampshire-cds-2010-2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2010-2011.pdf
+2010,"Two or more races, non-Hispanic",19,49,50,hampshire-cds-2010-2011.pdf
+2010,Race and/or ethnicity unknown,43,147,150,hampshire-cds-2010-2011.pdf
+2010,TOTAL,418,1505,1529,hampshire-cds-2010-2011.pdf
+2011,Nonresident aliens,31,79,93,hampshire-cds-2011-2012.pdf
+2011,Hispanic,26,132,137,hampshire-cds-2011-2012.pdf
+2011,"Black or African American, non-Hispanic",7,40,42,hampshire-cds-2011-2012.pdf
+2011,"White, non-Hispanic",227,969,970,hampshire-cds-2011-2012.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",1,5,5,hampshire-cds-2011-2012.pdf
+2011,Asian,5,31,31,hampshire-cds-2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,hampshire-cds-2011-2012.pdf
+2011,"Two or more races, non-Hispanic",22,63,63,hampshire-cds-2011-2012.pdf
+2011,Race and/or ethnicity unknown,37,155,158,hampshire-cds-2011-2012.pdf
+2011,TOTAL,356,1475,1500,hampshire-cds-2011-2012.pdf
+2013,Nonresident aliens,16,81,93,hampshire-cds-2013-2014.pdf
+2013,Hispanic/Latino,33,137,139,hampshire-cds-2013-2014.pdf
+2013,"Black or African American, non-Hispanic",8,36,40,hampshire-cds-2013-2014.pdf
+2013,"White, non-Hispanic",282,987,987,hampshire-cds-2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",1,2,2,hampshire-cds-2013-2014.pdf
+2013,"Asian, non-Hispanic",6,31,31,hampshire-cds-2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,1,1,hampshire-cds-2013-2014.pdf
+2013,"Two or more races, non-Hispanic",23,77,78,hampshire-cds-2013-2014.pdf
+2013,Race and/or ethnicity unknown,11,116,121,hampshire-cds-2013-2014.pdf
+2013,TOTAL,381,1468,1492,hampshire-cds-2013-2014.pdf
+2014,Nonresident aliens,9,67,75,hampshire-cds-2014-2015.pdf
+2014,Hispanic/Latino,27,129,133,hampshire-cds-2014-2015.pdf
+2014,"Black or African American, non-Hispanic",18,50,53,hampshire-cds-2014-2015.pdf
+2014,"White, non-Hispanic",238,928,931,hampshire-cds-2014-2015.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",1,1,1,hampshire-cds-2014-2015.pdf
+2014,"Asian, non-Hispanic",10,31,31,hampshire-cds-2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,hampshire-cds-2014-2015.pdf
+2014,"Two or more races, non-Hispanic",23,79,79,hampshire-cds-2014-2015.pdf
+2014,Race and/or ethnicity unknown,5,71,72,hampshire-cds-2014-2015.pdf
+2014,TOTAL,331,1357,1376,hampshire-cds-2014-2015.pdf
+2015,Nonresident aliens,25,70,74,hampshire-cds-2015-2016.pdf
+2015,Hispanic/Latino,46,152,156,hampshire-cds-2015-2016.pdf
+2015,"Black or African American, non-Hispanic",13,53,58,hampshire-cds-2015-2016.pdf
+2015,"White, non-Hispanic",236,936,936,hampshire-cds-2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",0,0,0,hampshire-cds-2015-2016.pdf
+2015,"Asian, non-Hispanic",9,33,33,hampshire-cds-2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,hampshire-cds-2015-2016.pdf
+2015,"Two or more races, non-Hispanic",30,92,92,hampshire-cds-2015-2016.pdf
+2015,Race and/or ethnicity unknown,11,59,60,hampshire-cds-2015-2016.pdf
+2015,TOTAL,370,1396,1410,hampshire-cds-2015-2016.pdf
+2016,Nonresident aliens,18,65,72,hampshire-cds-2016-2017.pdf
+2016,Hispanic/Latino,37,137,138,hampshire-cds-2016-2017.pdf
+2016,"Black or African American, non-Hispanic",27,68,74,hampshire-cds-2016-2017.pdf
+2016,"White, non-Hispanic",198,860,860,hampshire-cds-2016-2017.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",0,2,2,hampshire-cds-2016-2017.pdf
+2016,"Asian, non-Hispanic",10,32,32,hampshire-cds-2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,hampshire-cds-2016-2017.pdf
+2016,"Two or more races, non-Hispanic",17,91,93,hampshire-cds-2016-2017.pdf
+2016,Race and/or ethnicity unknown,20,49,49,hampshire-cds-2016-2017.pdf
+2016,TOTAL,327,1305,1321,hampshire-cds-2016-2017.pdf
+2017,Nonresident aliens,14,62,66,hampshire-cds-2017-2018.pdf
+2017,Hispanic/Latino,51,150,155,hampshire-cds-2017-2018.pdf
+2017,"Black or African American, non-Hispanic",38,91,94,hampshire-cds-2017-2018.pdf
+2017,"White, non-Hispanic",179,788,788,hampshire-cds-2017-2018.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",0,1,1,hampshire-cds-2017-2018.pdf
+2017,"Asian, non-Hispanic",5,29,29,hampshire-cds-2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2017-2018.pdf
+2017,"Two or more races, non-Hispanic",20,81,81,hampshire-cds-2017-2018.pdf
+2017,Race and/or ethnicity unknown,18,54,54,hampshire-cds-2017-2018.pdf
+2017,TOTAL,325,1256,1268,hampshire-cds-2017-2018.pdf
+2018,Nonresident aliens,17,65,73,hampshire-cds-2018-2019.pdf
+2018,Hispanic/Latino,27,136,138,hampshire-cds-2018-2019.pdf
+2018,"Black or African American, non-Hispanic",21,92,98,hampshire-cds-2018-2019.pdf
+2018,"White, non-Hispanic",171,719,719,hampshire-cds-2018-2019.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",1,3,3,hampshire-cds-2018-2019.pdf
+2018,"Asian, non-Hispanic",11,34,34,hampshire-cds-2018-2019.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2018-2019.pdf
+2018,"Two or more races, non-Hispanic",14,67,67,hampshire-cds-2018-2019.pdf
+2018,Race and/or ethnicity unknown,20,59,59,hampshire-cds-2018-2019.pdf
+2018,TOTAL,282,1175,1191,hampshire-cds-2018-2019.pdf
+2019,Nonresident aliens,0,42,42,hampshire-cds-2019-2020.pdf
+2019,Hispanic/Latino,2,88,88,hampshire-cds-2019-2020.pdf
+2019,"Black or African American, non-Hispanic",6,62,62,hampshire-cds-2019-2020.pdf
+2019,"White, non-Hispanic",6,448,448,hampshire-cds-2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",0,1,1,hampshire-cds-2019-2020.pdf
+2019,"Asian, non-Hispanic",2,23,23,hampshire-cds-2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2019-2020.pdf
+2019,"Two or more races, non-Hispanic",0,36,36,hampshire-cds-2019-2020.pdf
+2019,Race and/or ethnicity unknown,3,45,45,hampshire-cds-2019-2020.pdf
+2019,TOTAL,19,745,745,hampshire-cds-2019-2020.pdf
+2020,Nonresident aliens,2,23,23,hampshire-cds-2020-2021.pdf
+2020,Hispanic/Latino,6,62,65,hampshire-cds-2020-2021.pdf
+2020,"Black or African American, non-Hispanic",5,40,42,hampshire-cds-2020-2021.pdf
+2020,"White, non-Hispanic",45,314,314,hampshire-cds-2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",1,2,2,hampshire-cds-2020-2021.pdf
+2020,"Asian, non-Hispanic",2,16,16,hampshire-cds-2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2020-2021.pdf
+2020,"Two or more races, non-Hispanic",2,29,29,hampshire-cds-2020-2021.pdf
+2020,Race and/or ethnicity unknown,4,31,31,hampshire-cds-2020-2021.pdf
+2020,TOTAL,67,517,522,hampshire-cds-2020-2021.pdf
+2021,Nonresident aliens,5,29,30,hampshire-cds-2021-2022.pdf
+2021,Hispanic/Latino,25,52,56,hampshire-cds-2021-2022.pdf
+2021,"Black or African American, non-Hispanic",17,37,39,hampshire-cds-2021-2022.pdf
+2021,"White, non-Hispanic",69,276,276,hampshire-cds-2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,1,1,hampshire-cds-2021-2022.pdf
+2021,"Asian, non-Hispanic",2,15,15,hampshire-cds-2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,hampshire-cds-2021-2022.pdf
+2021,"Two or more races, non-Hispanic",9,30,30,hampshire-cds-2021-2022.pdf
+2021,Race and/or ethnicity unknown,3,25,25,hampshire-cds-2021-2022.pdf
+2021,TOTAL,130,465,472,hampshire-cds-2021-2022.pdf

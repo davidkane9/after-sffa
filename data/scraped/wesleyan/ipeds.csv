@@ -1,0 +1,167 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,legacy_combined,source_file
+2008,Nonresident,64,191,197,0,IPEDS_EF2008A
+2008,Hispanic/Latino,62,228,228,0,IPEDS_EF2008A
+2008,"Black or African American, non-Hispanic",49,203,203,0,IPEDS_EF2008A
+2008,"White, non-Hispanic",374,1626,1635,0,IPEDS_EF2008A
+2008,"American Indian or Alaska Native, non-Hispanic",2,11,11,0,IPEDS_EF2008A
+2008,"Asian, non-Hispanic",62,270,271,1,IPEDS_EF2008A
+2008,Race and/or ethnicity unknown,102,219,227,0,IPEDS_EF2008A
+2008,Total,715,2748,2772,0,IPEDS_EF2008A
+2009,Nonresident,46,189,193,0,IPEDS_EF2009A
+2009,Hispanic/Latino,68,240,240,0,IPEDS_EF2009A
+2009,"Black or African American, non-Hispanic",66,198,198,0,IPEDS_EF2009A
+2009,"White, non-Hispanic",393,1600,1605,0,IPEDS_EF2009A
+2009,"American Indian or Alaska Native, non-Hispanic",7,15,15,0,IPEDS_EF2009A
+2009,"Asian, non-Hispanic",80,271,273,1,IPEDS_EF2009A
+2009,Race and/or ethnicity unknown,85,253,263,0,IPEDS_EF2009A
+2009,Total,745,2766,2787,0,IPEDS_EF2009A
+2010,Nonresident,53,193,194,0,IPEDS_EF2010A
+2010,Hispanic/Latino,70,252,252,0,IPEDS_EF2010A
+2010,"Black or African American, non-Hispanic",51,176,176,0,IPEDS_EF2010A
+2010,"White, non-Hispanic",446,1591,1595,0,IPEDS_EF2010A
+2010,"American Indian or Alaska Native, non-Hispanic",0,1,1,0,IPEDS_EF2010A
+2010,"Asian, non-Hispanic",48,206,207,0,IPEDS_EF2010A
+2010,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,0,IPEDS_EF2010A
+2010,"Two or more races, non-Hispanic",36,168,168,0,IPEDS_EF2010A
+2010,Race and/or ethnicity unknown,44,249,260,0,IPEDS_EF2010A
+2010,Total,748,2837,2854,0,IPEDS_EF2010A
+2011,Nonresident,67,216,221,0,IPEDS_EF2011A
+2011,Hispanic/Latino,95,274,274,0,IPEDS_EF2011A
+2011,"Black or African American, non-Hispanic",53,188,188,0,IPEDS_EF2011A
+2011,"White, non-Hispanic",393,1519,1519,0,IPEDS_EF2011A
+2011,"American Indian or Alaska Native, non-Hispanic",1,2,2,0,IPEDS_EF2011A
+2011,"Asian, non-Hispanic",82,233,233,0,IPEDS_EF2011A
+2011,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,0,IPEDS_EF2011A
+2011,"Two or more races, non-Hispanic",43,150,150,0,IPEDS_EF2011A
+2011,Race and/or ethnicity unknown,74,287,294,0,IPEDS_EF2011A
+2011,Total,808,2870,2882,0,IPEDS_EF2011A
+2012,Nonresident,63,215,222,0,IPEDS_EF2012A
+2012,Hispanic/Latino,75,293,293,0,IPEDS_EF2012A
+2012,"Black or African American, non-Hispanic",59,200,200,0,IPEDS_EF2012A
+2012,"White, non-Hispanic",375,1516,1516,0,IPEDS_EF2012A
+2012,"American Indian or Alaska Native, non-Hispanic",0,2,2,0,IPEDS_EF2012A
+2012,"Asian, non-Hispanic",67,251,252,0,IPEDS_EF2012A
+2012,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,2,0,IPEDS_EF2012A
+2012,"Two or more races, non-Hispanic",45,175,175,0,IPEDS_EF2012A
+2012,Race and/or ethnicity unknown,67,270,278,0,IPEDS_EF2012A
+2012,Total,752,2924,2940,0,IPEDS_EF2012A
+2013,Nonresident,69,239,248,0,IPEDS_EF2013A
+2013,Hispanic/Latino,70,279,279,0,IPEDS_EF2013A
+2013,"Black or African American, non-Hispanic",48,208,208,0,IPEDS_EF2013A
+2013,"White, non-Hispanic",398,1529,1533,0,IPEDS_EF2013A
+2013,"American Indian or Alaska Native, non-Hispanic",1,2,2,0,IPEDS_EF2013A
+2013,"Asian, non-Hispanic",48,230,231,0,IPEDS_EF2013A
+2013,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,3,3,0,IPEDS_EF2013A
+2013,"Two or more races, non-Hispanic",45,168,168,0,IPEDS_EF2013A
+2013,Race and/or ethnicity unknown,60,230,234,0,IPEDS_EF2013A
+2013,Total,741,2888,2906,0,IPEDS_EF2013A
+2014,Nonresident,67,248,255,0,IPEDS_EF2014A
+2014,Hispanic/Latino,65,286,287,0,IPEDS_EF2014A
+2014,"Black or African American, non-Hispanic",58,205,206,0,IPEDS_EF2014A
+2014,"White, non-Hispanic",431,1549,1555,0,IPEDS_EF2014A
+2014,"American Indian or Alaska Native, non-Hispanic",0,2,2,0,IPEDS_EF2014A
+2014,"Asian, non-Hispanic",73,252,255,0,IPEDS_EF2014A
+2014,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,4,4,0,IPEDS_EF2014A
+2014,"Two or more races, non-Hispanic",40,165,165,0,IPEDS_EF2014A
+2014,Race and/or ethnicity unknown,15,196,199,0,IPEDS_EF2014A
+2014,Total,750,2907,2928,0,IPEDS_EF2014A
+2015,Nonresident,77,254,259,0,IPEDS_EF2015A
+2015,Hispanic/Latino,91,303,307,0,IPEDS_EF2015A
+2015,"Black or African American, non-Hispanic",56,198,225,0,IPEDS_EF2015A
+2015,"White, non-Hispanic",398,1508,1533,0,IPEDS_EF2015A
+2015,"American Indian or Alaska Native, non-Hispanic",0,1,1,0,IPEDS_EF2015A
+2015,"Asian, non-Hispanic",59,236,237,0,IPEDS_EF2015A
+2015,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,0,IPEDS_EF2015A
+2015,"Two or more races, non-Hispanic",49,165,166,0,IPEDS_EF2015A
+2015,Race and/or ethnicity unknown,27,151,166,0,IPEDS_EF2015A
+2015,Total,757,2819,2897,0,IPEDS_EF2015A
+2016,Nonresident,102,293,305,0,IPEDS_EF2016A
+2016,Hispanic/Latino,91,300,305,0,IPEDS_EF2016A
+2016,"Black or African American, non-Hispanic",40,198,211,0,IPEDS_EF2016A
+2016,"White, non-Hispanic",423,1608,1622,0,IPEDS_EF2016A
+2016,"American Indian or Alaska Native, non-Hispanic",2,3,3,0,IPEDS_EF2016A
+2016,"Asian, non-Hispanic",53,212,213,0,IPEDS_EF2016A
+2016,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,5,5,0,IPEDS_EF2016A
+2016,"Two or more races, non-Hispanic",34,158,158,0,IPEDS_EF2016A
+2016,Race and/or ethnicity unknown,28,136,149,0,IPEDS_EF2016A
+2016,Total,774,2913,2971,0,IPEDS_EF2016A
+2017,Nonresident,108,338,359,0,IPEDS_EF2017A
+2017,Hispanic/Latino,93,327,334,0,IPEDS_EF2017A
+2017,"Black or African American, non-Hispanic",47,187,212,0,IPEDS_EF2017A
+2017,"White, non-Hispanic",399,1561,1584,0,IPEDS_EF2017A
+2017,"American Indian or Alaska Native, non-Hispanic",1,2,2,0,IPEDS_EF2017A
+2017,"Asian, non-Hispanic",60,235,236,0,IPEDS_EF2017A
+2017,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,0,IPEDS_EF2017A
+2017,"Two or more races, non-Hispanic",41,155,156,0,IPEDS_EF2017A
+2017,Race and/or ethnicity unknown,12,80,91,0,IPEDS_EF2017A
+2017,Total,761,2887,2976,0,IPEDS_EF2017A
+2018,Nonresident,102,364,368,0,IPEDS_EF2018A
+2018,Hispanic/Latino,84,339,349,0,IPEDS_EF2018A
+2018,"Black or African American, non-Hispanic",41,173,204,0,IPEDS_EF2018A
+2018,"White, non-Hispanic",458,1567,1595,0,IPEDS_EF2018A
+2018,"American Indian or Alaska Native, non-Hispanic",0,1,2,0,IPEDS_EF2018A
+2018,"Asian, non-Hispanic",50,214,216,0,IPEDS_EF2018A
+2018,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,0,IPEDS_EF2018A
+2018,"Two or more races, non-Hispanic",53,182,182,0,IPEDS_EF2018A
+2018,Race and/or ethnicity unknown,15,81,92,0,IPEDS_EF2018A
+2018,Total,803,2922,3009,0,IPEDS_EF2018A
+2019,Nonresident,103,402,405,0,IPEDS_EF2019A
+2019,Hispanic/Latino,80,327,340,0,IPEDS_EF2019A
+2019,"Black or African American, non-Hispanic",42,161,195,0,IPEDS_EF2019A
+2019,"White, non-Hispanic",408,1578,1599,0,IPEDS_EF2019A
+2019,"American Indian or Alaska Native, non-Hispanic",0,1,2,0,IPEDS_EF2019A
+2019,"Asian, non-Hispanic",70,217,220,0,IPEDS_EF2019A
+2019,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,3,3,0,IPEDS_EF2019A
+2019,"Two or more races, non-Hispanic",53,177,178,0,IPEDS_EF2019A
+2019,Race and/or ethnicity unknown,13,67,76,0,IPEDS_EF2019A
+2019,Total,771,2933,3018,0,IPEDS_EF2019A
+2020,Nonresident,47,324,325,0,IPEDS_EF2020A
+2020,Hispanic/Latino,90,327,328,0,IPEDS_EF2020A
+2020,"Black or African American, non-Hispanic",35,163,163,0,IPEDS_EF2020A
+2020,"White, non-Hispanic",405,1550,1556,0,IPEDS_EF2020A
+2020,"American Indian or Alaska Native, non-Hispanic",0,1,1,0,IPEDS_EF2020A
+2020,"Asian, non-Hispanic",66,223,228,0,IPEDS_EF2020A
+2020,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,2,0,IPEDS_EF2020A
+2020,"Two or more races, non-Hispanic",57,193,193,0,IPEDS_EF2020A
+2020,Race and/or ethnicity unknown,19,55,56,0,IPEDS_EF2020A
+2020,Total,720,2838,2852,0,IPEDS_EF2020A
+2021,Nonresident,69,342,346,0,IPEDS_EF2021A
+2021,Hispanic/Latino,99,343,405,0,IPEDS_EF2021A
+2021,"Black or African American, non-Hispanic",53,179,213,0,IPEDS_EF2021A
+2021,"White, non-Hispanic",507,1819,1842,0,IPEDS_EF2021A
+2021,"American Indian or Alaska Native, non-Hispanic",0,0,1,0,IPEDS_EF2021A
+2021,"Asian, non-Hispanic",81,256,262,0,IPEDS_EF2021A
+2021,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,0,IPEDS_EF2021A
+2021,"Two or more races, non-Hispanic",70,225,228,0,IPEDS_EF2021A
+2021,Race and/or ethnicity unknown,31,83,85,0,IPEDS_EF2021A
+2021,Total,910,3250,3385,0,IPEDS_EF2021A
+2022,Nonresident,81,311,317,0,IPEDS_EF2022A
+2022,Hispanic/Latino,69,318,340,0,IPEDS_EF2022A
+2022,"Black or African American, non-Hispanic",43,165,176,0,IPEDS_EF2022A
+2022,"White, non-Hispanic",395,1636,1650,0,IPEDS_EF2022A
+2022,"American Indian or Alaska Native, non-Hispanic",1,1,1,0,IPEDS_EF2022A
+2022,"Asian, non-Hispanic",72,271,276,0,IPEDS_EF2022A
+2022,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,0,IPEDS_EF2022A
+2022,"Two or more races, non-Hispanic",54,217,219,0,IPEDS_EF2022A
+2022,Race and/or ethnicity unknown,28,85,88,0,IPEDS_EF2022A
+2022,Total,743,3006,3069,0,IPEDS_EF2022A
+2023,Nonresident,91,308,313,0,IPEDS_EF2023A
+2023,Hispanic/Latino,76,305,340,0,IPEDS_EF2023A
+2023,"Black or African American, non-Hispanic",47,174,194,0,IPEDS_EF2023A
+2023,"White, non-Hispanic",425,1606,1623,0,IPEDS_EF2023A
+2023,"American Indian or Alaska Native, non-Hispanic",0,1,2,0,IPEDS_EF2023A
+2023,"Asian, non-Hispanic",72,276,287,0,IPEDS_EF2023A
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,0,IPEDS_EF2023A
+2023,"Two or more races, non-Hispanic",55,217,218,0,IPEDS_EF2023A
+2023,Race and/or ethnicity unknown,16,84,87,0,IPEDS_EF2023A
+2023,Total,782,2973,3066,0,IPEDS_EF2023A
+2024,Nonresident,95,304,304,0,IPEDS_EF2024A
+2024,Hispanic/Latino,94,331,675,0,IPEDS_EF2024A
+2024,"Black or African American, non-Hispanic",49,185,381,0,IPEDS_EF2024A
+2024,"White, non-Hispanic",423,1643,1717,0,IPEDS_EF2024A
+2024,"American Indian or Alaska Native, non-Hispanic",1,2,11,0,IPEDS_EF2024A
+2024,"Asian, non-Hispanic",66,277,370,0,IPEDS_EF2024A
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,0,1,0,IPEDS_EF2024A
+2024,"Two or more races, non-Hispanic",58,220,240,0,IPEDS_EF2024A
+2024,Race and/or ethnicity unknown,39,105,106,0,IPEDS_EF2024A
+2024,Total,825,3067,3805,0,IPEDS_EF2024A

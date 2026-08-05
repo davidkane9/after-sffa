@@ -1,0 +1,11 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2025,Nonresidents,215,826,828,CDS_2025-2026.xlsx
+2025,Hispanic/Latino,168,792,793,CDS_2025-2026.xlsx
+2025,"Black or African American, non-Hispanic",97,577,578,CDS_2025-2026.xlsx
+2025,"White, non-Hispanic",646,2918,2921,CDS_2025-2026.xlsx
+2025,"American Indian or Alaska Native, non-Hispanic",8,30,30,CDS_2025-2026.xlsx
+2025,"Asian, non-Hispanic",284,1379,1379,CDS_2025-2026.xlsx
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,14,14,CDS_2025-2026.xlsx
+2025,"Two or more races, non-Hispanic",98,424,424,CDS_2025-2026.xlsx
+2025,Race and/or ethnicity unknown,117,395,399,CDS_2025-2026.xlsx
+2025,TOTAL,1635,7355,7366,CDS_2025-2026.xlsx

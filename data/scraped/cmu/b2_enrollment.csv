@@ -1,0 +1,42 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2023,"Degree-seeking, first-time first-year (Pittsburgh campus)",874,834,0,cds_2023-2024.pdf
+2023,"Degree-seeking, first-time first-year (Doha campus)",52,63,0,cds_2023-2024.pdf
+2023,"Other first-year, degree-seeking",11,11,0,cds_2023-2024.pdf
+2023,All other degree-seeking,2754,2846,76,cds_2023-2024.pdf
+2023,Total degree-seeking,3691,3754,76,cds_2023-2024.pdf
+2023,All other undergraduates enrolled in credit courses,0,0,70,cds_2023-2024.pdf
+2023,Total Undergraduates,3691,3754,146,cds_2023-2024.pdf
+2023,"Degree-seeking, first-time",1858,1267,157,cds_2023-2024.pdf
+2023,All other degree-seeking,2866,1749,358,cds_2023-2024.pdf
+2023,All other graduates enrolled in credit courses,24,24,19,cds_2023-2024.pdf
+2023,Total graduate,4748,3040,534,cds_2023-2024.pdf
+2023,International (nonresident ),276,1767,1786,cds_2023-2024.pdf
+2023,Hispanic/Latino,203,777,783,cds_2023-2024.pdf
+2023,"Black or African-American, non-Hispanic",77,305,308,cds_2023-2024.pdf
+2023,"White, non-Hispanic",365,1564,1590,cds_2023-2024.pdf
+2023,"American Indian or Alaska Native, non-Hispanic",0,2,2,cds_2023-2024.pdf
+2023,"Asian, non-Hispanic",603,2415,2424,cds_2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,cds_2023-2024.pdf
+2023,"Two or more races, non-Hispanic",98,389,390,cds_2023-2024.pdf
+2023,Race and/or ethnicity unknown,86,382,421,cds_2023-2024.pdf
+2023,Total,1708,7604,7707,cds_2023-2024.pdf
+2024,International (non-resident ),362,1804,1823,cds_2024-2025.pdf
+2024,Hispanic/Latino,115,731,735,cds_2024-2025.pdf
+2024,"Black or African-American, non-Hispanic",39,292,298,cds_2024-2025.pdf
+2024,"White, non-Hispanic",379,1587,1607,cds_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",0,1,1,cds_2024-2025.pdf
+2024,"Asian, non-Hispanic",711,2524,2530,cds_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,cds_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",75,393,394,cds_2024-2025.pdf
+2024,Race and/or ethnicity unknown,127,410,434,cds_2024-2025.pdf
+2024,Total,1808,7744,7824,cds_2024-2025.pdf
+2025,International (non-resident),261,1703,1716,CDS_2025-2026.pdf
+2025,Hispanic/Latino,108,643,651,CDS_2025-2026.pdf
+2025,"Black or African-American, non-Hispanic",56,277,295,CDS_2025-2026.pdf
+2025,"White, non-Hispanic",346,1481,1504,CDS_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",0,2,3,CDS_2025-2026.pdf
+2025,"Asian, non-Hispanic",769,2673,2680,CDS_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,CDS_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",90,354,355,CDS_2025-2026.pdf
+2025,Race and/or ethnicity unknown,174,485,522,CDS_2025-2026.pdf
+2025,Total,1804,7620,7728,CDS_2025-2026.pdf

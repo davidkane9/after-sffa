@@ -1,0 +1,163 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2008,Nonresident aliens,125,430,442,Duke_CDS_2008-2009.pdf
+2008,"Black, non-Hispanic",177,629,636,Duke_CDS_2008-2009.pdf
+2008,American Indian or Alaska Native,8,26,26,Duke_CDS_2008-2009.pdf
+2008,Asian or Pacific Islander,306,1381,1390,Duke_CDS_2008-2009.pdf
+2008,Hispanic,126,420,425,Duke_CDS_2008-2009.pdf
+2008,"White, non-Hispanic",670,2980,3050,Duke_CDS_2008-2009.pdf
+2008,Race/ethnicity unknown,311,534,581,Duke_CDS_2008-2009.pdf
+2008,TOTAL,1723,6400,6550,Duke_CDS_2008-2009.pdf
+2009,Nonresident aliens,125,430,442,Duke_CDS_2009-2010.pdf
+2009,"Black, non-Hispanic",177,629,636,Duke_CDS_2009-2010.pdf
+2009,American Indian or Alaska Native,8,26,26,Duke_CDS_2009-2010.pdf
+2009,Asian or Pacific Islander,306,1381,1390,Duke_CDS_2009-2010.pdf
+2009,Hispanic,126,420,425,Duke_CDS_2009-2010.pdf
+2009,"White, non-Hispanic",670,2980,3050,Duke_CDS_2009-2010.pdf
+2009,Race/ethnicity unknown,311,534,581,Duke_CDS_2009-2010.pdf
+2009,TOTAL,1723,6400,6550,Duke_CDS_2009-2010.pdf
+2010,Nonresident aliens,152,475,481,Duke_CDS_2010-2011.pdf
+2010,Hispanic,167,628,637,Duke_CDS_2010-2011.pdf
+2010,"Black or African American, non-Hispanic",129,429,439,Duke_CDS_2010-2011.pdf
+2010,"White, non-Hispanic",881,3087,3170,Duke_CDS_2010-2011.pdf
+2010,"American Indian or Alaska Native, non-Hispanic",12,33,33,Duke_CDS_2010-2011.pdf
+2010,"Asian, non-Hispanic",360,1427,1434,Duke_CDS_2010-2011.pdf
+2010,Race and/or ethnicity unknown,50,425,457,Duke_CDS_2010-2011.pdf
+2010,TOTAL,1751,6504,6651,Duke_CDS_2010-2011.pdf
+2011,Nonresident aliens,139,513,522,Duke_CDS_2011-2012.pdf
+2011,Hispanic,103,431,441,Duke_CDS_2011-2012.pdf
+2011,"Black or African American, non-Hispanic",176,637,645,Duke_CDS_2011-2012.pdf
+2011,"White, non-Hispanic",860,3062,3140,Duke_CDS_2011-2012.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",6,36,36,Duke_CDS_2011-2012.pdf
+2011,"Asian, non-Hispanic",350,1368,1383,Duke_CDS_2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,4,4,Duke_CDS_2011-2012.pdf
+2011,"Two or more races, non-Hispanic",36,112,115,Duke_CDS_2011-2012.pdf
+2011,Race and/or ethnicity unknown,51,371,394,Duke_CDS_2011-2012.pdf
+2011,TOTAL,1722,6534,6680,Duke_CDS_2011-2012.pdf
+2012,Nonresident aliens,157,532,549,Duke_CDS_2012-2013.pdf
+2012,Hispanic,97,417,424,Duke_CDS_2012-2013.pdf
+2012,"Black or African American, non-Hispanic",171,652,655,Duke_CDS_2012-2013.pdf
+2012,"White, non-Hispanic",819,3018,3112,Duke_CDS_2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",11,35,35,Duke_CDS_2012-2013.pdf
+2012,"Asian, non-Hispanic",368,1335,1347,Duke_CDS_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,4,4,Duke_CDS_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",39,117,120,Duke_CDS_2012-2013.pdf
+2012,Race and/or ethnicity unknown,52,374,385,Duke_CDS_2012-2013.pdf
+2012,TOTAL,1714,6484,6631,Duke_CDS_2012-2013.pdf
+2013,Nonresident aliens,165,580,596,Duke_CDS_2013-2014.pdf
+2013,Hispanic/Latino,119,396,402,Duke_CDS_2013-2014.pdf
+2013,"Black or African American, non-Hispanic",163,651,659,Duke_CDS_2013-2014.pdf
+2013,"White, non-Hispanic",859,3160,3248,Duke_CDS_2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",12,40,41,Duke_CDS_2013-2014.pdf
+2013,"Asian, non-Hispanic",355,1381,1386,Duke_CDS_2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,3,Duke_CDS_2013-2014.pdf
+2013,"Two or more races, non-Hispanic",22,113,115,Duke_CDS_2013-2014.pdf
+2013,Race and/or ethnicity unknown,35,177,196,Duke_CDS_2013-2014.pdf
+2013,TOTAL,1730,6501,6646,Duke_CDS_2013-2014.pdf
+2014,Nonresident aliens,180,616,,Duke_CDS_2014-2015.pdf
+2014,Hispanic/Latino,135,425,,Duke_CDS_2014-2015.pdf
+2014,"Black or African American, non-Hispanic",168,650,,Duke_CDS_2014-2015.pdf
+2014,"White, non-Hispanic",802,3094,,Duke_CDS_2014-2015.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",12,37,,Duke_CDS_2014-2015.pdf
+2014,"Asian, non-Hispanic",371,1392,,Duke_CDS_2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",3,4,,Duke_CDS_2014-2015.pdf
+2014,"Two or more races, non-Hispanic",28,117,,Duke_CDS_2014-2015.pdf
+2014,Race and/or ethnicity unknown,22,145,,Duke_CDS_2014-2015.pdf
+2014,TOTAL,1721,6480,0,Duke_CDS_2014-2015.pdf
+2015,Nonresident aliens,174,656,682,Duke_CDS_2015-2016.pdf
+2015,Hispanic/Latino,161,479,482,Duke_CDS_2015-2016.pdf
+2015,"Black or African American, non-Hispanic",162,632,637,Duke_CDS_2015-2016.pdf
+2015,"White, non-Hispanic",791,3003,3067,Duke_CDS_2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",8,43,43,Duke_CDS_2015-2016.pdf
+2015,"Asian, non-Hispanic",365,1400,1410,Duke_CDS_2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,5,6,Duke_CDS_2015-2016.pdf
+2015,"Two or more races, non-Hispanic",36,126,129,Duke_CDS_2015-2016.pdf
+2015,Race and/or ethnicity unknown,46,141,155,Duke_CDS_2015-2016.pdf
+2015,TOTAL,1745,6485,6611,Duke_CDS_2015-2016.pdf
+2016,Nonresident aliens,172,663,687,Duke_CDS_2016-2017.pdf
+2016,Hispanic/Latino,143,528,537,Duke_CDS_2016-2017.pdf
+2016,"Black or African American, non-Hispanic",186,636,635,Duke_CDS_2016-2017.pdf
+2016,"White, non-Hispanic",779,2947,3002,Duke_CDS_2016-2017.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",13,38,38,Duke_CDS_2016-2017.pdf
+2016,"Asian, non-Hispanic",358,1400,1404,Duke_CDS_2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,5,5,Duke_CDS_2016-2017.pdf
+2016,"Two or more races, non-Hispanic",26,108,111,Duke_CDS_2016-2017.pdf
+2016,Race and/or ethnicity unknown,46,142,158,Duke_CDS_2016-2017.pdf
+2016,TOTAL,1723,6467,6577,Duke_CDS_2016-2017.pdf
+2017,Nonresident aliens,166,681,,Duke_CDS_2017-2018.pdf
+2017,Hispanic/Latino,173,570,,Duke_CDS_2017-2018.pdf
+2017,"Black or African American, non-Hispanic",202,675,,Duke_CDS_2017-2018.pdf
+2017,"White, non-Hispanic",727,2852,,Duke_CDS_2017-2018.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",18,49,,Duke_CDS_2017-2018.pdf
+2017,"Asian, non-Hispanic",340,1399,,Duke_CDS_2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",4,10,,Duke_CDS_2017-2018.pdf
+2017,"Two or more races, non-Hispanic",43,137,,Duke_CDS_2017-2018.pdf
+2017,Race and/or ethnicity unknown,71,175,,Duke_CDS_2017-2018.pdf
+2017,TOTAL,1744,6548,0,Duke_CDS_2017-2018.pdf
+2018,Nonresident aliens,135,636,664,Duke_CDS_2018-2019.pdf
+2018,Hispanic/Latino,162,624,630,Duke_CDS_2018-2019.pdf
+2018,"Black or African American, non-Hispanic",157,669,672,Duke_CDS_2018-2019.pdf
+2018,"White, non-Hispanic",746,2801,2830,Duke_CDS_2018-2019.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",16,47,47,Duke_CDS_2018-2019.pdf
+2018,"Asian, non-Hispanic",411,1454,1458,Duke_CDS_2018-2019.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",4,11,11,Duke_CDS_2018-2019.pdf
+2018,"Two or more races, non-Hispanic",26,108,109,Duke_CDS_2018-2019.pdf
+2018,Race and/or ethnicity unknown,88,246,261,Duke_CDS_2018-2019.pdf
+2018,TOTAL,1745,6596,6682,Duke_CDS_2018-2019.pdf
+2019,Nonresident aliens,157,631,663,Duke_CDS_2019-2020.pdf
+2019,Hispanic/Latino,190,634,638,Duke_CDS_2019-2020.pdf
+2019,"Black or African American, non-Hispanic",139,578,583,Duke_CDS_2019-2020.pdf
+2019,"White, non-Hispanic",680,2703,2746,Duke_CDS_2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",4,41,41,Duke_CDS_2019-2020.pdf
+2019,"Asian, non-Hispanic",345,1375,1383,Duke_CDS_2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,2,2,Duke_CDS_2019-2020.pdf
+2019,"Two or more races, non-Hispanic",131,305,306,Duke_CDS_2019-2020.pdf
+2019,Race and/or ethnicity unknown,84,277,287,Duke_CDS_2019-2020.pdf
+2019,TOTAL,1731,6546,6649,Duke_CDS_2019-2020.pdf
+2020,Nonresident aliens,96,538,,Duke_CDS_2020-2021.pdf
+2020,Hispanic/Latino,156,673,,Duke_CDS_2020-2021.pdf
+2020,"Black or African American, non-Hispanic",125,582,,Duke_CDS_2020-2021.pdf
+2020,"White, non-Hispanic",636,2698,,Duke_CDS_2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",4,34,,Duke_CDS_2020-2021.pdf
+2020,"Asian, non-Hispanic",368,1426,,Duke_CDS_2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,,Duke_CDS_2020-2021.pdf
+2020,"Two or more races, non-Hispanic",114,377,,Duke_CDS_2020-2021.pdf
+2020,Race and/or ethnicity unknown,81,319,,Duke_CDS_2020-2021.pdf
+2020,TOTAL,1580,6650,0,Duke_CDS_2020-2021.pdf
+2021,Nonresident aliens,172,584,595,Duke_CDS_2021-2022.pdf
+2021,Hispanic/Latino,226,719,721,Duke_CDS_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",143,548,555,Duke_CDS_2021-2022.pdf
+2021,"White, non-Hispanic",670,2727,2741,Duke_CDS_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",4,27,27,Duke_CDS_2021-2022.pdf
+2021,"Asian, non-Hispanic",329,1464,1469,Duke_CDS_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,Duke_CDS_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",135,438,441,Duke_CDS_2021-2022.pdf
+2021,Race and/or ethnicity unknown,65,307,333,Duke_CDS_2021-2022.pdf
+2021,TOTAL,1744,6815,6883,Duke_CDS_2021-2022.pdf
+2023,"Black or African American, non-Hispanic",131,545,548,Duke_CDS_2023-2024.pdf
+2023,"White, non-Hispanic",625,2317,2330,Duke_CDS_2023-2024.pdf
+2023,"American Indian or Alaska Native, non- Hispanic",1,11,11,Duke_CDS_2023-2024.pdf
+2023,"Asian, non-Hispanic",421,1487,1491,Duke_CDS_2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,4,4,Duke_CDS_2023-2024.pdf
+2023,"Two or more races, non-Hispanic",128,481,483,Duke_CDS_2023-2024.pdf
+2023,Race and/or ethnicity unknown,78,256,288,Duke_CDS_2023-2024.pdf
+2023,Total,1742,6417,6488,Duke_CDS_2023-2024.pdf
+2024,Nonresidents,160,679,693,Duke_CDS_2024-2025.pdf
+2024,Hispanic/Latino,179,691,696,Duke_CDS_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",154,562,562,Duke_CDS_2024-2025.pdf
+2024,"White, non-Hispanic",598,2266,2285,Duke_CDS_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",3,13,13,Duke_CDS_2024-2025.pdf
+2024,"Asian, non-Hispanic",337,1403,1409,Duke_CDS_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",,5,5,Duke_CDS_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",124,475,477,Duke_CDS_2024-2025.pdf
+2024,Race and/or ethnicity unknown,185,348,383,Duke_CDS_2024-2025.pdf
+2024,TOTAL,1740,6442,6523,Duke_CDS_2024-2025.pdf
+2025,Nonresidents,193,716,738,CDS_2025-2026.pdf
+2025,Hispanic/Latino,197,756,760,CDS_2025-2026.pdf
+2025,"Black or African American, non-Hispanic",113,543,549,CDS_2025-2026.pdf
+2025,"White, non-Hispanic",573,2125,2142,CDS_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",1,7,7,CDS_2025-2026.pdf
+2025,"Asian, non-Hispanic",439,1477,1485,CDS_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",,4,4,CDS_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",102,386,388,CDS_2025-2026.pdf
+2025,Race and/or ethnicity unknown,131,420,452,CDS_2025-2026.pdf
+2025,TOTAL,1749,6434,6525,CDS_2025-2026.pdf

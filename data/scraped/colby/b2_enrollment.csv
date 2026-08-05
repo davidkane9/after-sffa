@@ -1,0 +1,127 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2001,Race/ethnicity unknown,0,0,0,cds2001.pdf
+2001,Total,488,1809,1809,cds2001.pdf
+2002,Nonresident aliens,39,108,109,cds2002.pdf
+2002,"Black, non-Hispanic",11,45,45,cds2002.pdf
+2002,American Indian or Alaskan Native,1,7,7,cds2002.pdf
+2002,Asian or Pacific Islander,29,96,96,cds2002.pdf
+2002,Hispanic,17,42,42,cds2002.pdf
+2002,"White, non-Hispanic",374,1531,1531,cds2002.pdf
+2002,Race/ethnicity unknown,0,0,0,cds2002.pdf
+2002,TOTAL,471,1829,1830,cds2002.pdf
+2003,Nonresident aliens,41,120,121,cds2003.pdf
+2003,"Black, non-Hispanic",6,34,34,cds2003.pdf
+2003,American Indian or Alaskan Native,2,5,5,cds2003.pdf
+2003,Asian or Pacific Islander,29,83,83,cds2003.pdf
+2003,Hispanic,15,51,51,cds2003.pdf
+2003,"White, non-Hispanic",381,1473,1474,cds2003.pdf
+2003,Race/ethnicity unknown,0,0,0,cds2003.pdf
+2003,TOTAL,474,1766,1768,cds2003.pdf
+2004,Nonresident aliens,31,105,137,cds2004.pdf
+2004,"Black, non-Hispanic",9,17,26,cds2004.pdf
+2004,American Indian or Alaska Native,4,7,11,cds2004.pdf
+2004,Asian or Pacific Islander,27,70,97,cds2004.pdf
+2004,Hispanic,13,35,48,cds2004.pdf
+2004,"White, non-Hispanic",423,1079,1502,cds2004.pdf
+2004,Race/ethnicity unknown,0,0,0,cds2004.pdf
+2004,TOTAL,507,1313,1821,cds2004.pdf
+2005,Nonresident aliens,32,121,122,cds2005.pdf
+2005,"Black, non-Hispanic",8,34,34,cds2005.pdf
+2005,American Indian or Alaska Native,2,9,9,cds2005.pdf
+2005,Asian or Pacific Islander,31,106,106,cds2005.pdf
+2005,Hispanic,13,49,49,cds2005.pdf
+2005,"White, non-Hispanic",425,1549,1551,cds2005.pdf
+2005,Race/ethnicity unknown,0,0,0,cds2005.pdf
+2005,TOTAL,511,1868,1871,cds2005.pdf
+2006,Nonresident aliens,33,127,127,cds2006.pdf
+2006,"Black, non-Hispanic",16,41,41,cds2006.pdf
+2006,American Indian or Alaska Native,5,13,13,cds2006.pdf
+2006,Asian or Pacific Islander,50,134,134,cds2006.pdf
+2006,Hispanic,16,45,45,cds2006.pdf
+2006,"White, non-Hispanic",355,1505,1505,cds2006.pdf
+2006,Race/ethnicity unknown,0,0,0,cds2006.pdf
+2006,TOTAL,475,1865,1865,cds2006.pdf
+2007,Nonresident aliens,29,118,118,CDS2007-3.pdf
+2007,"Black, non-Hispanic",12,45,45,CDS2007-3.pdf
+2007,American Indian or Alaska Native,3,9,9,CDS2007-3.pdf
+2007,Asian or Pacific Islander,42,143,143,CDS2007-3.pdf
+2007,Hispanic,18,54,54,CDS2007-3.pdf
+2007,"White, non-Hispanic",271,1400,1400,CDS2007-3.pdf
+2007,Race/ethnicity unknown,92,98,98,CDS2007-3.pdf
+2007,TOTAL,467,1867,1867,CDS2007-3.pdf
+2008,Nonresident aliens,19,95,95,CDS2008_2009.pdf
+2008,"Black, non-Hispanic",8,41,41,CDS2008_2009.pdf
+2008,American Indian or Alaska Native,2,9,9,CDS2008_2009.pdf
+2008,Asian or Pacific Islander,44,152,152,CDS2008_2009.pdf
+2008,Hispanic,13,51,51,CDS2008_2009.pdf
+2008,"White, non-Hispanic",280,1204,1204,CDS2008_2009.pdf
+2008,Race/ethnicity unknown,116,294,294,CDS2008_2009.pdf
+2008,TOTAL,482,1846,1846,CDS2008_2009.pdf
+2009,Nonresident aliens,34,97,97,CDS2009_2010-2.pdf
+2009,"Black, non-Hispanic",18,52,52,CDS2009_2010-2.pdf
+2009,American Indian or Alaska Native,3,10,10,CDS2009_2010-2.pdf
+2009,Asian or Pacific Islander,33,147,147,CDS2009_2010-2.pdf
+2009,Hispanic,16,58,58,CDS2009_2010-2.pdf
+2009,"White, non-Hispanic",246,1139,1139,CDS2009_2010-2.pdf
+2009,Race/ethnicity unknown,130,335,335,CDS2009_2010-2.pdf
+2009,TOTAL,480,1838,1838,CDS2009_2010-2.pdf
+2010,Nonresident aliens,28,99,99,CDS2010_2011.pdf
+2010,Hispanic,26,67,67,CDS2010_2011.pdf
+2010,"Black or African American, non-Hispanic",29,64,64,CDS2010_2011.pdf
+2010,"White, non-Hispanic",288,1088,1088,CDS2010_2011.pdf
+2010,"American Indian or Alaska Native, non-Hispanic",0,3,3,CDS2010_2011.pdf
+2010,"Asian, non-Hispanic",27,122,122,CDS2010_2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,2,2,CDS2010_2011.pdf
+2010,"Two or more races, non-Hispanic",22,30,30,CDS2010_2011.pdf
+2010,Race and/or ethnicity unknown,63,350,350,CDS2010_2011.pdf
+2010,TOTAL,484,1825,1825,CDS2010_2011.pdf
+2011,Nonresident aliens,44,115,115,CDS_2011-2012-2.pdf
+2011,Hispanic,24,79,79,CDS_2011-2012-2.pdf
+2011,"Black or African American, non-Hispanic",15,55,55,CDS_2011-2012-2.pdf
+2011,"White, non-Hispanic",280,1097,1097,CDS_2011-2012-2.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",0,2,2,CDS_2011-2012-2.pdf
+2011,"Asian, non-Hispanic",22,93,93,CDS_2011-2012-2.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,CDS_2011-2012-2.pdf
+2011,"Two or more races, non-Hispanic",25,54,54,CDS_2011-2012-2.pdf
+2011,Race and/or ethnicity unknown,57,319,319,CDS_2011-2012-2.pdf
+2011,TOTAL,467,1815,1815,CDS_2011-2012-2.pdf
+2012,Nonresident aliens,36,121,121,CDS_2012-2013.pdf
+2012,Hispanic,35,96,96,CDS_2012-2013.pdf
+2012,"Black or African American, non-Hispanic",12,56,56,CDS_2012-2013.pdf
+2012,"White, non-Hispanic",293,1126,1126,CDS_2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",0,1,1,CDS_2012-2013.pdf
+2012,"Asian, non-Hispanic",27,103,103,CDS_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,CDS_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",28,74,74,CDS_2012-2013.pdf
+2012,Race and/or ethnicity unknown,62,285,285,CDS_2012-2013.pdf
+2012,TOTAL,493,1863,1863,CDS_2012-2013.pdf
+2013,Nonresident aliens,65,155,155,CDS_2013-2014_public.pdf
+2013,Hispanic/Latino,31,114,114,CDS_2013-2014_public.pdf
+2013,"Black or African American, non-Hispanic",18,58,58,CDS_2013-2014_public.pdf
+2013,"White, non-Hispanic",262,1088,1088,CDS_2013-2014_public.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",1,1,1,CDS_2013-2014_public.pdf
+2013,"Asian, non-Hispanic",29,98,98,CDS_2013-2014_public.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,CDS_2013-2014_public.pdf
+2013,"Two or more races, non-Hispanic",26,87,87,CDS_2013-2014_public.pdf
+2013,Race and/or ethnicity unknown,51,219,219,CDS_2013-2014_public.pdf
+2013,TOTAL,483,1820,1820,CDS_2013-2014_public.pdf
+2014,Nonresident aliens,66,196,196,Final-14-15-CDS.pdf
+2014,Hispanic/Latino,28,113,113,Final-14-15-CDS.pdf
+2014,"Black or African American, non-Hispanic",18,56,56,Final-14-15-CDS.pdf
+2014,"White, non-Hispanic",285,1110,1110,Final-14-15-CDS.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",2,3,3,Final-14-15-CDS.pdf
+2014,"Asian, non-Hispanic",34,103,103,Final-14-15-CDS.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,Final-14-15-CDS.pdf
+2014,"Two or more races, non-Hispanic",29,98,98,Final-14-15-CDS.pdf
+2014,Race and/or ethnicity unknown,18,168,168,Final-14-15-CDS.pdf
+2014,TOTAL,480,1847,1847,Final-14-15-CDS.pdf
+2015,Nonresident aliens,61,196,196,Final-15-16-CDS.pdf
+2015,Hispanic/Latino,39,119,119,Final-15-16-CDS.pdf
+2015,"Black or African American, non-Hispanic",12,49,49,Final-15-16-CDS.pdf
+2015,"White, non-Hispanic",320,1144,1144,Final-15-16-CDS.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",2,5,5,Final-15-16-CDS.pdf
+2015,"Asian, non-Hispanic",34,115,115,Final-15-16-CDS.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,2,2,Final-15-16-CDS.pdf
+2015,"Two or more races, non-Hispanic",19,94,94,Final-15-16-CDS.pdf
+2015,Race and/or ethnicity unknown,19,133,133,Final-15-16-CDS.pdf
+2015,TOTAL,508,1857,1857,Final-15-16-CDS.pdf

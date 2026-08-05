@@ -1,0 +1,173 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2007,Nonresident aliens,20,88,91,BrynMawr_CDS_2007-2008.pdf
+2007,"Black, non-Hispanic",21,78,79,BrynMawr_CDS_2007-2008.pdf
+2007,American Indian or Alaska Native,0,1,1,BrynMawr_CDS_2007-2008.pdf
+2007,Asian or Pacific Islander,37,150,150,BrynMawr_CDS_2007-2008.pdf
+2007,Hispanic,12,44,44,BrynMawr_CDS_2007-2008.pdf
+2007,"White, non-Hispanic",166,597,600,BrynMawr_CDS_2007-2008.pdf
+2007,Race/ethnicity unknown,96,317,322,BrynMawr_CDS_2007-2008.pdf
+2007,TOTAL,352,1275,1287,BrynMawr_CDS_2007-2008.pdf
+2008,Nonresident aliens,36,89,90,BrynMawr_CDS_2008-2009.pdf
+2008,"Black, non-Hispanic",18,75,76,BrynMawr_CDS_2008-2009.pdf
+2008,American Indian or Alaska Native,1,2,2,BrynMawr_CDS_2008-2009.pdf
+2008,Asian or Pacific Islander,40,151,151,BrynMawr_CDS_2008-2009.pdf
+2008,Hispanic,16,48,48,BrynMawr_CDS_2008-2009.pdf
+2008,"White, non-Hispanic",139,581,588,BrynMawr_CDS_2008-2009.pdf
+2008,Race/ethnicity unknown,116,328,332,BrynMawr_CDS_2008-2009.pdf
+2008,TOTAL,366,1274,1287,BrynMawr_CDS_2008-2009.pdf
+2009,Nonresident aliens,60,128,131,BrynMawr_CDS_2009-2010.pdf
+2009,"Black, non-Hispanic",20,83,85,BrynMawr_CDS_2009-2010.pdf
+2009,American Indian or Alaska Native,0,0,0,BrynMawr_CDS_2009-2010.pdf
+2009,Asian or Pacific Islander,56,156,156,BrynMawr_CDS_2009-2010.pdf
+2009,Hispanic,34,70,71,BrynMawr_CDS_2009-2010.pdf
+2009,"White, non-Hispanic",111,540,545,BrynMawr_CDS_2009-2010.pdf
+2009,Race/ethnicity unknown,81,312,319,BrynMawr_CDS_2009-2010.pdf
+2009,TOTAL,362,1289,1307,BrynMawr_CDS_2009-2010.pdf
+2010,Nonresident aliens,67,157,158,BrynMawr_CDS_2010-2011.pdf
+2010,Hispanic/Latino,45,122,122,BrynMawr_CDS_2010-2011.pdf
+2010,"Black or African American, non-Hispanic/Latino",15,71,72,BrynMawr_CDS_2010-2011.pdf
+2010,"White, non-Hispanic/Latino",140,501,507,BrynMawr_CDS_2010-2011.pdf
+2010,"Asian, non-Hispanic/Latino",46,160,160,BrynMawr_CDS_2010-2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic/Latino",,3,3,BrynMawr_CDS_2010-2011.pdf
+2010,"Two or more races, non-Hispanic/Latino",22,50,50,BrynMawr_CDS_2010-2011.pdf
+2010,Race and/or ethnicity unknown,34,217,221,BrynMawr_CDS_2010-2011.pdf
+2010,TOTAL,369,1281,1293,BrynMawr_CDS_2010-2011.pdf
+2011,Nonresident aliens,75,209,209,BrynMawr_CDS_2011-2012.pdf
+2011,Hispanic,27,118,118,BrynMawr_CDS_2011-2012.pdf
+2011,"Black or African American, non-Hispanic",16,57,57,BrynMawr_CDS_2011-2012.pdf
+2011,"White, non-Hispanic",139,486,491,BrynMawr_CDS_2011-2012.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",0,0,0,BrynMawr_CDS_2011-2012.pdf
+2011,"Asian, non-Hispanic",51,171,171,BrynMawr_CDS_2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,BrynMawr_CDS_2011-2012.pdf
+2011,"Two or more races, non-Hispanic",13,55,55,BrynMawr_CDS_2011-2012.pdf
+2011,Race and/or ethnicity unknown,40,205,211,BrynMawr_CDS_2011-2012.pdf
+2011,TOTAL,361,1302,1313,BrynMawr_CDS_2011-2012.pdf
+2012,Nonresident aliens,89,255,259,BrynMawr_CDS_2012-2013.pdf
+2012,Hispanic,30,124,124,BrynMawr_CDS_2012-2013.pdf
+2012,"Black or African American, non-Hispanic",24,72,72,BrynMawr_CDS_2012-2013.pdf
+2012,"White, non-Hispanic",125,456,460,BrynMawr_CDS_2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",0,1,1,BrynMawr_CDS_2012-2013.pdf
+2012,"Asian, non-Hispanic",41,171,171,BrynMawr_CDS_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,2,BrynMawr_CDS_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",16,55,55,BrynMawr_CDS_2012-2013.pdf
+2012,Race and/or ethnicity unknown,40,173,178,BrynMawr_CDS_2012-2013.pdf
+2012,TOTAL,365,1309,1322,BrynMawr_CDS_2012-2013.pdf
+2013,Nonresident aliens,92,300,304,BrynMawr_CDS_2013-2014.pdf
+2013,Hispanic/Latino,34,126,127,BrynMawr_CDS_2013-2014.pdf
+2013,"Black or African American, non-Hispanic",17,68,69,BrynMawr_CDS_2013-2014.pdf
+2013,"White, non-Hispanic",144,492,493,BrynMawr_CDS_2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",1,2,2,BrynMawr_CDS_2013-2014.pdf
+2013,"Asian, non-Hispanic",31,139,140,BrynMawr_CDS_2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,BrynMawr_CDS_2013-2014.pdf
+2013,"Two or more races, non-Hispanic",17,58,58,BrynMawr_CDS_2013-2014.pdf
+2013,Race and/or ethnicity unknown,29,131,135,BrynMawr_CDS_2013-2014.pdf
+2013,TOTAL,365,1316,1328,BrynMawr_CDS_2013-2014.pdf
+2014,Nonresident aliens,89,314,316,BrynMawr_CDS_2014-2015.pdf
+2014,Hispanic/Latino,32,113,113,BrynMawr_CDS_2014-2015.pdf
+2014,"Black or African American, non-Hispanic",18,69,69,BrynMawr_CDS_2014-2015.pdf
+2014,"White, non-Hispanic",117,474,475,BrynMawr_CDS_2014-2015.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",1,2,2,BrynMawr_CDS_2014-2015.pdf
+2014,"Asian, non-Hispanic",52,151,151,BrynMawr_CDS_2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,1,1,BrynMawr_CDS_2014-2015.pdf
+2014,"Two or more races, non-Hispanic",22,65,66,BrynMawr_CDS_2014-2015.pdf
+2014,Race and/or ethnicity unknown,19,114,115,BrynMawr_CDS_2014-2015.pdf
+2014,TOTAL,351,1303,1308,BrynMawr_CDS_2014-2015.pdf
+2015,Nonresident aliens,81,314,319,BrynMawr_CDS_2015-2016.pdf
+2015,Hispanic/Latino,27,117,117,BrynMawr_CDS_2015-2016.pdf
+2015,"Black or African American, non-Hispanic",19,78,78,BrynMawr_CDS_2015-2016.pdf
+2015,"White, non-Hispanic",143,478,478,BrynMawr_CDS_2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",0,2,2,BrynMawr_CDS_2015-2016.pdf
+2015,"Asian, non-Hispanic",62,166,166,BrynMawr_CDS_2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,BrynMawr_CDS_2015-2016.pdf
+2015,"Two or more races, non-Hispanic",21,71,71,BrynMawr_CDS_2015-2016.pdf
+2015,Race and/or ethnicity unknown,32,114,114,BrynMawr_CDS_2015-2016.pdf
+2015,TOTAL,385,1341,1346,BrynMawr_CDS_2015-2016.pdf
+2016,Nonresident aliens,83,316,316,BrynMawr_CDS_2016-2017.pdf
+2016,Hispanic/Latino,48,128,128,BrynMawr_CDS_2016-2017.pdf
+2016,"Black or African American, non-Hispanic",29,84,85,BrynMawr_CDS_2016-2017.pdf
+2016,"White, non-Hispanic",153,494,496,BrynMawr_CDS_2016-2017.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",0,1,1,BrynMawr_CDS_2016-2017.pdf
+2016,"Asian, non-Hispanic",42,162,163,BrynMawr_CDS_2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,BrynMawr_CDS_2016-2017.pdf
+2016,"Two or more races, non-Hispanic",21,79,79,BrynMawr_CDS_2016-2017.pdf
+2016,Race and/or ethnicity unknown,31,106,112,BrynMawr_CDS_2016-2017.pdf
+2016,TOTAL,407,1371,1381,BrynMawr_CDS_2016-2017.pdf
+2017,Nonresident aliens,90,300,303,BrynMawr_CDS_2017-2018.pdf
+2017,Hispanic/Latino,37,122,122,BrynMawr_CDS_2017-2018.pdf
+2017,"Black or African American, non-Hispanic",16,81,81,BrynMawr_CDS_2017-2018.pdf
+2017,"White, non-Hispanic",139,492,493,BrynMawr_CDS_2017-2018.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",0,0,0,BrynMawr_CDS_2017-2018.pdf
+2017,"Asian, non-Hispanic",36,163,163,BrynMawr_CDS_2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,BrynMawr_CDS_2017-2018.pdf
+2017,"Two or more races, non-Hispanic",15,74,74,BrynMawr_CDS_2017-2018.pdf
+2017,Race and/or ethnicity unknown,21,95,97,BrynMawr_CDS_2017-2018.pdf
+2017,TOTAL,354,1328,1334,BrynMawr_CDS_2017-2018.pdf
+2018,Nonresident aliens,80,291,295,BrynMawr_CDS_2018-2019.pdf
+2018,Hispanic/Latino,38,134,134,BrynMawr_CDS_2018-2019.pdf
+2018,"Black or African American, non-Hispanic",17,78,78,BrynMawr_CDS_2018-2019.pdf
+2018,"White, non-Hispanic",169,524,525,BrynMawr_CDS_2018-2019.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",0,0,0,BrynMawr_CDS_2018-2019.pdf
+2018,"Asian, non-Hispanic",56,175,175,BrynMawr_CDS_2018-2019.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,1,1,BrynMawr_CDS_2018-2019.pdf
+2018,"Two or more races, non-Hispanic",23,75,75,BrynMawr_CDS_2018-2019.pdf
+2018,Race and/or ethnicity unknown,7,75,77,BrynMawr_CDS_2018-2019.pdf
+2018,TOTAL,391,1353,1360,BrynMawr_CDS_2018-2019.pdf
+2019,Nonresident aliens,65,283,287,BrynMawr_CDS_2019-2020.pdf
+2019,Hispanic/Latino,31,136,136,BrynMawr_CDS_2019-2020.pdf
+2019,"Black or African American, non-Hispanic",14,75,75,BrynMawr_CDS_2019-2020.pdf
+2019,"White, non-Hispanic",195,588,589,BrynMawr_CDS_2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",0,0,0,BrynMawr_CDS_2019-2020.pdf
+2019,"Asian, non-Hispanic",42,158,158,BrynMawr_CDS_2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,BrynMawr_CDS_2019-2020.pdf
+2019,"Two or more races, non-Hispanic",20,74,74,BrynMawr_CDS_2019-2020.pdf
+2019,Race and/or ethnicity unknown,7,61,64,BrynMawr_CDS_2019-2020.pdf
+2019,TOTAL,374,1376,1384,BrynMawr_CDS_2019-2020.pdf
+2020,Nonresident aliens,41,241,241,BrynMawr_CDS_2020-2021.pdf
+2020,Hispanic/Latino,47,136,136,BrynMawr_CDS_2020-2021.pdf
+2020,"Black or African American, non-Hispanic",24,70,70,BrynMawr_CDS_2020-2021.pdf
+2020,"White, non-Hispanic",174,599,599,BrynMawr_CDS_2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",0,0,,BrynMawr_CDS_2020-2021.pdf
+2020,"Asian, non-Hispanic",44,150,150,BrynMawr_CDS_2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,,BrynMawr_CDS_2020-2021.pdf
+2020,"Two or more races, non-Hispanic",16,62,62,BrynMawr_CDS_2020-2021.pdf
+2020,Race and/or ethnicity unknown,13,42,43,BrynMawr_CDS_2020-2021.pdf
+2020,TOTAL,359,1300,1301,BrynMawr_CDS_2020-2021.pdf
+2021,Nonresident aliens,50,219,219,BrynMawr_CDS_2021-2022.pdf
+2021,Hispanic/Latino,33,138,138,BrynMawr_CDS_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",26,77,77,BrynMawr_CDS_2021-2022.pdf
+2021,"White, non-Hispanic",240,721,722,BrynMawr_CDS_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,0,0,BrynMawr_CDS_2021-2022.pdf
+2021,"Asian, non-Hispanic",46,167,167,BrynMawr_CDS_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,BrynMawr_CDS_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",19,71,71,BrynMawr_CDS_2021-2022.pdf
+2021,Race and/or ethnicity unknown,8,29,31,BrynMawr_CDS_2021-2022.pdf
+2021,TOTAL,422,1422,1425,BrynMawr_CDS_2021-2022.pdf
+2022,Nonresidents,66,203,203,BrynMawr_CDS_2022-2023.pdf
+2022,Hispanic/Latino,42,142,142,BrynMawr_CDS_2022-2023.pdf
+2022,"Black or African American, non-Hispanic",15,71,71,BrynMawr_CDS_2022-2023.pdf
+2022,"White, non-Hispanic",187,716,716,BrynMawr_CDS_2022-2023.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",1,1,1,BrynMawr_CDS_2022-2023.pdf
+2022,"Asian, non-Hispanic",41,155,157,BrynMawr_CDS_2022-2023.pdf
+2022,"Native Hawaiian or other Pacific Islander, non-Hispa",0,0,0,BrynMawr_CDS_2022-2023.pdf
+2022,"Two or more races, non-Hispanic",35,78,78,BrynMawr_CDS_2022-2023.pdf
+2022,Race and/or ethnicity unknown,9,36,41,BrynMawr_CDS_2022-2023.pdf
+2023,International (nonresidents),39.0,177.0,179.0,BrynMawr_CDS_2023-2024.pdf
+2023,Hispanic/Latino,35.0,137.0,137.0,BrynMawr_CDS_2023-2024.pdf
+2023,"Black or African American, non-Hispanic",14.0,68.0,68.0,BrynMawr_CDS_2023-2024.pdf
+2023,"White, non-Hispanic",191.0,673.0,676.0,BrynMawr_CDS_2023-2024.pdf
+2023,"American Indian or Alaska Native, non- Hispanic",0.0,1.0,1.0,BrynMawr_CDS_2023-2024.pdf
+2023,"Asian, non-Hispanic",41.0,154.0,156.0,BrynMawr_CDS_2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0.0,0.0,0.0,BrynMawr_CDS_2023-2024.pdf
+2023,"Two or more races, non-Hispanic",32.0,96.0,96.0,BrynMawr_CDS_2023-2024.pdf
+2023,Race and/or ethnicity unknown,9.0,38.0,47.0,BrynMawr_CDS_2023-2024.pdf
+2023,Total,361.0,1344.0,1360.0,BrynMawr_CDS_2023-2024.pdf
+2024,Nonresidents,45,178,178,BrynMawr_CDS_2024-2025.pdf
+2024,Hispanic/Latino,35,124,124,BrynMawr_CDS_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",19,66,66,BrynMawr_CDS_2024-2025.pdf
+2024,"White, non-Hispanic",190,690,692,BrynMawr_CDS_2024-2025.pdf
+2024,"American Indian or Alaska Native, non- Hispanic",0,1,1,BrynMawr_CDS_2024-2025.pdf
+2024,"Asian, non-Hispanic",42,161,162,BrynMawr_CDS_2024-2025.pdf
+2024,"Native Hawaiian or otherPacific Islander, non-Hispanic",1,1,1,BrynMawr_CDS_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",28,94,94,BrynMawr_CDS_2024-2025.pdf
+2024,Race and/or ethnicity unknown,20,48,50,BrynMawr_CDS_2024-2025.pdf
+2024,Total,380,1363,1368,BrynMawr_CDS_2024-2025.pdf

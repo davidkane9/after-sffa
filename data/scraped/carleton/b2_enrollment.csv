@@ -1,0 +1,248 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+1999,Non-resident aliens IPEDS cols. 1-2,7,29,,Carleton_CDS_1999-00.pdf
+1999,"Black, non-Hispanic IPEDS cols. 3-4",16,54,,Carleton_CDS_1999-00.pdf
+1999,American Indian or Alaskan Native IPEDS cols. 5-6,1,7,,Carleton_CDS_1999-00.pdf
+1999,Asian or Pacific Islander IPEDS cols. 7-8,41,168,,Carleton_CDS_1999-00.pdf
+1999,Hispanic IPEDS cols. 9-10,20,64,,Carleton_CDS_1999-00.pdf
+1999,"White, non-Hispanic IPEDS cols. 11-12",425,1560,,Carleton_CDS_1999-00.pdf
+1999,Race/ethnicity unknown IPEDS cols. 13-14,0,0,,Carleton_CDS_1999-00.pdf
+1999,Total IPEDS cols. 15-16,510,1882,,Carleton_CDS_1999-00.pdf
+2000,Non-resident aliens IPEDS cols. 1-2,14,33,35,Carleton_CDS_2000-01.pdf
+2000,"Black, non-Hispanic IPEDS cols. 3-4",13,56,57,Carleton_CDS_2000-01.pdf
+2000,American Indian or Alaskan Native IPEDS cols. 5-6,3,6,6,Carleton_CDS_2000-01.pdf
+2000,Asian or Pacific Islander IPEDS cols. 7-8,38,156,159,Carleton_CDS_2000-01.pdf
+2000,Hispanic IPEDS cols. 9-10,19,69,70,Carleton_CDS_2000-01.pdf
+2000,"White, non-Hispanic IPEDS cols. 11-12",385,1582,1609,Carleton_CDS_2000-01.pdf
+2000,Race/ethnicity unknown IPEDS cols. 13-14,0,0,0,Carleton_CDS_2000-01.pdf
+2000,Total IPEDS cols. 15-16,472,1902,1936,Carleton_CDS_2000-01.pdf
+2001,Nonresident aliens,16,45,49,Carleton_CDS_2001-02.pdf
+2001,"Black, non-Hispanic",30,74,74,Carleton_CDS_2001-02.pdf
+2001,American Indian or Alaskan Native,2,7,7,Carleton_CDS_2001-02.pdf
+2001,Asian or Pacific Islander,47,165,170,Carleton_CDS_2001-02.pdf
+2001,Hispanic,24,70,72,Carleton_CDS_2001-02.pdf
+2001,"White, non-Hispanic",397,1561,1576,Carleton_CDS_2001-02.pdf
+2001,Race/ethnicity unknown,0,0,0,Carleton_CDS_2001-02.pdf
+2001,TOTAL,516,1922,1948,Carleton_CDS_2001-02.pdf
+2002,Nonresident aliens,32,64,65,Carleton_CDS_2002-03.pdf
+2002,"Black, non-Hispanic",28,80,82,Carleton_CDS_2002-03.pdf
+2002,American Indian or Alaskan Native,5,8,8,Carleton_CDS_2002-03.pdf
+2002,Asian or Pacific Islander,43,162,166,Carleton_CDS_2002-03.pdf
+2002,Hispanic,20,76,77,Carleton_CDS_2002-03.pdf
+2002,"White, non-Hispanic",374,1518,1531,Carleton_CDS_2002-03.pdf
+2002,Race/ethnicity unknown,0,0,3,Carleton_CDS_2002-03.pdf
+2002,TOTAL,502,1908,1932,Carleton_CDS_2002-03.pdf
+2003,Nonresident aliens,28,89,91,Carleton_CDS_2003-04.pdf
+2003,"Black, non-Hispanic",35,98,98,Carleton_CDS_2003-04.pdf
+2003,American Indian or Alaskan Native,4,11,11,Carleton_CDS_2003-04.pdf
+2003,Asian or Pacific Islander,45,172,174,Carleton_CDS_2003-04.pdf
+2003,Hispanic,17,76,77,Carleton_CDS_2003-04.pdf
+2003,"White, non-Hispanic",359,1481,1495,Carleton_CDS_2003-04.pdf
+2003,Race/ethnicity unknown,0,0,0,Carleton_CDS_2003-04.pdf
+2003,TOTAL,488,1927,1946,Carleton_CDS_2003-04.pdf
+2004,Nonresident aliens,25,95,97,Carleton_CDS_2004-05.pdf
+2004,"Black, non-Hispanic",27,108,109,Carleton_CDS_2004-05.pdf
+2004,American Indian or Alaska Native,3,11,11,Carleton_CDS_2004-05.pdf
+2004,Asian or Pacific Islander,49,180,183,Carleton_CDS_2004-05.pdf
+2004,Hispanic,28,85,86,Carleton_CDS_2004-05.pdf
+2004,"White, non-Hispanic",355,1453,1465,Carleton_CDS_2004-05.pdf
+2004,Race/ethnicity unknown,0,0,0,Carleton_CDS_2004-05.pdf
+2004,TOTAL,487,1932,1951,Carleton_CDS_2004-05.pdf
+2005,Nonresident aliens,29,109,118,Carleton_CDS_2005-06.pdf
+2005,"Black, non-Hispanic",31,109,111,Carleton_CDS_2005-06.pdf
+2005,American Indian or Alaska Native,4,14,14,Carleton_CDS_2005-06.pdf
+2005,Asian or Pacific Islander,61,187,187,Carleton_CDS_2005-06.pdf
+2005,Hispanic,34,97,99,Carleton_CDS_2005-06.pdf
+2005,"White, non-Hispanic",382,1420,1430,Carleton_CDS_2005-06.pdf
+2005,Race/ethnicity unknown,0,0,0,Carleton_CDS_2005-06.pdf
+2005,TOTAL,541,1936,1959,Carleton_CDS_2005-06.pdf
+2006,Nonresident aliens,28,100,103,Carleton_CDS_2006-07.pdf
+2006,"Black, non-Hispanic",22,108,109,Carleton_CDS_2006-07.pdf
+2006,American Indian or Alaska Native,4,13,13,Carleton_CDS_2006-07.pdf
+2006,Asian or Pacific Islander,49,197,201,Carleton_CDS_2006-07.pdf
+2006,Hispanic,23,98,99,Carleton_CDS_2006-07.pdf
+2006,"White, non-Hispanic",378,1442,1455,Carleton_CDS_2006-07.pdf
+2006,Race/ethnicity unknown,0,0,0,Carleton_CDS_2006-07.pdf
+2006,TOTAL,504,1958,1980,Carleton_CDS_2006-07.pdf
+2007,Nonresident aliens,38,114,116,Carleton_CDS_2007-08.pdf
+2007,"Black, non-Hispanic",22,96,96,Carleton_CDS_2007-08.pdf
+2007,American Indian or Alaska Native,3,12,12,Carleton_CDS_2007-08.pdf
+2007,Asian or Pacific Islander,42,198,201,Carleton_CDS_2007-08.pdf
+2007,Hispanic,28,109,111,Carleton_CDS_2007-08.pdf
+2007,"White, non-Hispanic",376,1457,1469,Carleton_CDS_2007-08.pdf
+2007,Race/ethnicity unknown,0,0,0,Carleton_CDS_2007-08.pdf
+2007,TOTAL,509,1986,2005,Carleton_CDS_2007-08.pdf
+2008,Nonresident aliens,34,121,121,Carleton_CDS_2008-09.pdf
+2008,"Black, non-Hispanic",29,100,100,Carleton_CDS_2008-09.pdf
+2008,American Indian or Alaska Native,6,17,17,Carleton_CDS_2008-09.pdf
+2008,Asian or Pacific Islander,43,189,193,Carleton_CDS_2008-09.pdf
+2008,Hispanic,25,104,106,Carleton_CDS_2008-09.pdf
+2008,"White, non-Hispanic",352,1444,1463,Carleton_CDS_2008-09.pdf
+2008,Race/ethnicity unknown,0,0,0,Carleton_CDS_2008-09.pdf
+2008,TOTAL,489,1975,2000,Carleton_CDS_2008-09.pdf
+2009,Nonresident aliens,46,142,150,Carleton_CDS_2009-10.pdf
+2009,"Black, non-Hispanic",21,92,92,Carleton_CDS_2009-10.pdf
+2009,American Indian or Alaska Native,1,13,14,Carleton_CDS_2009-10.pdf
+2009,Asian or Pacific Islander,57,192,193,Carleton_CDS_2009-10.pdf
+2009,Hispanic,38,110,110,Carleton_CDS_2009-10.pdf
+2009,"White, non-Hispanic",348,1373,1381,Carleton_CDS_2009-10.pdf
+2009,Race/ethnicity unknown,17,64,69,Carleton_CDS_2009-10.pdf
+2009,TOTAL,528,1986,2009,Carleton_CDS_2009-10.pdf
+2010,Nonresident aliens,41,151,162,Carleton_CDS_2010-11.pdf
+2010,Hispanic,38,128,128,Carleton_CDS_2010-11.pdf
+2010,"Black or African American, non-Hispanic",17,68,69,Carleton_CDS_2010-11.pdf
+2010,"White, non-Hispanic",343,1369,1375,Carleton_CDS_2010-11.pdf
+2010,"American Indian or Alaska Native, non-Hispanic",0,3,3,Carleton_CDS_2010-11.pdf
+2010,"Asian, non-Hispanic",34,118,118,Carleton_CDS_2010-11.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,1,1,Carleton_CDS_2010-11.pdf
+2010,"Two or more races, non-Hispanic",24,108,109,Carleton_CDS_2010-11.pdf
+2010,Race and/or ethnicity unknown,14,45,55,Carleton_CDS_2010-11.pdf
+2010,TOTAL,512,1991,2020,Carleton_CDS_2010-11.pdf
+2011,Nonresident aliens,52,160,,Carleton_CDS_2011-12.pdf
+2011,Hispanic,23,122,,Carleton_CDS_2011-12.pdf
+2011,"Black or African American, non-Hispanic",21,71,,Carleton_CDS_2011-12.pdf
+2011,"White, non-Hispanic",338,1353,,Carleton_CDS_2011-12.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",0,2,,Carleton_CDS_2011-12.pdf
+2011,"Asian, non-Hispanic",49,138,,Carleton_CDS_2011-12.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,,Carleton_CDS_2011-12.pdf
+2011,"Two or more races, non-Hispanic",26,109,,Carleton_CDS_2011-12.pdf
+2011,Race and/or ethnicity unknown,10,44,,Carleton_CDS_2011-12.pdf
+2011,TOTAL,519,2000,,Carleton_CDS_2011-12.pdf
+2012,Nonresident aliens,44,170,,Carleton_CDS_2012-13.pdf
+2012,Hispanic,40,132,,Carleton_CDS_2012-13.pdf
+2012,"Black or African American, non-Hispanic",15,67,,Carleton_CDS_2012-13.pdf
+2012,"White, non-Hispanic",355,1369,,Carleton_CDS_2012-13.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",0,1,,Carleton_CDS_2012-13.pdf
+2012,"Asian, non-Hispanic",40,159,,Carleton_CDS_2012-13.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,,Carleton_CDS_2012-13.pdf
+2012,"Two or more races, non-Hispanic",22,95,,Carleton_CDS_2012-13.pdf
+2012,Race and/or ethnicity unknown,12,41,,Carleton_CDS_2012-13.pdf
+2012,TOTAL,528,2035,0,Carleton_CDS_2012-13.pdf
+2013,Nonresident aliens,48,172,,Carleton_CDS_2013-14.pdf
+2013,Hispanic,34,131,,Carleton_CDS_2013-14.pdf
+2013,"Black or African American, non‐Hispanic",22,71,,Carleton_CDS_2013-14.pdf
+2013,"White, non‐Hispanic",327,1332,,Carleton_CDS_2013-14.pdf
+2013,"American Indian or Alaska Native, non‐Hispanic",2,2,,Carleton_CDS_2013-14.pdf
+2013,"Asian, non‐Hispanic",57,178,,Carleton_CDS_2013-14.pdf
+2013,"Native Hawaiian or other Pacific Islander, non‐ Hispanic",2,3,,Carleton_CDS_2013-14.pdf
+2013,"Two or more races, non‐Hispanic",25,90,,Carleton_CDS_2013-14.pdf
+2013,Race and/or ethnicity unknown,10,44,,Carleton_CDS_2013-14.pdf
+2013,TOTAL,527,2023,,Carleton_CDS_2013-14.pdf
+2014,Nonresident aliens,53,189,,Carleton_CDS_2014-15.pdf
+2014,Hispanic/Latino,37,130,,Carleton_CDS_2014-15.pdf
+2014,"Black or African American, non-Hispanic",21,79,,Carleton_CDS_2014-15.pdf
+2014,"White, non-Hispanic",343,1327,,Carleton_CDS_2014-15.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",1,3,,Carleton_CDS_2014-15.pdf
+2014,"Asian, non-Hispanic",43,184,,Carleton_CDS_2014-15.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,,Carleton_CDS_2014-15.pdf
+2014,"Two or more races, non-Hispanic",20,93,,Carleton_CDS_2014-15.pdf
+2014,Race and/or ethnicity unknown,3,35,,Carleton_CDS_2014-15.pdf
+2014,TOTAL,521,2042,,Carleton_CDS_2014-15.pdf
+2015,Nonresident aliens,61,208,,Carleton_CDS_2015-16.pdf
+2015,Hispanic/Latino,39,140,,Carleton_CDS_2015-16.pdf
+2015,"Black or African American, non‐Hispanic",22,75,,Carleton_CDS_2015-16.pdf
+2015,"White, non‐Hispanic",293,1264,,Carleton_CDS_2015-16.pdf
+2015,"American Indian or Alaska Native, non‐Hispanic",0,3,,Carleton_CDS_2015-16.pdf
+2015,"Asian, non‐Hispanic",31,169,,Carleton_CDS_2015-16.pdf
+2015,"Native Hawaiian or other Pacific Islander, non‐ Hispanic",0,2,,Carleton_CDS_2015-16.pdf
+2015,"Two or more races, non‐Hispanic",33,97,,Carleton_CDS_2015-16.pdf
+2015,Race and/or ethnicity unknown,12,37,,Carleton_CDS_2015-16.pdf
+2015,TOTAL,491,1995,,Carleton_CDS_2015-16.pdf
+2016,Nonresident aliens,49,208,,Carleton_CDS_2016-17.pdf
+2016,Hispanic/Latino,50,153,,Carleton_CDS_2016-17.pdf
+2016,"Black or African American, non-Hispanic",31,92,,Carleton_CDS_2016-17.pdf
+2016,"White, non-Hispanic",335,1260,,Carleton_CDS_2016-17.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",0,3,,Carleton_CDS_2016-17.pdf
+2016,"Asian, non-Hispanic",48,175,,Carleton_CDS_2016-17.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,,Carleton_CDS_2016-17.pdf
+2016,"Two or more races, non-Hispanic",42,116,,Carleton_CDS_2016-17.pdf
+2016,Race and/or ethnicity unknown,12,36,,Carleton_CDS_2016-17.pdf
+2016,TOTAL,567,2045,0,Carleton_CDS_2016-17.pdf
+2017,Nonresident aliens,58,207,,Carleton_CDS_2017-18.pdf
+2017,Hispanic/Latino,42,163,,Carleton_CDS_2017-18.pdf
+2017,"Black or African American, non-Hispanic",30,97,,Carleton_CDS_2017-18.pdf
+2017,"White, non-Hispanic",309,1238,,Carleton_CDS_2017-18.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",0,1,,Carleton_CDS_2017-18.pdf
+2017,"Asian, non-Hispanic",42,156,,Carleton_CDS_2017-18.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,,Carleton_CDS_2017-18.pdf
+2017,"Two or more races, non-Hispanic",33,125,,Carleton_CDS_2017-18.pdf
+2017,Race and/or ethnicity unknown,8,36,,Carleton_CDS_2017-18.pdf
+2017,TOTAL,522,2023,0,Carleton_CDS_2017-18.pdf
+2018,Nonresident aliens,66,225,,Carleton_CDS_2018-19.pdf
+2018,Hispanic/Latino,42,163,,Carleton_CDS_2018-19.pdf
+2018,"Black or African American, non-Hispanic",20,98,,Carleton_CDS_2018-19.pdf
+2018,"White, non-Hispanic",304,1220,,Carleton_CDS_2018-19.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",2,2,,Carleton_CDS_2018-19.pdf
+2018,"Asian, non-Hispanic",54,168,,Carleton_CDS_2018-19.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,,Carleton_CDS_2018-19.pdf
+2018,"Two or more races, non-Hispanic",40,142,,Carleton_CDS_2018-19.pdf
+2018,Race and/or ethnicity unknown,1,28,,Carleton_CDS_2018-19.pdf
+2018,TOTAL,529,2046,0,Carleton_CDS_2018-19.pdf
+2019,Nonresident aliens,56,225,234,Carleton_CDS_2019-20.pdf
+2019,Hispanic/Latino,48,173,180,Carleton_CDS_2019-20.pdf
+2019,"Black or African American, non-Hispanic",28,100,101,Carleton_CDS_2019-20.pdf
+2019,"White, non-Hispanic",281,1195,1221,Carleton_CDS_2019-20.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",,2,2,Carleton_CDS_2019-20.pdf
+2019,"Asian, non-Hispanic",54,188,190,Carleton_CDS_2019-20.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,Carleton_CDS_2019-20.pdf
+2019,"Two or more races, non-Hispanic",43,152,155,Carleton_CDS_2019-20.pdf
+2019,Race and/or ethnicity unknown,15,34,36,Carleton_CDS_2019-20.pdf
+2019,TOTAL,525,2069,2119,Carleton_CDS_2019-20.pdf
+2020,Nonresident aliens,34,191,196,Carleton_CDS_2020-21.pdf
+2020,Hispanic/Latino,42,171,173,Carleton_CDS_2020-21.pdf
+2020,"Black or African American, non-Hispanic",43,113,113,Carleton_CDS_2020-21.pdf
+2020,"White, non-Hispanic",230,1067,1077,Carleton_CDS_2020-21.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",0,1,1,Carleton_CDS_2020-21.pdf
+2020,"Asian, non-Hispanic",46,188,190,Carleton_CDS_2020-21.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,Carleton_CDS_2020-21.pdf
+2020,"Two or more races, non-Hispanic",43,149,150,Carleton_CDS_2020-21.pdf
+2020,Race and/or ethnicity unknown,15,38,40,Carleton_CDS_2020-21.pdf
+2020,TOTAL,453,1918,1940,Carleton_CDS_2020-21.pdf
+2021,Nonresident aliens,64,206,209,Carleton_CDS_2021-22.pdf
+2021,Hispanic/Latino,48,180,182,Carleton_CDS_2021-22.pdf
+2021,"Black or African American, non-Hispanic",31,126,128,Carleton_CDS_2021-22.pdf
+2021,"White, non-Hispanic",299,1086,1104,Carleton_CDS_2021-22.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,2,2,Carleton_CDS_2021-22.pdf
+2021,"Asian, non-Hispanic",49,199,202,Carleton_CDS_2021-22.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,Carleton_CDS_2021-22.pdf
+2021,"Two or more races, non-Hispanic",49,164,164,Carleton_CDS_2021-22.pdf
+2021,Race and/or ethnicity unknown,15,45,54,Carleton_CDS_2021-22.pdf
+2021,TOTAL,555,2008,2045,Carleton_CDS_2021-22.pdf
+2022,Nonresidents,52,204,210,Carleton_CDS_2022-23.pdf
+2022,Hispanic/Latino,59,189,190,Carleton_CDS_2022-23.pdf
+2022,"Black or African American, non-Hispanic",36,135,135,Carleton_CDS_2022-23.pdf
+2022,"White, non-Hispanic",259,1051,1058,Carleton_CDS_2022-23.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",1,2,2,Carleton_CDS_2022-23.pdf
+2022,"Asian, non-Hispanic",64,201,202,Carleton_CDS_2022-23.pdf
+2022,"Two or more races, non-Hispanic",50,173,177,Carleton_CDS_2022-23.pdf
+2022,Race and/or ethnicity unknown,10,51,81,Carleton_CDS_2022-23.pdf
+2022,TOTAL,532,2007,2056,Carleton_CDS_2022-23.pdf
+2023,International (nonresidents),54.0,198.0,207.0,Carleton_CDS_2023-24.pdf
+2023,Hispanic/Latino,56.0,201.0,205.0,Carleton_CDS_2023-24.pdf
+2023,"Black or African American, non-Hispanic",37.0,138.0,141.0,Carleton_CDS_2023-24.pdf
+2023,"White, non-Hispanic",266.0,1041.0,1066.0,Carleton_CDS_2023-24.pdf
+2023,"American Indian or Alaska Native, non- Hispanic",1.0,2.0,2.0,Carleton_CDS_2023-24.pdf
+2023,"Asian, non-Hispanic",63.0,211.0,214.0,Carleton_CDS_2023-24.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0.0,1.0,1.0,Carleton_CDS_2023-24.pdf
+2023,"Two or more races, non-Hispanic",50.0,181.0,186.0,Carleton_CDS_2023-24.pdf
+2023,Race and/or ethnicity unknown,11.0,46.0,47.0,Carleton_CDS_2023-24.pdf
+2023,Total,538.0,2019.0,2069.0,Carleton_CDS_2023-24.pdf
+2024,Nonresidents,54,217,224,Carleton_CDS_2024-25.pdf
+2024,Hispanic/Latino,46,210,215,Carleton_CDS_2024-25.pdf
+2024,"Black or African American, non-Hispanic",21,123,123,Carleton_CDS_2024-25.pdf
+2024,"White, non-Hispanic",256,1063,1086,Carleton_CDS_2024-25.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",1,2,2,Carleton_CDS_2024-25.pdf
+2024,"Asian, non-Hispanic",53,214,220,Carleton_CDS_2024-25.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,1,1,Carleton_CDS_2024-25.pdf
+2024,"Two or more races, non-Hispanic",46,184,184,Carleton_CDS_2024-25.pdf
+2024,Race and/or ethnicity unknown,29,72,73,Carleton_CDS_2024-25.pdf
+2024,TOTAL,507,2086,2128,Carleton_CDS_2024-25.pdf
+2025,Nonresident aliens,51,193,201,Carleton_CDS_2025-26.pdf
+2025,Hispanic/Latino,43,200,208,Carleton_CDS_2025-26.pdf
+2025,"Black or African American, non-Hispanic",28,104,104,Carleton_CDS_2025-26.pdf
+2025,"White, non-Hispanic",285,976,1006,Carleton_CDS_2025-26.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",0,2,2,Carleton_CDS_2025-26.pdf
+2025,"Asian, non-Hispanic",57,211,216,Carleton_CDS_2025-26.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,Carleton_CDS_2025-26.pdf
+2025,"Two or more races, non-Hispanic",38,160,166,Carleton_CDS_2025-26.pdf
+2025,Race and/or ethnicity unknown,16,64,70,Carleton_CDS_2025-26.pdf
+2025,Total,518,1911,1974,Carleton_CDS_2025-26.pdf

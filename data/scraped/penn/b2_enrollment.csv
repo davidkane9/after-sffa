@@ -1,0 +1,155 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2009,Nonresident aliens,253,1008,1008,UPenn_CDS_2009-10.pdf
+2009,"Black, non-Hispanic",186,778,778,UPenn_CDS_2009-10.pdf
+2009,American Indian or Alaskan Native,13,48,48,UPenn_CDS_2009-10.pdf
+2009,Asian or Pacific Islander,487,1837,1837,UPenn_CDS_2009-10.pdf
+2009,Hispanic,173,634,634,UPenn_CDS_2009-10.pdf
+2009,"White, non-Hispanic",870,3903,3903,UPenn_CDS_2009-10.pdf
+2009,Race/ethnicity unknown,422,1560,1560,UPenn_CDS_2009-10.pdf
+2009,TOTAL,2404,9768,9768,UPenn_CDS_2009-10.pdf
+2010,Nonresident aliens,248,1071,1071,UPenn_CDS_2010-11.pdf
+2010,Hispanic,206,649,649,UPenn_CDS_2010-11.pdf
+2010,"Black, non-Hispanic",148,730,730,UPenn_CDS_2010-11.pdf
+2010,"White, non-Hispanic",1159,4556,4556,UPenn_CDS_2010-11.pdf
+2010,American Indian or Alaskan Native,6,45,45,UPenn_CDS_2010-11.pdf
+2010,Asian or Pacific Islander,411,1843,1843,UPenn_CDS_2010-11.pdf
+2010,Native Hawaiian/Pacific Islander,2,7,7,UPenn_CDS_2010-11.pdf
+2010,Two or More Races,64,106,106,UPenn_CDS_2010-11.pdf
+2010,Race/ethnicity unknown,126,858,858,UPenn_CDS_2010-11.pdf
+2010,TOTAL,2370,9865,9865,UPenn_CDS_2010-11.pdf
+2011,Nonresident aliens,282,1077,1077,UPenn_CDS_2011-12.pdf
+2011,Hispanic,272,798,798,UPenn_CDS_2011-12.pdf
+2011,"Black, non-Hispanic",180,717,717,UPenn_CDS_2011-12.pdf
+2011,"White, non-Hispanic",1046,4483,4483,UPenn_CDS_2011-12.pdf
+2011,American Indian or Alaskan Native,2,32,32,UPenn_CDS_2011-12.pdf
+2011,Asian or Pacific Islander,424,1839,1839,UPenn_CDS_2011-12.pdf
+2011,Native Hawaiian/Pacific Islander,1,7,7,UPenn_CDS_2011-12.pdf
+2011,Two or More Races,75,204,204,UPenn_CDS_2011-12.pdf
+2011,Race/ethnicity unknown,127,622,622,UPenn_CDS_2011-12.pdf
+2011,TOTAL,2409,9779,9779,UPenn_CDS_2011-12.pdf
+2012,Nonresident aliens,280,1086,1086,UPenn_CDS_2012-13.pdf
+2012,Hispanic,248,853,853,UPenn_CDS_2012-13.pdf
+2012,"Black, non-Hispanic",178,666,666,UPenn_CDS_2012-13.pdf
+2012,"White, non-Hispanic",1034,4243,4243,UPenn_CDS_2012-13.pdf
+2012,American Indian or Alaskan Native,3,22,22,UPenn_CDS_2012-13.pdf
+2012,Asian or Pacific Islander,452,1807,1807,UPenn_CDS_2012-13.pdf
+2012,Native Hawaiian/Pacific Islander,2,6,6,UPenn_CDS_2012-13.pdf
+2012,Two or More Races,97,270,270,UPenn_CDS_2012-13.pdf
+2012,Race/ethnicity unknown,103,421,421,UPenn_CDS_2012-13.pdf
+2012,TOTAL,2397,9374,9374,UPenn_CDS_2012-13.pdf
+2013,Nonresident aliens,253,1077,1077,UPenn_CDS_2013-14.pdf
+2013,Hispanic/Latino,228,962,962,UPenn_CDS_2013-14.pdf
+2013,"Black or African American, non-Hispanic",173,698,698,UPenn_CDS_2013-14.pdf
+2013,"White, non-Hispanic",1048,4418,4418,UPenn_CDS_2013-14.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",3,14,14,UPenn_CDS_2013-14.pdf
+2013,"Asian, non-Hispanic",451,1843,1843,UPenn_CDS_2013-14.pdf
+2013,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,6,6,UPenn_CDS_2013-14.pdf
+2013,"Two or more races, non-Hispanic",83,349,349,UPenn_CDS_2013-14.pdf
+2013,Race and/or ethnicity unknown,112,345,345,UPenn_CDS_2013-14.pdf
+2013,TOTAL,2353,9712,9712,UPenn_CDS_2013-14.pdf
+2014,Nonresident aliens,267,1103,1103,UPenn_CDS_2014-15.pdf
+2014,Hispanic/Latino,239,1008,1008,UPenn_CDS_2014-15.pdf
+2014,"Black or African American, non-Hispanic",149,693,693,UPenn_CDS_2014-15.pdf
+2014,"White, non-Hispanic",1050,4355,4355,UPenn_CDS_2014-15.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",3,9,9,UPenn_CDS_2014-15.pdf
+2014,"Asian, non-Hispanic",459,1913,1913,UPenn_CDS_2014-15.pdf
+2014,"Two or more races, non-Hispanic",118,373,373,UPenn_CDS_2014-15.pdf
+2014,Race and/or ethnicity unknown,65,288,288,UPenn_CDS_2014-15.pdf
+2014,TOTAL,2350,9746,9746,UPenn_CDS_2014-15.pdf
+2015,Nonresident aliens,283,1127,1127,UPenn_CDS_2015-16.pdf
+2015,Hispanic/Latino,260,998,998,UPenn_CDS_2015-16.pdf
+2015,"Black or African American, non-Hispanic",165,688,688,UPenn_CDS_2015-16.pdf
+2015,"White, non-Hispanic",997,4255,4255,UPenn_CDS_2015-16.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",3,9,9,UPenn_CDS_2015-16.pdf
+2015,"Asian, non-Hispanic",474,1959,1959,UPenn_CDS_2015-16.pdf
+2015,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,4,4,UPenn_CDS_2015-16.pdf
+2015,"Two or more races, non-Hispanic",89,405,405,UPenn_CDS_2015-16.pdf
+2015,Race and/or ethnicity unknown,105,281,281,UPenn_CDS_2015-16.pdf
+2015,TOTAL,2377,9726,9726,UPenn_CDS_2015-16.pdf
+2016,Nonresident aliens,312,1186,1186,UPenn_CDS_2016-17.pdf
+2016,Hispanic/Latino,247,1031,1031,UPenn_CDS_2016-17.pdf
+2016,"Black or African American, non-Hispanic",201,736,736,UPenn_CDS_2016-17.pdf
+2016,"White, non-Hispanic",1019,4388,4388,UPenn_CDS_2016-17.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",2,8,8,UPenn_CDS_2016-17.pdf
+2016,"Asian, non-Hispanic",508,2054,2054,UPenn_CDS_2016-17.pdf
+2016,"Two or more races, non-Hispanic",106,421,421,UPenn_CDS_2016-17.pdf
+2016,Race and/or ethnicity unknown,33,192,192,UPenn_CDS_2016-17.pdf
+2016,TOTAL,2428,10019,10019,UPenn_CDS_2016-17.pdf
+2017,Nonresident aliens,334,1261,1261,UPenn_CDS_2017-18.pdf
+2017,Hispanic/Latino,262,1044,1044,UPenn_CDS_2017-18.pdf
+2017,"Black or African American, non-Hispanic",165,715,715,UPenn_CDS_2017-18.pdf
+2017,"White, non-Hispanic",971,4278,4278,UPenn_CDS_2017-18.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",3,12,12,UPenn_CDS_2017-18.pdf
+2017,"Asian, non-Hispanic",489,2081,2081,UPenn_CDS_2017-18.pdf
+2017,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,3,3,UPenn_CDS_2017-18.pdf
+2017,"Two or more races, non-Hispanic",122,460,460,UPenn_CDS_2017-18.pdf
+2017,Race and/or ethnicity unknown,64,179,179,UPenn_CDS_2017-18.pdf
+2017,TOTAL,2412,10033,10033,UPenn_CDS_2017-18.pdf
+2018,Nonresident aliens 322,1320,1590,,UPenn_CDS_2018-19.pdf
+2018,Hispanic/Latino 250,1065,1158,,UPenn_CDS_2018-19.pdf
+2018,"Black or African American, non-Hispanic 185",757,880,,UPenn_CDS_2018-19.pdf
+2018,"White, non-Hispanic 932",4157,4897,,UPenn_CDS_2018-19.pdf
+2018,"American Indian or Alaska Native, non-Hispanic 1",10,12,,UPenn_CDS_2018-19.pdf
+2018,"Asian, non-Hispanic 552",2181,2367,,UPenn_CDS_2018-19.pdf
+2018,"Native Hawaiian or other Pacific Islander, non-Hispanic 4",6,6,,UPenn_CDS_2018-19.pdf
+2018,"Two or more races, non-Hispanic 118",469,553,,UPenn_CDS_2018-19.pdf
+2018,Race and/or ethnicity unknown 93,218,388,,UPenn_CDS_2018-19.pdf
+2018,"TOTAL 2,457",10183,11851,,UPenn_CDS_2018-19.pdf
+2019,Nonresident aliens 312,1347,1610,,UPenn_CDS_2019-20.pdf
+2019,Hispanic/Latino 241,1014,1145,,UPenn_CDS_2019-20.pdf
+2019,"Black or African American, non-Hispanic 190",770,958,,UPenn_CDS_2019-20.pdf
+2019,"White, non-Hispanic 813",3860,4671,,UPenn_CDS_2019-20.pdf
+2019,"American Indian or Alaska Native, non-Hispanic 3",11,13,,UPenn_CDS_2019-20.pdf
+2019,"Asian, non-Hispanic 551",2254,2466,,UPenn_CDS_2019-20.pdf
+2019,"Native Hawaiian or other Pacific Islander, non-Hispanic -",5,6,,UPenn_CDS_2019-20.pdf
+2019,"Two or more races, non-Hispanic 120",508,579,,UPenn_CDS_2019-20.pdf
+2019,Race and/or ethnicity unknown 110,250,424,,UPenn_CDS_2019-20.pdf
+2019,"TOTAL 2,340",10019,11872,,UPenn_CDS_2019-20.pdf
+2020,Nonresident aliens 259,1286,1324,,UPenn_CDS_2020-21.pdf
+2020,Hispanic/Latino 246,1033,1116,,UPenn_CDS_2020-21.pdf
+2020,"Black or African American, non-Hispanic 163",762,890,,UPenn_CDS_2020-21.pdf
+2020,"White, non-Hispanic 699",3545,4252,,UPenn_CDS_2020-21.pdf
+2020,"American Indian or Alaska Native, non-Hispanic 5",13,14,,UPenn_CDS_2020-21.pdf
+2020,"Asian, non-Hispanic 710",2433,2616,,UPenn_CDS_2020-21.pdf
+2020,"Native Hawaiian or other Pacific Islander, non-Hispanic 1",6,6,,UPenn_CDS_2020-21.pdf
+2020,"Two or more races, non-Hispanic 100",478,566,,UPenn_CDS_2020-21.pdf
+2020,Race and/or ethnicity unknown 102,316,371,,UPenn_CDS_2020-21.pdf
+2020,"TOTAL 2,285",9872,11155,,UPenn_CDS_2020-21.pdf
+2021,Nonresident aliens 310,1311,1311,,UPenn_CDS_2021-22.pdf
+2021,Hispanic/Latino 251,1028,1028,,UPenn_CDS_2021-22.pdf
+2021,"Black or African American, non-Hispanic 188",773,773,,UPenn_CDS_2021-22.pdf
+2021,"White, non-Hispanic 717",3350,3350,,UPenn_CDS_2021-22.pdf
+2021,"American Indian or Alaska Native, non-Hispanic 2",11,11,,UPenn_CDS_2021-22.pdf
+2021,"Asian, non-Hispanic 647",2615,2615,,UPenn_CDS_2021-22.pdf
+2021,"Native Hawaiian or other Pacific Islander, non-Hispanic -",3,3,,UPenn_CDS_2021-22.pdf
+2021,"Two or more races, non-Hispanic 111",475,475,,UPenn_CDS_2021-22.pdf
+2021,Race and/or ethnicity unknown 112,396,396,,UPenn_CDS_2021-22.pdf
+2021,"TOTAL 2,338",9962,9962,,UPenn_CDS_2021-22.pdf
+2022,Nonresident aliens 318,1308,1308,,UPenn_CDS_2022-23.pdf
+2022,Hispanic/Latinx 259,1012,1012,,UPenn_CDS_2022-23.pdf
+2022,"Black or African American, non-Hispanic 219",771,771,,UPenn_CDS_2022-23.pdf
+2022,"White, non-Hispanic 629",3008,3008,,UPenn_CDS_2022-23.pdf
+2022,"American Indian or Alaska Native, non-Hispanic 3",11,11,,UPenn_CDS_2022-23.pdf
+2022,"Asian, non-Hispanic 709",2688,2688,,UPenn_CDS_2022-23.pdf
+2022,"Native Hawaiian or other Pacific Islander, non-Hispanic -",1,1,,UPenn_CDS_2022-23.pdf
+2022,"Two or more races, non-Hispanic 165",511,511,,UPenn_CDS_2022-23.pdf
+2022,Race and/or ethnicity unknown 113,450,450,,UPenn_CDS_2022-23.pdf
+2022,"TOTAL 2,415",9760,9760,,UPenn_CDS_2022-23.pdf
+2023,B2 International (nonresidents),322,1299,,UPenn_CDS_2023-24.pdf
+2023,B2 Hispanic/Latinx,298,1112,,UPenn_CDS_2023-24.pdf
+2023,"B2 Black or African American, non-Hispanic",236,845,,UPenn_CDS_2023-24.pdf
+2023,"B2 White, non-Hispanic",579,2802,,UPenn_CDS_2023-24.pdf
+2023,"B2 American Indian or Alaska Native, non-Hispanic",3,12,,UPenn_CDS_2023-24.pdf
+2023,"B2 Asian, non-Hispanic",724,2927,,UPenn_CDS_2023-24.pdf
+2023,"B2 Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,,UPenn_CDS_2023-24.pdf
+2023,"B2 Two or more races, non-Hispanic",138,544,,UPenn_CDS_2023-24.pdf
+2023,B2 Race and/or ethnicity unknown,114,452,,UPenn_CDS_2023-24.pdf
+2024,B2 International (nonresidents),309,1327,,UPenn_CDS_2024-25.pdf
+2024,B2 Hispanic/Latinx,271,1163,,UPenn_CDS_2024-25.pdf
+2024,"B2 Black or African American, non-Hispanic",206,876,,UPenn_CDS_2024-25.pdf
+2024,"B2 White, non-Hispanic",525,2583,,UPenn_CDS_2024-25.pdf
+2024,"B2 American Indian or Alaska Native, non-Hispanic",8,15,,UPenn_CDS_2024-25.pdf
+2024,"B2 Asian, non-Hispanic",753,2964,,UPenn_CDS_2024-25.pdf
+2024,"B2 Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,,UPenn_CDS_2024-25.pdf
+2024,"B2 Two or more races, non-Hispanic",126,537,,UPenn_CDS_2024-25.pdf
+2024,B2 Race and/or ethnicity unknown,194,546,,UPenn_CDS_2024-25.pdf

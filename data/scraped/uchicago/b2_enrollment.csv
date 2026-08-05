@@ -1,0 +1,40 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2021,Nonresident aliens,313,1186,1199,UChicago_CDS_2021-22.pdf
+2021,Hispanic/Latino,332,1122,1122,UChicago_CDS_2021-22.pdf
+2021,"Black or African American, non-Hispanic",162,456,456,UChicago_CDS_2021-22.pdf
+2021,"White, non-Hispanic",626,2513,2513,UChicago_CDS_2021-22.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,1,1,UChicago_CDS_2021-22.pdf
+2021,"Asian, non-Hispanic",374,1499,1499,UChicago_CDS_2021-22.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,1,UChicago_CDS_2021-22.pdf
+2021,"Two or more races, non-Hispanic",141,525,525,UChicago_CDS_2021-22.pdf
+2021,Race and/or ethnicity unknown,105,210,210,UChicago_CDS_2021-22.pdf
+2021,TOTAL,2053,7513,7526,UChicago_CDS_2021-22.pdf
+2022,Nonresidents,266,1190,1201,UChicago_CDS_2022-23.pdf
+2022,Hispanic/Latino,369,1215,1215,UChicago_CDS_2022-23.pdf
+2022,"Black or African American, non-Hispanic",153,502,502,UChicago_CDS_2022-23.pdf
+2022,"White, non-Hispanic",487,2393,2393,UChicago_CDS_2022-23.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",0,1,1,UChicago_CDS_2022-23.pdf
+2022,"Asian, non-Hispanic",293,1480,1480,UChicago_CDS_2022-23.pdf
+2022,"Two or more races, non-Hispanic",129,527,527,UChicago_CDS_2022-23.pdf
+2022,Race and/or ethnicity unknown,32,150,150,UChicago_CDS_2022-23.pdf
+2022,TOTAL,1729,7459,7470,UChicago_CDS_2022-23.pdf
+2023,Nonresidents,302,1195,1211,UChicago_CDS_2023-24.pdf
+2023,Hispanic/Latino,313,1278,1278,UChicago_CDS_2023-24.pdf
+2023,"Black or African American, non-Hispanic",115,520,520,UChicago_CDS_2023-24.pdf
+2023,"White, non-Hispanic",520,2308,2308,UChicago_CDS_2023-24.pdf
+2023,"American Indian or Alaska Native, non-Hispanic",1,2,2,UChicago_CDS_2023-24.pdf
+2023,"Asian, non-Hispanic",333,1475,1475,UChicago_CDS_2023-24.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,UChicago_CDS_2023-24.pdf
+2023,"Two or more races, non-Hispanic",119,529,529,UChicago_CDS_2023-24.pdf
+2023,Race and/or ethnicity unknown,46,165,165,UChicago_CDS_2023-24.pdf
+2023,TOTAL,1749,7473,7489,UChicago_CDS_2023-24.pdf
+2024,Nonresidents,318,1319,1332,UChicago_CDS_2024-25.pdf
+2024,Hispanic/Latino,246,1265,1265,UChicago_CDS_2024-25.pdf
+2024,"Black or African American, non-Hispanic",97,514,516,UChicago_CDS_2024-25.pdf
+2024,"White, non-Hispanic",529,2214,2215,UChicago_CDS_2024-25.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",2,3,3,UChicago_CDS_2024-25.pdf
+2024,"Asian, non-Hispanic",364,1455,1455,UChicago_CDS_2024-25.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,2,UChicago_CDS_2024-25.pdf
+2024,"Two or more races, non-Hispanic",117,526,526,UChicago_CDS_2024-25.pdf
+2024,Race and/or ethnicity unknown,52,205,205,UChicago_CDS_2024-25.pdf
+2024,TOTAL,1726,7503,7519,UChicago_CDS_2024-25.pdf

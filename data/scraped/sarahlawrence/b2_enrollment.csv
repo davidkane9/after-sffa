@@ -1,0 +1,49 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2019,Nonresident aliens,42,155,155,slc-cds-2019-2020.pdf
+2019,Hispanic/Latino,42,124,124,slc-cds-2019-2020.pdf
+2019,"Black or African American, non-Hispanic",13,57,57,slc-cds-2019-2020.pdf
+2019,"White, non-Hispanic",257,832,833,slc-cds-2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",0,1,1,slc-cds-2019-2020.pdf
+2019,"Asian, non-Hispanic",16,63,63,slc-cds-2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,slc-cds-2019-2020.pdf
+2019,"Two or more races, non-Hispanic",14,69,69,slc-cds-2019-2020.pdf
+2019,Race and/or ethnicity unknown,14,63,131,slc-cds-2019-2020.pdf
+2019,TOTAL,398,1364,1433,slc-cds-2019-2020.pdf
+2022,Nonresidents,15,84,87,slc-cds-2022-2023.pdf
+2022,Hispanic/Latino,47,151,151,slc-cds-2022-2023.pdf
+2022,"Black or African American, non-Hispanic",23,62,62,slc-cds-2022-2023.pdf
+2022,"White, non-Hispanic",239,846,846,slc-cds-2022-2023.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",1,1,1,slc-cds-2022-2023.pdf
+2022,"Asian, non-Hispanic",26,70,70,slc-cds-2022-2023.pdf
+2022,"Two or more races, non-Hispanic",19,83,83,slc-cds-2022-2023.pdf
+2022,Race and/or ethnicity unknown,14,119,161,slc-cds-2022-2023.pdf
+2022,TOTAL,384,1417,1462,slc-cds-2022-2023.pdf
+2023,International (nonresidents),19,73,,slc-cds-2023-2024.pdf
+2023,Hispanic/Latino,51,160,,slc-cds-2023-2024.pdf
+2023,"Black or African American, non- Hispanic",16,65,,slc-cds-2023-2024.pdf
+2023,"White, non-Hispanic",276,901,,slc-cds-2023-2024.pdf
+2023,"American Indian or Alaska Native, non- Hispanic",0,1,,slc-cds-2023-2024.pdf
+2023,"Asian, non-Hispanic",21,72,,slc-cds-2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander,",2,2,,slc-cds-2023-2024.pdf
+2023,"non-Hispanic Two or more races, non-Hispanic",17,93,,slc-cds-2023-2024.pdf
+2023,Race and/or ethnicity unknown,9,101,,slc-cds-2023-2024.pdf
+2024,Nonresident aliens,25,75,83,slc-cds-2024-2025.pdf
+2024,Hispanic/Latino,57,186,187,slc-cds-2024-2025.pdf
+2024,"Black or African American, non-Hispanic",26,79,80,slc-cds-2024-2025.pdf
+2024,"White, non-Hispanic",258,928,943,slc-cds-2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",1,2,2,slc-cds-2024-2025.pdf
+2024,"Asian, non-Hispanic",18,78,78,slc-cds-2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,4,4,slc-cds-2024-2025.pdf
+2024,"Two or more races, non-Hispanic",27,105,107,slc-cds-2024-2025.pdf
+2024,Race and/or ethnicity unknown,5,55,98,slc-cds-2024-2025.pdf
+2024,Total,417,1512,1582,slc-cds-2024-2025.pdf
+2025,Nonresident aliens,28,75,86,CDS_2025-2026.pdf
+2025,Hispanic/Latino,66,209,209,CDS_2025-2026.pdf
+2025,"Black or African American, non-Hispanic",9,64,64,CDS_2025-2026.pdf
+2025,"White, non-Hispanic",215,862,864,CDS_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",0,2,2,CDS_2025-2026.pdf
+2025,"Asian, non-Hispanic",15,74,74,CDS_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,CDS_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",12,76,76,CDS_2025-2026.pdf
+2025,Race and/or ethnicity unknown,5,25,69,CDS_2025-2026.pdf
+2025,Total,350,1390,1447,CDS_2025-2026.pdf

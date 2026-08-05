@@ -1,0 +1,231 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2001,Nonresident aliens,92,318,,cds_0102_princeton.pdf
+2001,"Black, non-Hispanic",110,366,,cds_0102_princeton.pdf
+2001,American Indian or Alaskan Native,6,24,,cds_0102_princeton.pdf
+2001,Asian or Pacific Islander,148,558,,cds_0102_princeton.pdf
+2001,Hispanic,77,293,,cds_0102_princeton.pdf
+2001,"White, non-Hispanic",752,3054,,cds_0102_princeton.pdf
+2001,Race/ethnicity unknown,0,0,,cds_0102_princeton.pdf
+2001,Total,1185,4613,,cds_0102_princeton.pdf
+2002,Nonresident aliens,94,347,361,cds_0203_princeton.pdf
+2002,"Black, non-Hispanic",97,380,384,cds_0203_princeton.pdf
+2002,American Indian or Alaskan Native,8,33,33,cds_0203_princeton.pdf
+2002,Asian or Pacific Islander,156,564,581,cds_0203_princeton.pdf
+2002,Hispanic,76,289,295,cds_0203_princeton.pdf
+2002,"White, non-Hispanic",733,3022,3125,cds_0203_princeton.pdf
+2002,Race/ethnicity unknown,0,0,0,cds_0203_princeton.pdf
+2002,Total,1164,4635,4779,cds_0203_princeton.pdf
+2003,Nonresident aliens,96,390,404,cds_0304_princeton.pdf
+2003,"Black, non-Hispanic",97,382,387,cds_0304_princeton.pdf
+2003,American Indian or Alaskan Native,8,35,35,cds_0304_princeton.pdf
+2003,Asian or Pacific Islander,155,601,629,cds_0304_princeton.pdf
+2003,Hispanic,76,294,298,cds_0304_princeton.pdf
+2003,"White, non-Hispanic",736,2974,3076,cds_0304_princeton.pdf
+2003,Race/ethnicity unknown,0,0,8,cds_0304_princeton.pdf
+2003,Total,1168,4676,4837,cds_0304_princeton.pdf
+2004,Nonresident aliens,105,391,396,cds_0405_princeton.pdf
+2004,"Black, non-Hispanic",86,385,389,cds_0405_princeton.pdf
+2004,American Indian or Alaska Native,11,34,34,cds_0405_princeton.pdf
+2004,Asian or Pacific Islander,150,609,626,cds_0405_princeton.pdf
+2004,Hispanic,89,316,318,cds_0405_princeton.pdf
+2004,"White, non-Hispanic",735,2943,3037,cds_0405_princeton.pdf
+2004,Race/ethnicity unknown,0,0,1,cds_0405_princeton.pdf
+2004,Total,1176,4678,4801,cds_0405_princeton.pdf
+2005,Nonresident aliens,107,403,423,cds_0506_princeton.pdf
+2005,"Black, non-Hispanic",124,403,403,cds_0506_princeton.pdf
+2005,American Indian or Alaska Native,11,37,37,cds_0506_princeton.pdf
+2005,Asian or Pacific Islander,163,623,623,cds_0506_princeton.pdf
+2005,Hispanic,89,325,325,cds_0506_princeton.pdf
+2005,"White, non-Hispanic",732,2928,2950,cds_0506_princeton.pdf
+2005,Race/ethnicity unknown,0,0,0,cds_0506_princeton.pdf
+2005,Total,1226,4719,4761,cds_0506_princeton.pdf
+2006,Nonresident aliens,125,428,442,cds_0607_princeton.pdf
+2006,"Black, non-Hispanic",109,415,415,cds_0607_princeton.pdf
+2006,American Indian or Alaska Native,10,40,40,cds_0607_princeton.pdf
+2006,Asian or Pacific Islander,177,651,652,cds_0607_princeton.pdf
+2006,Hispanic,93,347,347,cds_0607_princeton.pdf
+2006,"White, non-Hispanic",592,2756,2756,cds_0607_princeton.pdf
+2006,Race/ethnicity unknown,122,138,138,cds_0607_princeton.pdf
+2006,Total,1228,4775,4790,cds_0607_princeton.pdf
+2007,Nonresident aliens,138,451,,cds_0708_princeton.pdf
+2007,"Black, non-Hispanic",99,416,,cds_0708_princeton.pdf
+2007,American Indian or Alaska Native,3,34,,cds_0708_princeton.pdf
+2007,Asian or Pacific Islander,186,684,,cds_0708_princeton.pdf
+2007,Hispanic,99,364,,cds_0708_princeton.pdf
+2007,"White, non-Hispanic",499,2535,,cds_0708_princeton.pdf
+2007,Race/ethnicity unknown,218,349,,cds_0708_princeton.pdf
+2007,Total,1242,4833,,cds_0708_princeton.pdf
+2008,Nonresident aliens,141,487,,cds_0809_princeton.pdf
+2008,"Black, non-Hispanic",93,414,,cds_0809_princeton.pdf
+2008,American Indian or Alaska Native,5,32,,cds_0809_princeton.pdf
+2008,Asian or Pacific Islander,206,734,,cds_0809_princeton.pdf
+2008,Hispanic,93,369,,cds_0809_princeton.pdf
+2008,"White, non-Hispanic",610,2498,,cds_0809_princeton.pdf
+2008,Race/ethnicity unknown,95,344,,cds_0809_princeton.pdf
+2008,TOTAL,1243,4878,0,cds_0809_princeton.pdf
+2009,Nonresident aliens,133,518,,cds_0910_princeton.pdf
+2009,"Black, non-Hispanic",96,399,,cds_0910_princeton.pdf
+2009,American Indian or Alaska Native,6,25,,cds_0910_princeton.pdf
+2009,Asian or Pacific Islander,231,799,,cds_0910_princeton.pdf
+2009,Hispanic,91,379,,cds_0910_princeton.pdf
+2009,"White, non-Hispanic",642,2455,,cds_0910_princeton.pdf
+2009,Race/ethnicity unknown,116,454,,cds_0910_princeton.pdf
+2009,TOTAL,1315,5029,0,cds_0910_princeton.pdf
+2010,Nonresident aliens,140,542,,cds_1011_princeton.pdf
+2010,Hispanic/Latino,104,398,,cds_1011_princeton.pdf
+2010,"Black or African American, non-Hispanic/Latino",96,388,,cds_1011_princeton.pdf
+2010,"White, non-Hispanic/Latino",651,2509,,cds_1011_princeton.pdf
+2010,"American Indian or Alaska Native, non- Hispanic/Latino",1,14,,cds_1011_princeton.pdf
+2010,"Asian, non-Hispanic/Latino",237,868,,cds_1011_princeton.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic/Latino",1,6,,cds_1011_princeton.pdf
+2010,"Two or more races, non-Hispanic/Latino",50,249,,cds_1011_princeton.pdf
+2010,Race and/or ethnicity unknown,32,168,,cds_1011_princeton.pdf
+2010,TOTAL,1312,5142,0,cds_1011_princeton.pdf
+2011,Nonresident aliens,140,544,,cds_1112_princeton.pdf
+2011,Hispanic,92,436,,cds_1112_princeton.pdf
+2011,"Black or African American, non-Hispanic",98,380,,cds_1112_princeton.pdf
+2011,"White, non-Hispanic",641,2535,,cds_1112_princeton.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",2,14,,cds_1112_princeton.pdf
+2011,"Asian, non-Hispanic",243,915,,cds_1112_princeton.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,,cds_1112_princeton.pdf
+2011,"Two or more races, non-Hispanic",61,199,,cds_1112_princeton.pdf
+2011,Race and/or ethnicity unknown,21,134,,cds_1112_princeton.pdf
+2011,TOTAL,1298,5160,0,cds_1112_princeton.pdf
+2012,Nonresident aliens,151,555,,cds_1213_prineton.pdf
+2012,Hispanic,101,394,,cds_1213_prineton.pdf
+2012,"Black or African American, non-Hispanic",101,391,,cds_1213_prineton.pdf
+2012,"White, non-Hispanic",613,2552,,cds_1213_prineton.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",0,9,,cds_1213_prineton.pdf
+2012,"Asian, non-Hispanic",302,1010,,cds_1213_prineton.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,,cds_1213_prineton.pdf
+2012,"Two or more races, non-Hispanic",69,216,,cds_1213_prineton.pdf
+2012,Race and/or ethnicity unknown,20,125,,cds_1213_prineton.pdf
+2012,TOTAL,1357,5255,0,cds_1213_prineton.pdf
+2013,Nonresident aliens,152,569,,cds_1314_princeton.pdf
+2013,Hispanic/Latino,124,424,,cds_1314_princeton.pdf
+2013,"Black or African American, non-Hispanic",105,400,,cds_1314_princeton.pdf
+2013,"White, non-Hispanic",562,2467,,cds_1314_princeton.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",1,4,,cds_1314_princeton.pdf
+2013,"Asian, non-Hispanic",271,1051,,cds_1314_princeton.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,3,,cds_1314_princeton.pdf
+2013,"Two or more races, non-Hispanic",46,218,,cds_1314_princeton.pdf
+2013,Race and/or ethnicity unknown,22,98,,cds_1314_princeton.pdf
+2013,TOTAL,1284,5234,0,cds_1314_princeton.pdf
+2014,Nonresident aliens,146,579,,cds_1415_princeton.pdf
+2014,Hispanic/Latino,121,440,,cds_1415_princeton.pdf
+2014,"Black or African American, non-Hispanic",105,406,,cds_1415_princeton.pdf
+2014,"White, non-Hispanic",583,2417,,cds_1415_princeton.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",3,6,,cds_1415_princeton.pdf
+2014,"Asian, non-Hispanic",276,1097,,cds_1415_princeton.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",5,6,,cds_1415_princeton.pdf
+2014,"Two or more races, non-Hispanic",53,221,,cds_1415_princeton.pdf
+2014,Race and/or ethnicity unknown,18,86,,cds_1415_princeton.pdf
+2014,TOTAL,1310,5258,0,cds_1415_princeton.pdf
+2015,Nonresident aliens,175,602,,cds_1516_princeton.pdf
+2015,Hispanic/Latino,142,489,,cds_1516_princeton.pdf
+2015,"Black or African American, non-Hispanic",89,400,,cds_1516_princeton.pdf
+2015,"White, non-Hispanic",553,2343,,cds_1516_princeton.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",2,6,,cds_1516_princeton.pdf
+2015,"Asian, non-Hispanic",289,1131,,cds_1516_princeton.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,8,,cds_1516_princeton.pdf
+2015,"Two or more races, non-Hispanic",46,202,,cds_1516_princeton.pdf
+2015,Race and/or ethnicity unknown,19,79,,cds_1516_princeton.pdf
+2015,TOTAL,1317,5260,0,cds_1516_princeton.pdf
+2016,Nonresident aliens,152,625,,cds_1617_princeton.pdf
+2016,Hispanic/Latino,123,505,,cds_1617_princeton.pdf
+2016,"Black or African American, non-Hispanic",102,407,,cds_1617_princeton.pdf
+2016,"White, non-Hispanic",572,2284,,cds_1617_princeton.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",1,7,,cds_1617_princeton.pdf
+2016,"Asian, non-Hispanic",266,1118,,cds_1617_princeton.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,8,,cds_1617_princeton.pdf
+2016,"Two or more races, non-Hispanic",66,201,,cds_1617_princeton.pdf
+2016,Race and/or ethnicity unknown,22,81,,cds_1617_princeton.pdf
+2016,TOTAL,1305,5236,0,cds_1617_princeton.pdf
+2017,Nonresident aliens,163,629,,cds_1718_princeton.pdf
+2017,Hispanic/Latino,143,531,,cds_1718_princeton.pdf
+2017,"Black or African American, non-Hispanic",106,404,,cds_1718_princeton.pdf
+2017,"White, non-Hispanic",519,2236,,cds_1718_princeton.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",2,8,,cds_1718_princeton.pdf
+2017,"Asian, non-Hispanic",293,1125,,cds_1718_princeton.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,9,,cds_1718_princeton.pdf
+2017,"Two or more races, non-Hispanic",63,227,,cds_1718_princeton.pdf
+2017,Race and/or ethnicity unknown,15,77,,cds_1718_princeton.pdf
+2017,TOTAL,1305,5246,0,cds_1718_princeton.pdf
+2018,Nonresident aliens,167,653,,cds_1819_princeton.pdf
+2018,Hispanic/Latino,135,556,,cds_1819_princeton.pdf
+2018,"Black or African American, non-Hispanic",113,413,,cds_1819_princeton.pdf
+2018,"White, non-Hispanic",537,2200,,cds_1819_princeton.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",4,9,,cds_1819_princeton.pdf
+2018,"Asian, non-Hispanic",290,1136,,cds_1819_princeton.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,6,,cds_1819_princeton.pdf
+2018,"Two or more races, non-Hispanic",73,253,,cds_1819_princeton.pdf
+2018,Race and/or ethnicity unknown,18,75,,cds_1819_princeton.pdf
+2018,TOTAL,1338,5301,0,cds_1819_princeton.pdf
+2019,Nonresident aliens,146,638,658,cds_1920_princeton.pdf
+2019,Hispanic/Latino,145,565,565,cds_1920_princeton.pdf
+2019,"Black or African American, non-Hispanic",97,419,419,cds_1920_princeton.pdf
+2019,"White, non-Hispanic",520,2136,2136,cds_1920_princeton.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",4,10,10,cds_1920_princeton.pdf
+2019,"Asian, non-Hispanic",332,1184,1184,cds_1920_princeton.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,6,6,cds_1920_princeton.pdf
+2019,"Two or more races, non-Hispanic",78,280,280,cds_1920_princeton.pdf
+2019,Race and/or ethnicity unknown,12,70,70,cds_1920_princeton.pdf
+2019,TOTAL,1335,5308,5328,cds_1920_princeton.pdf
+2021,Nonresident aliens,159,610,,cds_2122_princeton.pdf
+2021,Hispanic/Latino,146,551,,cds_2122_princeton.pdf
+2021,"Black or African American, non-Hispanic",102,436,,cds_2122_princeton.pdf
+2021,"White, non-Hispanic",484,2016,,cds_2122_princeton.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",2,10,,cds_2122_princeton.pdf
+2021,"Asian, non-Hispanic",273,1199,,cds_2122_princeton.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,5,,cds_2122_princeton.pdf
+2021,"Two or more races, non-Hispanic",95,336,,cds_2122_princeton.pdf
+2021,Race and/or ethnicity unknown,26,73,,cds_2122_princeton.pdf
+2021,TOTAL,1288,5236,0,cds_2122_princeton.pdf
+2021,Nonresident aliens,129,546,,cds_2021_princeton.pdf
+2021,Hispanic/Latino,99,499,,cds_2021_princeton.pdf
+2021,"Black or African American, non-Hispanic",114,418,,cds_2021_princeton.pdf
+2021,"White, non-Hispanic",412,1702,,cds_2021_princeton.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,9,,cds_2021_princeton.pdf
+2021,"Asian, non-Hispanic",296,1179,,cds_2021_princeton.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,5,,cds_2021_princeton.pdf
+2021,"Two or more races, non-Hispanic",81,277,,cds_2021_princeton.pdf
+2021,Race and/or ethnicity unknown,13,53,,cds_2021_princeton.pdf
+2021,TOTAL,1146,4688,0,cds_2021_princeton.pdf
+2022,Nonresidents,222,681,694,cds_2223_princeton.pdf
+2022,Hispanic/Latino,125,554,554,cds_2223_princeton.pdf
+2022,"Black or African American, non-Hispanic",128,441,441,cds_2223_princeton.pdf
+2022,"White, non-Hispanic",505,2076,2076,cds_2223_princeton.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",2,7,7,cds_2223_princeton.pdf
+2022,"Asian, non-Hispanic",375,1299,1299,cds_2223_princeton.pdf
+2022,Race and/or ethnicity unknown,30,86,86,cds_2223_princeton.pdf
+2022,TOTAL,1497,5527,5540,cds_2223_princeton.pdf
+2023,Nonresidents,181,684,703,cds_2324_princeton.pdf
+2023,Hispanic/Latino,134,547,547,cds_2324_princeton.pdf
+2023,"Black or African American, non-Hispanic",123,479,479,cds_2324_princeton.pdf
+2023,"White, non-Hispanic",435,2007,2007,cds_2324_princeton.pdf
+2023,"American Indian or Alaska Native, non-Hispanic",2,8,8,cds_2324_princeton.pdf
+2023,"Asian, non-Hispanic",330,1323,1323,cds_2324_princeton.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,6,6,cds_2324_princeton.pdf
+2023,"Two or more races, non-Hispanic",96,391,391,cds_2324_princeton.pdf
+2023,Race and/or ethnicity unknown,62,134,134,cds_2324_princeton.pdf
+2023,TOTAL,1364,5579,5598,cds_2324_princeton.pdf
+2024,Nonresidents,171,721,751,CDS_2425_Princeton_v1.2.pdf
+2024,Hispanic/Latino,126,574,577,CDS_2425_Princeton_v1.2.pdf
+2024,"Black or African American, non-Hispanic",125,499,499,CDS_2425_Princeton_v1.2.pdf
+2024,"White, non-Hispanic",441,1921,1925,CDS_2425_Princeton_v1.2.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",1,9,9,CDS_2425_Princeton_v1.2.pdf
+2024,"Asian, non-Hispanic",334,1339,1343,CDS_2425_Princeton_v1.2.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,CDS_2425_Princeton_v1.2.pdf
+2024,"Two or more races, non-Hispanic",101,411,413,CDS_2425_Princeton_v1.2.pdf
+2024,Race and/or ethnicity unknown,108,232,293,CDS_2425_Princeton_v1.2.pdf
+2024,TOTAL,1407,5709,5813,CDS_2425_Princeton_v1.2.pdf
+2025,Nonresidents,200,758,784,CDS_2526_Princeton_v1.3.pdf
+2025,Hispanic/Latino,130,560,562,CDS_2526_Princeton_v1.3.pdf
+2025,"Black or African American, non-Hispanic",70,464,464,CDS_2526_Princeton_v1.3.pdf
+2025,"White, non-Hispanic",399,1823,1833,CDS_2526_Princeton_v1.3.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",1,9,9,CDS_2526_Princeton_v1.3.pdf
+2025,"Asian, non-Hispanic",381,1451,1456,CDS_2526_Princeton_v1.3.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",,3,3,CDS_2526_Princeton_v1.3.pdf
+2025,"Two or more races, non-Hispanic",108,426,426,CDS_2526_Princeton_v1.3.pdf
+2025,Race and/or ethnicity unknown,115,314,379,CDS_2526_Princeton_v1.3.pdf
+2025,TOTAL,1404,5808,5916,CDS_2526_Princeton_v1.3.pdf

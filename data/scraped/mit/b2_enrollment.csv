@@ -1,0 +1,59 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+1999,Nonresident aliens IPEDS cols.1-2,80,355,,cds_1999-2000.pdf
+1999,"Black, non-Hispanic IPEDS cols. 3-4",70,270,,cds_1999-2000.pdf
+1999,American Indian or Alaskan Native IPEDS cols. 5-6,29,87,,cds_1999-2000.pdf
+1999,Asian or Pacific Islander IPEDS cols. 7-8,270,1187,,cds_1999-2000.pdf
+1999,Hispanic IPEDS cols. 9-10,119,451,,cds_1999-2000.pdf
+1999,"White, non-Hispanic IPEDS cols. 11-12",353,1473,,cds_1999-2000.pdf
+1999,Race/ethnicity unknown IPEDS cols. 13-14,127,469,,cds_1999-2000.pdf
+1999,Total IPEDS cols. 15-16,1048,4292,,cds_1999-2000.pdf
+2021,Nonresident aliens,120,472,481,2021-22-common-data-set.html
+2021,Hispanic,163,702,702,2021-22-common-data-set.html
+2021,"Black or African American, non-Hispanic",118,336,336,2021-22-common-data-set.html
+2021,"White, non-Hispanic",238,1116,1116,2021-22-common-data-set.html
+2021,"American Indian or Alaska Native, non-Hispanic",1,6,6,2021-22-common-data-set.html
+2021,"Asian, non-Hispanic",415,1536,1536,2021-22-common-data-set.html
+2021,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,4,4,2021-22-common-data-set.html
+2021,"Two or more races, non-Hispanic",89,365,365,2021-22-common-data-set.html
+2021,Race and/or ethnicity unknown,33,92,92,2021-22-common-data-set.html
+2021,Total,1177,4629,4638,2021-22-common-data-set.html
+2022,Nonresident aliens,124,511,530,2022-23-common-data-set.html
+2022,Hispanic,163,687,687,2022-23-common-data-set.html
+2022,"Black or African American, non-Hispanic",94,362,362,2022-23-common-data-set.html
+2022,"White, non-Hispanic",236,1024,1024,2022-23-common-data-set.html
+2022,"American Indian or Alaska Native, non-Hispanic",2,8,8,2022-23-common-data-set.html
+2022,"Asian, non-Hispanic",400,1581,1581,2022-23-common-data-set.html
+2022,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,2,2,2022-23-common-data-set.html
+2022,"Two or more races, non-Hispanic",70,345,345,2022-23-common-data-set.html
+2022,Race and/or ethnicity unknown,47,118,118,2022-23-common-data-set.html
+2022,Total,1136,4638,4657,2022-23-common-data-set.html
+2023,Nonresidents,109,500,505,2023-24-common-data-set.html
+2023,Hispanic/Latino,171,664,664,2023-24-common-data-set.html
+2023,"Black or African American, non-Hispanic",98,396,396,2023-24-common-data-set.html
+2023,"White, non-Hispanic",216,961,961,2023-24-common-data-set.html
+2023,"American Indian or Alaska Native, non-Hispanic",2,7,7,2023-24-common-data-set.html
+2023,"Asian, non-Hispanic",387,1582,1582,2023-24-common-data-set.html
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,2023-24-common-data-set.html
+2023,"Two or more races, non-Hispanic",82,327,327,2023-24-common-data-set.html
+2023,Race and/or ethnicity unknown,26,133,133,2023-24-common-data-set.html
+2023,Total,1091,4571,4576,2023-24-common-data-set.html
+2024,Nonresidents,125,529,529,2024-25-common-data-set.html
+2024,Hispanic/Latino,118,639,639,2024-25-common-data-set.html
+2024,"Black or African American, non-Hispanic",41,349,349,2024-25-common-data-set.html
+2024,"White, non-Hispanic",263,964,964,2024-25-common-data-set.html
+2024,"American Indian or Alaska Native, non-Hispanic",3,9,9,2024-25-common-data-set.html
+2024,"Asian, non-Hispanic",462,1595,1595,2024-25-common-data-set.html
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,2,2,2024-25-common-data-set.html
+2024,"Two or more races, non-Hispanic",60,310,310,2024-25-common-data-set.html
+2024,Race and/or ethnicity unknown,25,138,138,2024-25-common-data-set.html
+2024,Total,1098,4535,4535,2024-25-common-data-set.html
+2025,Nonresidents,124,529,529,2025-26-common-data-set.html
+2025,Hispanic/Latino,149,632,632,2025-26-common-data-set.html
+2025,"Black or African American, non-Hispanic",68,307,307,2025-26-common-data-set.html
+2025,"White, non-Hispanic",261,983,983,2025-26-common-data-set.html
+2025,"American Indian or Alaska Native, non-Hispanic",3,11,11,2025-26-common-data-set.html
+2025,"Asian, non-Hispanic",442,1638,1638,2025-26-common-data-set.html
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,2025-26-common-data-set.html
+2025,"Two or more races, non-Hispanic",78,298,298,2025-26-common-data-set.html
+2025,Race and/or ethnicity unknown,27,162,162,2025-26-common-data-set.html
+2025,Total,1152,4561,4561,2025-26-common-data-set.html

@@ -1,0 +1,81 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2016,Nonresident aliens,14,57,57,cds_2016-2017.pdf
+2016,Hispanic,137,512,512,cds_2016-2017.pdf
+2016,Black or African American,151,470,470,cds_2016-2017.pdf
+2016,White,786,2802,2802,cds_2016-2017.pdf
+2016,American Indian or Alaska Native,13,46,46,cds_2016-2017.pdf
+2016,Asian,83,269,269,cds_2016-2017.pdf
+2016,Native Hawaiian or other Pacific Islander,3,26,26,cds_2016-2017.pdf
+2016,Two or more races,53,162,162,cds_2016-2017.pdf
+2016,Race and/or ethnicity unknown,20,45,45,cds_2016-2017.pdf
+2016,Total,1260,4389,4389,cds_2016-2017.pdf
+2017,Nonresident aliens,13,54,54,cds_2017-2018.pdf
+2017,Hispanic/Latino,133,453,453,cds_2017-2018.pdf
+2017,Black or African American,166,542,542,cds_2017-2018.pdf
+2017,White,725,2801,2801,cds_2017-2018.pdf
+2017,American Indian or Alaska Native,12,52,52,cds_2017-2018.pdf
+2017,Asian,95,372,372,cds_2017-2018.pdf
+2017,Native Hawaiian or other Pacific Islander,0,13,13,cds_2017-2018.pdf
+2017,Two or more races,45,146,146,cds_2017-2018.pdf
+2017,Race and ethnicity unknown,21,58,58,cds_2017-2018.pdf
+2017,Total,1210,4491,4491,cds_2017-2018.pdf
+2019,Nonresident aliens,16,59,59,cds_2019-2020.pdf
+2019,Hispanic/Latino,109,443,443,cds_2019-2020.pdf
+2019,"Black or African American, non- Hispanic",145,547,547,cds_2019-2020.pdf
+2019,"White, non-Hispanic",766,2823,2823,cds_2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",5,37,37,cds_2019-2020.pdf
+2019,"Asian, non-Hispanic",90,362,362,cds_2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non-Hispanic",5,8,8,cds_2019-2020.pdf
+2019,"Two or more races, non-Hispanic",29,135,135,cds_2019-2020.pdf
+2019,Race and/or ethnicity unknown,6,43,43,cds_2019-2020.pdf
+2019,Total,1171,4457,4457,cds_2019-2020.pdf
+2020,Nonresident aliens,11,58,58,cds_2020-2021.pdf
+2020,Hispanic/Latino,134,540,540,cds_2020-2021.pdf
+2020,"Black or African American, non-Hispanic",171,579,579,cds_2020-2021.pdf
+2020,"White, non-Hispanic",762,2817,2817,cds_2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",9,34,34,cds_2020-2021.pdf
+2020,"Asian, non-Hispanic",105,351,351,cds_2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non-Hispanic",5,10,10,cds_2020-2021.pdf
+2020,"Two or more races, non-Hispanic",21,118,118,cds_2020-2021.pdf
+2020,Race and/or ethnicity unknown,3,29,29,cds_2020-2021.pdf
+2020,Total,1221,4536,4536,cds_2020-2021.pdf
+2021,Nonresident aliens,16,55,55,cds_2021-2022.pdf
+2021,Hispanic/Latino,144,560,560,cds_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",160,591,591,cds_2021-2022.pdf
+2021,"White, non-Hispanic",737,2853,2853,cds_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",11,35,35,cds_2021-2022.pdf
+2021,"Asian, non-Hispanic",121,391,391,cds_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non-Hispanic",11,19,19,cds_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",1,78,78,cds_2021-2022.pdf
+2021,Race and/or ethnicity unknown,0,12,12,cds_2021-2022.pdf
+2021,Total,1201,4594,4594,cds_2021-2022.pdf
+2022,Nonresidents,16,59,59,cds_2022-2023.pdf
+2022,Hispanic/Latino,137,545,545,cds_2022-2023.pdf
+2022,"Black or African American, non-Hispanic",106,482,483,cds_2022-2023.pdf
+2022,"White, non-Hispanic",732,2683,2693,cds_2022-2023.pdf
+2022,"American Indian or Alaska Native, non-Hispanic",14,38,38,cds_2022-2023.pdf
+2022,"Asian, non-Hispanic",143,412,414,cds_2022-2023.pdf
+2022,"Native Hawaiian or other Pacific Islander, non-Hispanic",9,27,27,cds_2022-2023.pdf
+2022,"Two or more races, non-Hispanic",15,75,75,cds_2022-2023.pdf
+2022,Race and/or ethnicity unknown,1,7,59,cds_2022-2023.pdf
+2022,Total,1173,4328,4393,cds_2022-2023.pdf
+2023,Nonresident aliens,16,59,59,cds_2023-2024.pdf
+2023,Hispanic/Latino,137,545,545,cds_2023-2024.pdf
+2023,"Black or African American, non-Hispanic",106,482,483,cds_2023-2024.pdf
+2023,"White, non-Hispanic",732,2683,2693,cds_2023-2024.pdf
+2023,"American Indian or Alaska Native, non-Hispanic",14,38,38,cds_2023-2024.pdf
+2023,"Asian, non-Hispanic",143,412,414,cds_2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",9,27,27,cds_2023-2024.pdf
+2023,"Two or more races, non-Hispanic",15,75,75,cds_2023-2024.pdf
+2023,Race and/or ethnicity unknown,1,7,59,cds_2023-2024.pdf
+2023,Total,1173,4328,4393,cds_2023-2024.pdf
+2024,Nonresident aliens,16,60,60,cds_2024-2025.pdf
+2024,Hispanic/Latino,161,515,515,cds_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",86,396,396,cds_2024-2025.pdf
+2024,"White, non-Hispanic",756,2800,2807,cds_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",9,40,40,cds_2024-2025.pdf
+2024,"Asian, non-Hispanic",147,518,520,cds_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",6,29,29,cds_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",14,48,49,cds_2024-2025.pdf
+2024,Race and/or ethnicity unknown,0,2,57,cds_2024-2025.pdf
+2024,Total,1195,4408,4473,cds_2024-2025.pdf

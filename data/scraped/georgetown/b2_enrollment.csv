@@ -1,0 +1,223 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2001,Nonresident aliens,62,318,504,georgetown_cds_2001-2002.pdf
+2001,"Black, non-Hispanic",101,401,406,georgetown_cds_2001-2002.pdf
+2001,American Indian or Alaskan Native,1,13,13,georgetown_cds_2001-2002.pdf
+2001,Asian or Pacific Islander,137,588,590,georgetown_cds_2001-2002.pdf
+2001,Hispanic,84,317,324,georgetown_cds_2001-2002.pdf
+2001,"White, non-Hispanic",1072,4366,4387,georgetown_cds_2001-2002.pdf
+2001,Race/ethnicity unknown,58,167,198,georgetown_cds_2001-2002.pdf
+2001,TOTAL,1515,6170,6422,georgetown_cds_2001-2002.pdf
+2002,Nonresident aliens,56,277,412,georgetown_cds_2002-2003.pdf
+2002,"Black, non-Hispanic",96,419,426,georgetown_cds_2002-2003.pdf
+2002,American Indian or Alaskan Native,0,6,6,georgetown_cds_2002-2003.pdf
+2002,Asian or Pacific Islander,148,588,594,georgetown_cds_2002-2003.pdf
+2002,Hispanic,79,306,311,georgetown_cds_2002-2003.pdf
+2002,"White, non-Hispanic",1046,4329,4359,georgetown_cds_2002-2003.pdf
+2002,Race/ethnicity unknown,72,197,224,georgetown_cds_2002-2003.pdf
+2002,TOTAL,1497,6122,6332,georgetown_cds_2002-2003.pdf
+2003,Nonresident aliens,111,316,494,georgetown_cds_2003-2004.pdf
+2003,"Black, non-Hispanic",116,415,423,georgetown_cds_2003-2004.pdf
+2003,American Indian or Alaskan Native,0,5,7,georgetown_cds_2003-2004.pdf
+2003,Asian or Pacific Islander,148,606,611,georgetown_cds_2003-2004.pdf
+2003,Hispanic,74,307,313,georgetown_cds_2003-2004.pdf
+2003,"White, non-Hispanic",977,4361,4393,georgetown_cds_2003-2004.pdf
+2003,Race/ethnicity unknown,102,258,309,georgetown_cds_2003-2004.pdf
+2003,TOTAL,1528,6268,6550,georgetown_cds_2003-2004.pdf
+2004,Nonresident aliens,52,242,403,georgetown_cds_2004-2005.pdf
+2004,"Black, non-Hispanic",102,423,424,georgetown_cds_2004-2005.pdf
+2004,American Indian or Alaska Native,4,4,4,georgetown_cds_2004-2005.pdf
+2004,Asian or Pacific Islander,149,606,612,georgetown_cds_2004-2005.pdf
+2004,Hispanic,101,354,360,georgetown_cds_2004-2005.pdf
+2004,"White, non-Hispanic",1058,4356,4375,georgetown_cds_2004-2005.pdf
+2004,Race/ethnicity unknown,76,297,344,georgetown_cds_2004-2005.pdf
+2004,TOTAL,1542,6282,6522,georgetown_cds_2004-2005.pdf
+2005,Nonresident aliens,52,262,442,georgetown_cds_2005-2006.pdf
+2005,"Black, non-Hispanic",123,448,449,georgetown_cds_2005-2006.pdf
+2005,American Indian or Alaska Native,2,7,7,georgetown_cds_2005-2006.pdf
+2005,Asian or Pacific Islander,128,603,610,georgetown_cds_2005-2006.pdf
+2005,Hispanic,130,388,390,georgetown_cds_2005-2006.pdf
+2005,"White, non-Hispanic",1012,4321,4361,georgetown_cds_2005-2006.pdf
+2005,Race/ethnicity unknown,104,366,460,georgetown_cds_2005-2006.pdf
+2005,TOTAL,1551,6395,6719,georgetown_cds_2005-2006.pdf
+2006,Nonresident aliens,77,296,481,georgetown_cds_2006-2007.pdf
+2006,"Black, non-Hispanic",125,482,490,georgetown_cds_2006-2007.pdf
+2006,American Indian or Alaska Native,0,6,6,georgetown_cds_2006-2007.pdf
+2006,Asian or Pacific Islander,126,572,575,georgetown_cds_2006-2007.pdf
+2006,Hispanic,126,440,441,georgetown_cds_2006-2007.pdf
+2006,"White, non-Hispanic",1047,4342,4374,georgetown_cds_2006-2007.pdf
+2006,Race/ethnicity unknown,87,449,486,georgetown_cds_2006-2007.pdf
+2006,TOTAL,1588,6587,6853,georgetown_cds_2006-2007.pdf
+2007,Nonresident aliens,76,363,552,georgetown_cds_2007-2008.pdf
+2007,"Black, non-Hispanic",105,458,470,georgetown_cds_2007-2008.pdf
+2007,American Indian or Alaska Native,27,9,,georgetown_cds_2007-2008.pdf
+2007,Asian or Pacific Islander,175,602,610,georgetown_cds_2007-2008.pdf
+2007,Hispanic,85,446,452,georgetown_cds_2007-2008.pdf
+2007,"White, non-Hispanic",1086,4446,4533,georgetown_cds_2007-2008.pdf
+2007,Race/ethnicity unknown,53,301,412,georgetown_cds_2007-2008.pdf
+2007,TOTAL,1582,6623,7038,georgetown_cds_2007-2008.pdf
+2008,Nonresident aliens,80,302,472,georgetown_cds_2008-2009.pdf
+2008,"Black, non-Hispanic",96,458,467,georgetown_cds_2008-2009.pdf
+2008,American Indian or Alaska Native,0,4,5,georgetown_cds_2008-2009.pdf
+2008,Asian or Pacific Islander,155,636,647,georgetown_cds_2008-2009.pdf
+2008,Hispanic,87,438,448,georgetown_cds_2008-2009.pdf
+2008,"White, non-Hispanic",1107,4580,4643,georgetown_cds_2008-2009.pdf
+2008,Race/ethnicity unknown,46,274,410,georgetown_cds_2008-2009.pdf
+2008,TOTAL,1571,6692,7092,georgetown_cds_2008-2009.pdf
+2009,Nonresident aliens,82,477,669,georgetown_cds_2009-2010.pdf
+2009,"Black, non-Hispanic",99,468,472,georgetown_cds_2009-2010.pdf
+2009,American Indian or Alaska Native,1,2,2,georgetown_cds_2009-2010.pdf
+2009,Asian or Pacific Islander,134,652,653,georgetown_cds_2009-2010.pdf
+2009,Hispanic,95,438,439,georgetown_cds_2009-2010.pdf
+2009,"White, non-Hispanic",926,4607,4643,georgetown_cds_2009-2010.pdf
+2009,Race/ethnicity unknown,218,448,555,georgetown_cds_2009-2010.pdf
+2009,TOTAL,1555,7092,7433,georgetown_cds_2009-2010.pdf
+2010,Nonresident aliens,102,526,719,georgetown_cds_2010-2011.pdf
+2010,Hispanic/Latino,120,478,485,georgetown_cds_2010-2011.pdf
+2010,"Black or African American, non-Hispanic/Latino",110,441,447,georgetown_cds_2010-2011.pdf
+2010,"White, non-Hispanic/Latino",1016,4706,4811,georgetown_cds_2010-2011.pdf
+2010,"American Indian or Alaska Native, non- Hispanic/Latino",5,11,11,georgetown_cds_2010-2011.pdf
+2010,"Asian, non-Hispanic/Latino",143,654,659,georgetown_cds_2010-2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic/Latino",1,6,6,georgetown_cds_2010-2011.pdf
+2010,"Two or more races, non-Hispanic/Latino",61,205,210,georgetown_cds_2010-2011.pdf
+2010,Race and/or ethnicity unknown,12,95,205,georgetown_cds_2010-2011.pdf
+2010,TOTAL,1570,7122,7553,georgetown_cds_2010-2011.pdf
+2011,Nonresident aliens,121,572,765,georgetown_cds_2011-2012.pdf
+2011,Hispanic,148,545,549,georgetown_cds_2011-2012.pdf
+2011,"Black or African American, non-Hispanic",113,452,458,georgetown_cds_2011-2012.pdf
+2011,"White, non-Hispanic",954,4585,4640,georgetown_cds_2011-2012.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",,6,6,georgetown_cds_2011-2012.pdf
+2011,"Asian, non-Hispanic",168,670,675,georgetown_cds_2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",,5,5,georgetown_cds_2011-2012.pdf
+2011,"Two or more races, non-Hispanic",58,239,240,georgetown_cds_2011-2012.pdf
+2011,Race and/or ethnicity unknown,37,158,252,georgetown_cds_2011-2012.pdf
+2011,TOTAL,1599,7232,7590,georgetown_cds_2011-2012.pdf
+2012,Nonresident aliens,154,669,861,georgetown_cds_2012-2013.pdf
+2012,Hispanic,104,556,567,georgetown_cds_2012-2013.pdf
+2012,"Black or African American, non-Hispanic",97,459,466,georgetown_cds_2012-2013.pdf
+2012,"White, non-Hispanic",969,4431,4497,georgetown_cds_2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",1,9,9,georgetown_cds_2012-2013.pdf
+2012,"Asian, non-Hispanic",156,651,655,georgetown_cds_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",,6,6,georgetown_cds_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",61,262,263,georgetown_cds_2012-2013.pdf
+2012,Race and/or ethnicity unknown,28,158,228,georgetown_cds_2012-2013.pdf
+2012,TOTAL,1570,7201,7552,georgetown_cds_2012-2013.pdf
+2013,Nonresident aliens,166,779,984,georgetown_cds_2013-2014.pdf
+2013,Hispanic/Latino,138,572,576,georgetown_cds_2013-2014.pdf
+2013,"Black or African American, non-Hispanic",105,463,475,georgetown_cds_2013-2014.pdf
+2013,"White, non-Hispanic",910,4274,4351,georgetown_cds_2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",2,10,11,georgetown_cds_2013-2014.pdf
+2013,"Asian, non-Hispanic",164,667,671,georgetown_cds_2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,6,6,georgetown_cds_2013-2014.pdf
+2013,"Two or more races, non-Hispanic",80,286,288,georgetown_cds_2013-2014.pdf
+2013,Race and/or ethnicity unknown,27,204,274,georgetown_cds_2013-2014.pdf
+2013,TOTAL,1594,7261,7636,georgetown_cds_2013-2014.pdf
+2014,Nonresident aliens,172,855,1042,georgetown_cds_2014-2015.pdf
+2014,Hispanic/Latino,130,565,569,georgetown_cds_2014-2015.pdf
+2014,"Black or African American, non-Hispanic",93,446,453,georgetown_cds_2014-2015.pdf
+2014,"White, non-Hispanic",947,4192,4281,georgetown_cds_2014-2015.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",,5,5,georgetown_cds_2014-2015.pdf
+2014,"Asian, non-Hispanic",158,692,695,georgetown_cds_2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",,3,3,georgetown_cds_2014-2015.pdf
+2014,"Two or more races, non-Hispanic",65,298,299,georgetown_cds_2014-2015.pdf
+2014,Race and/or ethnicity unknown,13,155,248,georgetown_cds_2014-2015.pdf
+2014,TOTAL,1578,7211,7595,georgetown_cds_2014-2015.pdf
+2015,Nonresident aliens,156,830,1023,georgetown_cds_2015-2016.pdf
+2015,Hispanic/Latino,141,582,585,georgetown_cds_2015-2016.pdf
+2015,"Black or African American, non-Hispanic",109,437,455,georgetown_cds_2015-2016.pdf
+2015,"White, non-Hispanic",898,4147,4224,georgetown_cds_2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",,4,4,georgetown_cds_2015-2016.pdf
+2015,"Asian, non-Hispanic",167,719,723,georgetown_cds_2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,4,4,georgetown_cds_2015-2016.pdf
+2015,"Two or more races, non-Hispanic",81,324,326,georgetown_cds_2015-2016.pdf
+2015,Race and/or ethnicity unknown,14,121,218,georgetown_cds_2015-2016.pdf
+2015,TOTAL,1567,7168,7562,georgetown_cds_2015-2016.pdf
+2016,Nonresident aliens,176,830,1011,georgetown_cds_2016-2017.pdf
+2016,Hispanic/Latino,142,628,632,georgetown_cds_2016-2017.pdf
+2016,"Black or African American, non-Hispanic",99,448,459,georgetown_cds_2016-2017.pdf
+2016,"White, non-Hispanic",898,4004,4059,georgetown_cds_2016-2017.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",,2,2,georgetown_cds_2016-2017.pdf
+2016,"Asian, non-Hispanic",147,700,705,georgetown_cds_2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",,5,5,georgetown_cds_2016-2017.pdf
+2016,"Two or more races, non-Hispanic",74,325,329,georgetown_cds_2016-2017.pdf
+2016,Race and/or ethnicity unknown,37,170,251,georgetown_cds_2016-2017.pdf
+2016,TOTAL,1573,7112,7453,georgetown_cds_2016-2017.pdf
+2017,Nonresident aliens,175,895,1032,georgetown_cds_2017-2018.pdf
+2017,Hispanic/Latino,243,745,749,georgetown_cds_2017-2018.pdf
+2017,"Black or African American, non-Hispanic",116,459,462,georgetown_cds_2017-2018.pdf
+2017,"White, non-Hispanic",810,3876,3941,georgetown_cds_2017-2018.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",,0,0,georgetown_cds_2017-2018.pdf
+2017,"Asian, non-Hispanic",142,678,683,georgetown_cds_2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,7,7,georgetown_cds_2017-2018.pdf
+2017,"Two or more races, non-Hispanic",76,326,327,georgetown_cds_2017-2018.pdf
+2017,Race and/or ethnicity unknown,33,138,262,georgetown_cds_2017-2018.pdf
+2017,TOTAL,1597,7124,7463,georgetown_cds_2017-2018.pdf
+2018,Nonresident aliens,183,991,1121,georgetown_cds_2018-2019.pdf
+2018,Hispanic/Latino,166,728,731,georgetown_cds_2018-2019.pdf
+2018,"Black or African American, non-Hispanic",123,478,484,georgetown_cds_2018-2019.pdf
+2018,"White, non-Hispanic",824,3687,3738,georgetown_cds_2018-2019.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",1,1,1,georgetown_cds_2018-2019.pdf
+2018,"Asian, non-Hispanic",200,700,706,georgetown_cds_2018-2019.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,3,georgetown_cds_2018-2019.pdf
+2018,"Two or more races, non-Hispanic",88,338,339,georgetown_cds_2018-2019.pdf
+2018,Race and/or ethnicity unknown,36,157,336,georgetown_cds_2018-2019.pdf
+2018,TOTAL,1621,7083,7459,georgetown_cds_2018-2019.pdf
+2019,Nonresident aliens,137,1022,1168,georgetown_cds_2019-2020.pdf
+2019,Hispanic/Latino,132,709,714,georgetown_cds_2019-2020.pdf
+2019,"Black or African American, non-Hispanic",93,464,476,georgetown_cds_2019-2020.pdf
+2019,"White, non-Hispanic",865,3617,3663,georgetown_cds_2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",3,4,4,georgetown_cds_2019-2020.pdf
+2019,"Asian, non-Hispanic",215,777,780,georgetown_cds_2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,5,5,georgetown_cds_2019-2020.pdf
+2019,"Two or more races, non-Hispanic",97,349,349,georgetown_cds_2019-2020.pdf
+2019,Race and/or ethnicity unknown,39,194,354,georgetown_cds_2019-2020.pdf
+2019,TOTAL,1582,7141,7513,georgetown_cds_2019-2020.pdf
+2020,Nonresident aliens,127,1008,1074,georgetown_cds_2020-2021.pdf
+2020,Hispanic/Latino,117,677,677,georgetown_cds_2020-2021.pdf
+2020,"Black or African American, non-Hispanic",90,471,484,georgetown_cds_2020-2021.pdf
+2020,"White, non-Hispanic",842,3511,3548,georgetown_cds_2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",2,6,6,georgetown_cds_2020-2021.pdf
+2020,"Asian, non-Hispanic",244,863,863,georgetown_cds_2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,5,5,georgetown_cds_2020-2021.pdf
+2020,"Two or more races, non-Hispanic",111,387,388,georgetown_cds_2020-2021.pdf
+2020,Race and/or ethnicity unknown,49,190,312,georgetown_cds_2020-2021.pdf
+2020,TOTAL,1584,7118,7357,georgetown_cds_2020-2021.pdf
+2021,Nonresident aliens,151,1058,1138,georgetown_cds_2021-2022.pdf
+2021,Hispanic/Latino,100,592,595,georgetown_cds_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",90,431,443,georgetown_cds_2021-2022.pdf
+2021,"White, non-Hispanic",869,3672,3705,georgetown_cds_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,8,8,georgetown_cds_2021-2022.pdf
+2021,"Asian, non-Hispanic",230,961,966,georgetown_cds_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",3,6,6,georgetown_cds_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",111,426,427,georgetown_cds_2021-2022.pdf
+2021,Race and/or ethnicity unknown,44,171,310,georgetown_cds_2021-2022.pdf
+2021,TOTAL,1598,7325,7598,georgetown_cds_2021-2022.pdf
+2023,Nonresidents,136,1019,1127,georgetown_cds_2023-2024.pdf
+2023,Hispanic/Latino,72,464,467,georgetown_cds_2023-2024.pdf
+2023,"Black or African American, non-Hispanic",87,371,385,georgetown_cds_2023-2024.pdf
+2023,"White, non-Hispanic",837,3610,3661,georgetown_cds_2023-2024.pdf
+2023,"American Indian or Alaska Native, non-Hispanic",1,5,5,georgetown_cds_2023-2024.pdf
+2023,"Asian, non-Hispanic",297,1128,1133,georgetown_cds_2023-2024.pdf
+2023,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,11,11,georgetown_cds_2023-2024.pdf
+2023,"Two or more races, non-Hispanic",114,453,455,georgetown_cds_2023-2024.pdf
+2023,Race and/or ethnicity unknown,53,329,724,georgetown_cds_2023-2024.pdf
+2023,TOTAL,1599,7390,7968,georgetown_cds_2023-2024.pdf
+2024,Nonresidents,111,1007,1121,georgetown_cds_2024-2025.pdf
+2024,Hispanic/Latino,60,443,448,georgetown_cds_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",87,370,375,georgetown_cds_2024-2025.pdf
+2024,"White, non-Hispanic",751,3480,3533,georgetown_cds_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",0,6,7,georgetown_cds_2024-2025.pdf
+2024,"Asian, non-Hispanic",276,1168,1171,georgetown_cds_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,10,11,georgetown_cds_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",140,483,488,georgetown_cds_2024-2025.pdf
+2024,Race and/or ethnicity unknown,150,528,679,georgetown_cds_2024-2025.pdf
+2024,TOTAL,1575,7495,7833,georgetown_cds_2024-2025.pdf
+2025,Nonresidents,133,1050,1140,georgetown_cds_2025-2026.pdf
+2025,Hispanic/Latino,149,493,498,georgetown_cds_2025-2026.pdf
+2025,"Black or African American, non-Hispanic",70,363,369,georgetown_cds_2025-2026.pdf
+2025,"White, non-Hispanic",697,3325,3375,georgetown_cds_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",3,10,10,georgetown_cds_2025-2026.pdf
+2025,"Asian, non-Hispanic",352,1315,1320,georgetown_cds_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,8,9,georgetown_cds_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",59,437,437,georgetown_cds_2025-2026.pdf
+2025,Race and/or ethnicity unknown,125,617,750,georgetown_cds_2025-2026.pdf
+2025,TOTAL,1589,7618,7908,georgetown_cds_2025-2026.pdf

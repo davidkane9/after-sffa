@@ -1,0 +1,151 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2010,Nonresident aliens,73,230,230,SmithCollege_CDS_2010_2011.pdf
+2010,Hispanic,57,188,188,SmithCollege_CDS_2010_2011.pdf
+2010,"Black or African American, non-Hispanic",33,137,137,SmithCollege_CDS_2010_2011.pdf
+2010,"White, non-Hispanic",316,1121,1121,SmithCollege_CDS_2010_2011.pdf
+2010,"American Indian or Alaska Native, non-Hispanic",2,10,10,SmithCollege_CDS_2010_2011.pdf
+2010,"Asian, non-Hispanic",75,289,289,SmithCollege_CDS_2010_2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,4,4,SmithCollege_CDS_2010_2011.pdf
+2010,"Two or more races, non-Hispanic",27,88,88,SmithCollege_CDS_2010_2011.pdf
+2010,Race and/or ethnicity unknown,47,521,521,SmithCollege_CDS_2010_2011.pdf
+2010,TOTAL,631,2588,2588,SmithCollege_CDS_2010_2011.pdf
+2011,Nonresident aliens,98,281,281,SmithCollege_CDS_2011-2012.pdf
+2011,Hispanic,57,204,204,SmithCollege_CDS_2011-2012.pdf
+2011,"Black or African American, non-Hispanic",27,128,128,SmithCollege_CDS_2011-2012.pdf
+2011,"White, non-Hispanic",313,1157,1157,SmithCollege_CDS_2011-2012.pdf
+2011,"American Indian or Alaska Native, non-Hispanic",1,7,7,SmithCollege_CDS_2011-2012.pdf
+2011,"Asian, non-Hispanic",104,320,320,SmithCollege_CDS_2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,4,4,SmithCollege_CDS_2011-2012.pdf
+2011,"Two or more races, non-Hispanic",35,108,108,SmithCollege_CDS_2011-2012.pdf
+2011,Race and/or ethnicity unknown,59,418,418,SmithCollege_CDS_2011-2012.pdf
+2011,TOTAL,694,2627,2627,SmithCollege_CDS_2011-2012.pdf
+2012,Nonresident aliens,73,307,307,SmithCollege_CDS_2012-2013.pdf
+2012,Hispanic,85,244,244,SmithCollege_CDS_2012-2013.pdf
+2012,"Black or African American, non-Hispanic",36,136,136,SmithCollege_CDS_2012-2013.pdf
+2012,"White, non-Hispanic",295,1241,1241,SmithCollege_CDS_2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",,6,6,SmithCollege_CDS_2012-2013.pdf
+2012,"Asian, non-Hispanic",73,309,309,SmithCollege_CDS_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",,2,2,SmithCollege_CDS_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",33,118,118,SmithCollege_CDS_2012-2013.pdf
+2012,Race and/or ethnicity unknown,56,301,301,SmithCollege_CDS_2012-2013.pdf
+2012,TOTAL,651,2664,2664,SmithCollege_CDS_2012-2013.pdf
+2013,Nonresident aliens,108,343,,SmithCollege_CDS_2013-2014.pdf
+2013,Hispanic,63,248,,SmithCollege_CDS_2013-2014.pdf
+2013,"Black or African American, non-Hispanic",26,125,,SmithCollege_CDS_2013-2014.pdf
+2013,"White, non-Hispanic",261,1196,,SmithCollege_CDS_2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",1,5,,SmithCollege_CDS_2013-2014.pdf
+2013,"Asian, non-Hispanic",90,326,,SmithCollege_CDS_2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,1,,SmithCollege_CDS_2013-2014.pdf
+2013,"Two or more races, non-Hispanic",30,125,,SmithCollege_CDS_2013-2014.pdf
+2013,Race and/or ethnicity unknown,64,237,,SmithCollege_CDS_2013-2014.pdf
+2013,TOTAL,643,2606,,SmithCollege_CDS_2013-2014.pdf
+2014,Nonresident aliens,96,360,,SmithCollege_CDS_2014-2015.pdf
+2014,Hispanic/Latino,57,239,,SmithCollege_CDS_2014-2015.pdf
+2014,"Black or African American, non‐Hispanic",30,122,,SmithCollege_CDS_2014-2015.pdf
+2014,"White, non‐Hispanic",293,1180,,SmithCollege_CDS_2014-2015.pdf
+2014,"American Indian or Alaska Native, non‐Hispanic",0,4,,SmithCollege_CDS_2014-2015.pdf
+2014,"Asian, non‐Hispanic",88,334,,SmithCollege_CDS_2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non‐ Hispanic",1,2,,SmithCollege_CDS_2014-2015.pdf
+2014,"Two or more races, non‐Hispanic",24,114,,SmithCollege_CDS_2014-2015.pdf
+2014,Race and/or ethnicity unknown,27,208,,SmithCollege_CDS_2014-2015.pdf
+2014,TOTAL,616,2563,,SmithCollege_CDS_2014-2015.pdf
+2015,Nonresident aliens,97,346,349,SmithCollege_CDS_2015-2016.pdf
+2015,Hispanic/Latino,69,257,257,SmithCollege_CDS_2015-2016.pdf
+2015,"Black or African American, non-Hispanic",44,135,135,SmithCollege_CDS_2015-2016.pdf
+2015,"White, non-Hispanic",249,1112,1112,SmithCollege_CDS_2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",1,4,4,SmithCollege_CDS_2015-2016.pdf
+2015,"Asian, non-Hispanic",61,290,291,SmithCollege_CDS_2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,2,SmithCollege_CDS_2015-2016.pdf
+2015,"Two or more races, non-Hispanic",32,117,117,SmithCollege_CDS_2015-2016.pdf
+2015,Race and/or ethnicity unknown,56,210,211,SmithCollege_CDS_2015-2016.pdf
+2015,TOTAL,609,2473,2478,SmithCollege_CDS_2015-2016.pdf
+2016,Nonresident aliens,91,358,362,Smith College_CDS_2016-2017.pdf
+2016,Hispanic/Latino,72,254,254,Smith College_CDS_2016-2017.pdf
+2016,"Black or African American, non-Hispanic",49,151,151,Smith College_CDS_2016-2017.pdf
+2016,"White, non-Hispanic",308,1133,1134,Smith College_CDS_2016-2017.pdf
+2016,"American Indian or Alaska Native, non-Hispanic",0,2,2,Smith College_CDS_2016-2017.pdf
+2016,"Asian, non-Hispanic",61,289,290,Smith College_CDS_2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,4,4,Smith College_CDS_2016-2017.pdf
+2016,"Two or more races, non-Hispanic",34,117,117,Smith College_CDS_2016-2017.pdf
+2016,Race and/or ethnicity unknown,37,193,200,Smith College_CDS_2016-2017.pdf
+2016,TOTAL,654,2501,2514,Smith College_CDS_2016-2017.pdf
+2017,Nonresident aliens,95,349,350,CDS_2017-2018.pdf
+2017,Hispanic/Latino,68,260,260,CDS_2017-2018.pdf
+2017,"Black or African American, non-Hispanic",43,166,166,CDS_2017-2018.pdf
+2017,"White, non-Hispanic",307,1197,1197,CDS_2017-2018.pdf
+2017,"American Indian or Alaska Native, non-Hispanic",1,3,3,CDS_2017-2018.pdf
+2017,"Asian, non-Hispanic",58,275,275,CDS_2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,3,CDS_2017-2018.pdf
+2017,"Two or more races, non-Hispanic",31,110,110,CDS_2017-2018.pdf
+2017,Race and/or ethnicity unknown,35,156,157,CDS_2017-2018.pdf
+2017,TOTAL,638,2519,2521,CDS_2017-2018.pdf
+2018,Nonresident aliens,84,344,348,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,Hispanic/Latino,81,288,288,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"Black or African American, non-Hispanic",37,166,166,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"White, non-Hispanic",297,1193,1194,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",1,3,3,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"Asian, non-Hispanic",60,233,233,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,2,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,"Two or more races, non-Hispanic",35,120,120,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,Race and/or ethnicity unknown,18,147,148,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2018,TOTAL,613,2496,2502,Smith College_Common Data Set 2018-2019_Version 1.pdf
+2019,Nonresident aliens,98,351,354,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,Hispanic/Latino,86,299,299,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"Black or African American, non-Hispanic",36,161,161,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"White, non-Hispanic",306,1248,1250,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",0,1,1,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"Asian, non-Hispanic",63,243,243,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,2,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,"Two or more races, non-Hispanic",32,119,119,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,Race and/or ethnicity unknown,12,102,102,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2019,TOTAL,633,2526,2531,Smith College_Common Data Set 2019-2020_Complete (updated with 20-21 tuiton.pdf
+2020,Nonresident aliens,68,317,317,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,Hispanic/Latino,70,295,295,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"Black or African American, non-Hispanic",38,156,156,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"White, non-Hispanic",242,1016,1016,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",1,2,2,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"Asian, non-Hispanic",64,222,222,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",3,3,3,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,"Two or more races, non-Hispanic",31,114,114,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,Unknown Race/Ethnicity/Citizenship,10,58,58,Smith_CDS_2020-2021_update 4-7-21.pdf
+2020,TOTAL,527,2183,2183,Smith_CDS_2020-2021_update 4-7-21.pdf
+2021,Nonresident aliens,103,364,364,Smith_CDS_2021-2022.pdf
+2021,Hispanic/Latino,81,329,329,Smith_CDS_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",34,143,143,Smith_CDS_2021-2022.pdf
+2021,"White, non-Hispanic",345,1279,1279,Smith_CDS_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",0,1,1,Smith_CDS_2021-2022.pdf
+2021,"Asian, non-Hispanic",64,254,254,Smith_CDS_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,3,3,Smith_CDS_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",44,140,140,Smith_CDS_2021-2022.pdf
+2021,Race and/or ethnicity unknown,5,53,53,Smith_CDS_2021-2022.pdf
+2021,TOTAL,676,2566,2566,Smith_CDS_2021-2022.pdf
+2022,"Native Hawaiian or other Pacific Islander, non- Hispanic",2,4,4,CDS 2022-2023--Published2022Dec21.pdf
+2022,"Two or more races, non-Hispanic",34,143,143,CDS 2022-2023--Published2022Dec21.pdf
+2022,Race and/or ethnicity unknown,8,41,43,CDS 2022-2023--Published2022Dec21.pdf
+2022,TOTAL,619,2515,2523,CDS 2022-2023--Published2022Dec21.pdf
+2023,International (nonresidents),87,322,325,CDS_2023-2024.pdf
+2023,Hispanic/Latino,84,304,304,CDS_2023-2024.pdf
+2023,"Black or African American, non-Hispanic",30,128,128,CDS_2023-2024.pdf
+2023,"White, non-Hispanic",329,1312,1312,CDS_2023-2024.pdf
+2023,"American Indian or Alaska Native, non- Hispanic",0,1,1,CDS_2023-2024.pdf
+2023,"Asian, non-Hispanic",69,245,245,CDS_2023-2024.pdf
+2024,Nonresidents,101,349,351,CDS_2024-2025.pdf
+2024,Hispanic/Latino,83,309,309,CDS_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",29,131,131,CDS_2024-2025.pdf
+2024,"White, non-Hispanic",293,1282,1283,CDS_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",0,1,1,CDS_2024-2025.pdf
+2024,"Asian, non-Hispanic",59,234,234,CDS_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,3,3,CDS_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",50,165,165,CDS_2024-2025.pdf
+2024,Race and/or ethnicity unknown,29,70,72,CDS_2024-2025.pdf
+2024,TOTAL,645,2544,2549,CDS_2024-2025.pdf
+2025,Nonresidents,84,326,329,CDS_2025-2026.pdf
+2025,Hispanic/Latino,105,356,356,CDS_2025-2026.pdf
+2025,"Black or African American, non-Hispanic",48,147,147,CDS_2025-2026.pdf
+2025,"White, non-Hispanic",324,1251,1251,CDS_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",0,1,1,CDS_2025-2026.pdf
+2025,"Asian, non-Hispanic",74,244,244,CDS_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,3,3,CDS_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",54,177,177,CDS_2025-2026.pdf
+2025,Race and/or ethnicity unknown,9,69,70,CDS_2025-2026.pdf
+2025,TOTAL,698,2574,2578,CDS_2025-2026.pdf

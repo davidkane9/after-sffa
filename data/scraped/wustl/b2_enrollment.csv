@@ -1,0 +1,151 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2010,Nonresident aliens,108,421,481,wustl_cds_2010-2011.pdf
+2010,Hispanic,84,306,323,wustl_cds_2010-2011.pdf
+2010,"Black or African American, non- Hispanic",91,407,473,wustl_cds_2010-2011.pdf
+2010,"White, non-Hispanic",936,3747,4116,wustl_cds_2010-2011.pdf
+2010,"American Indian or Alaska Native, non- Hispanic",1,3,4,wustl_cds_2010-2011.pdf
+2010,"Asian, non-Hispanic",290,963,1004,wustl_cds_2010-2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,0,1,wustl_cds_2010-2011.pdf
+2010,"Two or more races, non-Hispanic",53,204,210,wustl_cds_2010-2011.pdf
+2010,Race and/or ethnicity unknown,69,491,526,wustl_cds_2010-2011.pdf
+2010,Total,1632,6542,7138,wustl_cds_2010-2011.pdf
+2011,Nonresident aliens,95,435,498,wustl_cds_2011-2012.pdf
+2011,Hispanic,87,306,318,wustl_cds_2011-2012.pdf
+2011,"Black or African American, non- Hispanic",83,408,463,wustl_cds_2011-2012.pdf
+2011,"White, non-Hispanic",835,3797,4169,wustl_cds_2011-2012.pdf
+2011,"American Indian or Alaska Native, non- Hispanic",2,5,5,wustl_cds_2011-2012.pdf
+2011,"Asian, non-Hispanic",254,1018,1051,wustl_cds_2011-2012.pdf
+2011,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,wustl_cds_2011-2012.pdf
+2011,"Two or more races, non-Hispanic",57,214,219,wustl_cds_2011-2012.pdf
+2011,Race and/or ethnicity unknown,75,474,515,wustl_cds_2011-2012.pdf
+2011,Total,1488,6658,7239,wustl_cds_2011-2012.pdf
+2012,Nonresident aliens,147,492,586,wustl_cds_2012-2013.pdf
+2012,Hispanic,97,337,348,wustl_cds_2012-2013.pdf
+2012,"Black or African American, non- Hispanic",87,400,454,wustl_cds_2012-2013.pdf
+2012,"White, non-Hispanic",865,3759,4079,wustl_cds_2012-2013.pdf
+2012,"American Indian or Alaska Native, non- Hispanic",2,7,8,wustl_cds_2012-2013.pdf
+2012,"Asian, non-Hispanic",316,1113,1155,wustl_cds_2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,0,0,wustl_cds_2012-2013.pdf
+2012,"Two or more races, non-Hispanic",69,230,235,wustl_cds_2012-2013.pdf
+2012,Race and/or ethnicity unknown,54,364,394,wustl_cds_2012-2013.pdf
+2012,Total,1637,6702,7259,wustl_cds_2012-2013.pdf
+2013,Nonresident aliens,132,531,609,wustl_cds_2013-2014.pdf
+2013,Hispanic,102,382,394,wustl_cds_2013-2014.pdf
+2013,"Black or African American, non- Hispanic",77,402,452,wustl_cds_2013-2014.pdf
+2013,"White, non-Hispanic",865,3788,4056,wustl_cds_2013-2014.pdf
+2013,"American Indian or Alaska Native, non- Hispanic",1,9,9,wustl_cds_2013-2014.pdf
+2013,"Asian, non-Hispanic",324,1191,1221,wustl_cds_2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,1,1,wustl_cds_2013-2014.pdf
+2013,"Two or more races, non-Hispanic",67,258,265,wustl_cds_2013-2014.pdf
+2013,Race and/or ethnicity unknown,39,289,329,wustl_cds_2013-2014.pdf
+2013,Total,1608,6851,7336,wustl_cds_2013-2014.pdf
+2014,Nonresident aliens,121,549,623,wustl_cds_2014-2015.pdf
+2014,Hispanic,100,403,409,wustl_cds_2014-2015.pdf
+2014,"Black or African American, non- Hispanic",67,370,434,wustl_cds_2014-2015.pdf
+2014,"White, non-Hispanic",995,3829,4102,wustl_cds_2014-2015.pdf
+2014,"American Indian or Alaska Native, non- Hispanic",0,7,8,wustl_cds_2014-2015.pdf
+2014,"Asian, non-Hispanic",346,1249,1284,wustl_cds_2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,wustl_cds_2014-2015.pdf
+2014,"Two or more races, non-Hispanic",78,279,284,wustl_cds_2014-2015.pdf
+2014,Race and/or ethnicity unknown,27,226,256,wustl_cds_2014-2015.pdf
+2014,Total,1734,6913,7401,wustl_cds_2014-2015.pdf
+2015,Nonresident aliens,126,556,622,wustl_cds_2015-2016.pdf
+2015,Hispanic,149,459,474,wustl_cds_2015-2016.pdf
+2015,"Black or African American, non- Hispanic",123,404,476,wustl_cds_2015-2016.pdf
+2015,"White, non-Hispanic",916,3835,4091,wustl_cds_2015-2016.pdf
+2015,"American Indian or Alaska Native, non- Hispanic",1,5,6,wustl_cds_2015-2016.pdf
+2015,"Asian, non-Hispanic",317,1307,1336,wustl_cds_2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,0,0,wustl_cds_2015-2016.pdf
+2015,"Two or more races, non-Hispanic",75,299,303,wustl_cds_2015-2016.pdf
+2015,Race and/or ethnicity unknown,24,167,196,wustl_cds_2015-2016.pdf
+2015,Total,1731,7032,7504,wustl_cds_2015-2016.pdf
+2016,Nonresident aliens,125,538,612,wustl_cds_2016-2017.pdf
+2016,Hispanic,168,535,554,wustl_cds_2016-2017.pdf
+2016,"Black or African American, non- Hispanic",186,504,559,wustl_cds_2016-2017.pdf
+2016,"White, non-Hispanic",884,3798,4022,wustl_cds_2016-2017.pdf
+2016,"American Indian or Alaska Native, non- Hispanic",1,4,6,wustl_cds_2016-2017.pdf
+2016,"Asian, non-Hispanic",297,1287,1312,wustl_cds_2016-2017.pdf
+2016,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,0,0,wustl_cds_2016-2017.pdf
+2016,"Two or more races, non-Hispanic",85,315,324,wustl_cds_2016-2017.pdf
+2016,Race and/or ethnicity unknown,30,135,166,wustl_cds_2016-2017.pdf
+2016,Total,1776,7116,7555,wustl_cds_2016-2017.pdf
+2017,Nonresident aliens,127,533,603,wustl_cds_2017-2018.pdf
+2017,Hispanic,194,627,649,wustl_cds_2017-2018.pdf
+2017,"Black or African American, non- Hispanic",148,562,621,wustl_cds_2017-2018.pdf
+2017,"White, non-Hispanic",896,3803,4010,wustl_cds_2017-2018.pdf
+2017,"American Indian or Alaska Native, non- Hispanic",1,4,4,wustl_cds_2017-2018.pdf
+2017,"Asian, non-Hispanic",286,1256,1277,wustl_cds_2017-2018.pdf
+2017,"Native Hawaiian or other Pacific Islander, non-Hispanic",1,1,1,wustl_cds_2017-2018.pdf
+2017,"Two or more races, non-Hispanic",101,347,354,wustl_cds_2017-2018.pdf
+2017,Race and/or ethnicity unknown,24,120,156,wustl_cds_2017-2018.pdf
+2017,Total,1778,7253,7675,wustl_cds_2017-2018.pdf
+2018,Nonresident aliens,130,551,607,wustl_cds_2018-2019.pdf
+2018,Hispanic/Latino,169,688,704,wustl_cds_2018-2019.pdf
+2018,"Black or African American, non-Hispanic",172,663,721,wustl_cds_2018-2019.pdf
+2018,"White, non-Hispanic",897,3750,3959,wustl_cds_2018-2019.pdf
+2018,"American Indian or Alaska Native, non-Hispanic",0,3,3,wustl_cds_2018-2019.pdf
+2018,"Asian, non-Hispanic",291,1208,1238,wustl_cds_2018-2019.pdf
+2018,"Native Hawaiian or other Pacific Islander, non- Hispanic",4,5,5,wustl_cds_2018-2019.pdf
+2018,"Two or more races, non-Hispanic",90,349,353,wustl_cds_2018-2019.pdf
+2018,Race and/or ethnicity unknown,44,139,161,wustl_cds_2018-2019.pdf
+2018,TOTAL,1797,7356,7751,wustl_cds_2018-2019.pdf
+2019,Nonresident aliens,134,560,645,wustl_cds_2019-2020.pdf
+2019,Hispanic/Latino,195,733,742,wustl_cds_2019-2020.pdf
+2019,"Black or African American, non-Hispanic",134,693,763,wustl_cds_2019-2020.pdf
+2019,"White, non-Hispanic",799,3639,3838,wustl_cds_2019-2020.pdf
+2019,"American Indian or Alaska Native, non-Hispanic",2,6,6,wustl_cds_2019-2020.pdf
+2019,"Asian, non-Hispanic",305,1211,1237,wustl_cds_2019-2020.pdf
+2019,"Native Hawaiian or other Pacific Islander, non- Hispanic",4,9,9,wustl_cds_2019-2020.pdf
+2019,"Two or more races, non-Hispanic",113,386,391,wustl_cds_2019-2020.pdf
+2019,Race and/or ethnicity unknown,46,167,191,wustl_cds_2019-2020.pdf
+2019,TOTAL,1732,7404,7822,wustl_cds_2019-2020.pdf
+2020,Nonresident aliens,112,524,549,wustl_cds_2020-2021.pdf
+2020,Hispanic/Latino,202,776,788,wustl_cds_2020-2021.pdf
+2020,"Black or African American, non-Hispanic",115,646,694,wustl_cds_2020-2021.pdf
+2020,"White, non-Hispanic",809,3509,3658,wustl_cds_2020-2021.pdf
+2020,"American Indian or Alaska Native, non-Hispanic",5,8,8,wustl_cds_2020-2021.pdf
+2020,"Asian, non-Hispanic",430,1340,1366,wustl_cds_2020-2021.pdf
+2020,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,10,10,wustl_cds_2020-2021.pdf
+2020,"Two or more races, non-Hispanic",106,399,410,wustl_cds_2020-2021.pdf
+2020,Race and/or ethnicity unknown,24,154,170,wustl_cds_2020-2021.pdf
+2020,TOTAL,1804,7366,7653,wustl_cds_2020-2021.pdf
+2021,Nonresident aliens,109,503,566,wustl_cds_2021-2022.pdf
+2021,Hispanic/Latino,259,854,873,wustl_cds_2021-2022.pdf
+2021,"Black or African American, non-Hispanic",175,673,734,wustl_cds_2021-2022.pdf
+2021,"White, non-Hispanic",869,3578,3723,wustl_cds_2021-2022.pdf
+2021,"American Indian or Alaska Native, non-Hispanic",3,10,10,wustl_cds_2021-2022.pdf
+2021,"Asian, non-Hispanic",409,1475,1487,wustl_cds_2021-2022.pdf
+2021,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,11,11,wustl_cds_2021-2022.pdf
+2021,"Two or more races, non-Hispanic",133,461,465,wustl_cds_2021-2022.pdf
+2021,Race and/or ethnicity unknown,22,148,165,wustl_cds_2021-2022.pdf
+2021,TOTAL,1980,7713,8034,wustl_cds_2021-2022.pdf
+2024,Nonresidents,210,711,774,wustl-cds-2024-2025.pdf
+2024,Hispanic/Latino,239,1035,1059,wustl-cds-2024-2025.pdf
+2024,"Black or African American, non-Hispanic",106,684,762,wustl-cds-2024-2025.pdf
+2024,"White, non-Hispanic",686,3117,3258,wustl-cds-2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",5,8,8,wustl-cds-2024-2025.pdf
+2024,"Asian, non-Hispanic",412,1640,1665,wustl-cds-2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,4,4,wustl-cds-2024-2025.pdf
+2024,"Two or more races, non-Hispanic",93,486,497,wustl-cds-2024-2025.pdf
+2024,Race and/or ethnicity unknown,96,172,193,wustl-cds-2024-2025.pdf
+2024,TOTAL,1847,7857,8220,wustl-cds-2024-2025.pdf
+2024,Nonresidents,210,711,774,wustl_cds_2024-2025.pdf
+2024,Hispanic/Latino,239,1035,1059,wustl_cds_2024-2025.pdf
+2024,"Black or African American, non-Hispanic",106,684,762,wustl_cds_2024-2025.pdf
+2024,"White, non-Hispanic",686,3117,3258,wustl_cds_2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",5,8,8,wustl_cds_2024-2025.pdf
+2024,"Asian, non-Hispanic",412,1640,1665,wustl_cds_2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,4,4,wustl_cds_2024-2025.pdf
+2024,"Two or more races, non-Hispanic",93,486,497,wustl_cds_2024-2025.pdf
+2024,Race and/or ethnicity unknown,96,172,193,wustl_cds_2024-2025.pdf
+2024,TOTAL,1847,7857,8220,wustl_cds_2024-2025.pdf
+2025,Nonresidents,235,810,850,CDS_2025-2026.pdf
+2025,Hispanic/Latino,221,961,981,CDS_2025-2026.pdf
+2025,"Black or African American, non-Hispanic",142,662,727,CDS_2025-2026.pdf
+2025,"White, non-Hispanic",748,3075,3174,CDS_2025-2026.pdf
+2025,"American Indian or Alaska Native, non-Hispanic",3,7,7,CDS_2025-2026.pdf
+2025,"Asian, non-Hispanic",428,1695,1723,CDS_2025-2026.pdf
+2025,"Native Hawaiian or other Pacific Islander, non-Hispanic",2,7,7,CDS_2025-2026.pdf
+2025,"Two or more races, non-Hispanic",121,477,479,CDS_2025-2026.pdf
+2025,Race and/or ethnicity unknown,61,176,205,CDS_2025-2026.pdf
+2025,TOTAL,1961,7870,8153,CDS_2025-2026.pdf

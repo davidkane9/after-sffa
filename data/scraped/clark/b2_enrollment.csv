@@ -1,0 +1,70 @@
+year,category,first_time_first_year,undergraduates,total_undergraduates,source_file
+2010,Nonresident aliens,43,167,170,clark-cds-2010-2011.pdf
+2010,Hispanic/Latino,43,109,113,clark-cds-2010-2011.pdf
+2010,"Black or African American, non-Hispanic/Latino",24,65,65,clark-cds-2010-2011.pdf
+2010,"White, non-Hispanic/Latino",402,1582,1612,clark-cds-2010-2011.pdf
+2010,"American Indian or Alaska Native, non- Hispanic/Latino",1,5,5,clark-cds-2010-2011.pdf
+2010,"Asian, non-Hispanic/Latino",30,94,100,clark-cds-2010-2011.pdf
+2010,"Native Hawaiian or other Pacific Islander, non- Hispanic/Latino",0,2,2,clark-cds-2010-2011.pdf
+2010,"Two or more races, non-Hispanic/Latino",19,46,46,clark-cds-2010-2011.pdf
+2010,Race and/or ethnicity unknown,16,182,204,clark-cds-2010-2011.pdf
+2010,TOTAL,578,2252,2317,clark-cds-2010-2011.pdf
+2012,Nonresident aliens,92,249,269,clark-cds-2012-2013.pdf
+2012,Hispanic,31,134,136,clark-cds-2012-2013.pdf
+2012,"Black or African American, non-Hispanic",20,83,84,clark-cds-2012-2013.pdf
+2012,"White, non-Hispanic",350,1489,1519,clark-cds-2012-2013.pdf
+2012,"American Indian or Alaska Native, non-Hispanic",0,2,2,clark-cds-2012-2013.pdf
+2012,"Asian, non-Hispanic",44,114,121,clark-cds-2012-2013.pdf
+2012,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,0,0,clark-cds-2012-2013.pdf
+2012,"Two or more races, non-Hispanic",1,45,45,clark-cds-2012-2013.pdf
+2012,Race and/or ethnicity unknown,56,160,176,clark-cds-2012-2013.pdf
+2012,TOTAL,594,2276,2352,clark-cds-2012-2013.pdf
+2013,Nonresident aliens,78,280,288,clark-cds-2013-2014.pdf
+2013,Hispanic/Latino,53,148,159,clark-cds-2013-2014.pdf
+2013,"Black or African American, non-Hispanic",26,90,96,clark-cds-2013-2014.pdf
+2013,"White, non-Hispanic",373,1435,1457,clark-cds-2013-2014.pdf
+2013,"American Indian or Alaska Native, non-Hispanic",0,1,1,clark-cds-2013-2014.pdf
+2013,"Asian, non-Hispanic",33,128,136,clark-cds-2013-2014.pdf
+2013,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,1,1,clark-cds-2013-2014.pdf
+2013,"Two or more races, non-Hispanic",17,53,53,clark-cds-2013-2014.pdf
+2013,Race and/or ethnicity unknown,40,176,189,clark-cds-2013-2014.pdf
+2013,TOTAL,621,2312,2380,clark-cds-2013-2014.pdf
+2014,Nonresident aliens,83,308,322,clark-cds-2014-2015.pdf
+2014,Hispanic/Latino,35,134,145,clark-cds-2014-2015.pdf
+2014,"Black or African American, non-Hispanic",20,85,87,clark-cds-2014-2015.pdf
+2014,"White, non-Hispanic",324,1345,1362,clark-cds-2014-2015.pdf
+2014,"American Indian or Alaska Native, non-Hispanic",0,1,1,clark-cds-2014-2015.pdf
+2014,"Asian, non-Hispanic",51,151,155,clark-cds-2014-2015.pdf
+2014,"Native Hawaiian or other Pacific Islander, non- Hispanic",1,2,2,clark-cds-2014-2015.pdf
+2014,"Two or more races, non-Hispanic",17,53,53,clark-cds-2014-2015.pdf
+2014,Race and/or ethnicity unknown,17,157,174,clark-cds-2014-2015.pdf
+2014,TOTAL,548,2236,2301,clark-cds-2014-2015.pdf
+2015,Nonresident aliens,107,351,373,clark-cds-2015-2016.pdf
+2015,Hispanic/Latino,58,157,166,clark-cds-2015-2016.pdf
+2015,"Black or African American, non-Hispanic",32,99,102,clark-cds-2015-2016.pdf
+2015,"White, non-Hispanic",351,1321,1336,clark-cds-2015-2016.pdf
+2015,"American Indian or Alaska Native, non-Hispanic",3,4,4,clark-cds-2015-2016.pdf
+2015,"Asian, non-Hispanic",53,167,173,clark-cds-2015-2016.pdf
+2015,"Native Hawaiian or other Pacific Islander, non- Hispanic",0,2,2,clark-cds-2015-2016.pdf
+2015,"Two or more races, non-Hispanic",11,45,45,clark-cds-2015-2016.pdf
+2015,Race and/or ethnicity unknown,56,185,196,clark-cds-2015-2016.pdf
+2015,TOTAL,671,2331,2397,clark-cds-2015-2016.pdf
+2022,International (nonresidents),25,121,127,clark-cds-2022-2023.pdf
+2022,Hispanic/Latino,100,274,287,clark-cds-2022-2023.pdf
+2022,"Black or African American, non-Hispanic",51,138,138,clark-cds-2022-2023.pdf
+2022,"White, non-Hispanic",369,1465,1472,clark-cds-2022-2023.pdf
+2022,"American Indian or Alaska Native, non- Hispanic",0,0,0,clark-cds-2022-2023.pdf
+2022,"Asian, non-Hispanic",49,161,165,clark-cds-2022-2023.pdf
+2022,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,clark-cds-2022-2023.pdf
+2022,"Two or more races, non-Hispanic",27,102,102,clark-cds-2022-2023.pdf
+2022,Race and/or ethnicity unknown,9,74,80,clark-cds-2022-2023.pdf
+2024,Nonresidents,38,127,141,clark-cds-2024-2025.pdf
+2024,Hispanic/Latino,71,288,307,clark-cds-2024-2025.pdf
+2024,"Black or African American, non-Hispanic",28,121,128,clark-cds-2024-2025.pdf
+2024,"White, non-Hispanic",284,1372,1378,clark-cds-2024-2025.pdf
+2024,"American Indian or Alaska Native, non-Hispanic",0,0,0,clark-cds-2024-2025.pdf
+2024,"Asian, non-Hispanic",27,153,161,clark-cds-2024-2025.pdf
+2024,"Native Hawaiian or other Pacific Islander, non-Hispanic",0,1,1,clark-cds-2024-2025.pdf
+2024,"Two or more races, non-Hispanic",23,100,100,clark-cds-2024-2025.pdf
+2024,Race and/or ethnicity unknown,15,51,55,clark-cds-2024-2025.pdf
+2024,TOTAL,486,2213,2271,clark-cds-2024-2025.pdf
