@@ -1,12 +1,15 @@
-# Elite College Admissions After *SFFA v. Harvard*
+# After *SFFA v. Harvard*: Predictions that Didn't Come True
 
-Replication package for David Kane, "Elite College Admissions After
-*SFFA v. Harvard*" (submitted to Econ Journal Watch). The paper tests
+Replication package for David Kane, "After *SFFA v. Harvard*:
+Predictions that Didn't Come True" (submitted to Econ Journal Watch).
+The paper tests
 the enrollment predictions made by elite colleges and their expert
 witnesses during *Students for Fair Admissions v. Harvard* against
 realized post-ruling enrollment through fall 2025, using Common Data Set
 (CDS) and IPEDS records assembled for sixty-six selective colleges and
-universities.
+universities. The paper analyzes sixty-three of them: the three federal
+service academies are included in the dataset but excluded from the
+analysis.
 
 Everything in the paper — every number, table, and figure — can be
 reproduced from this repository. There are two levels of replication:

@@ -1,31 +1,37 @@
 ---
-title: "Elite College Admissions After *SFFA v. Harvard*"
+title: "After *SFFA v. Harvard*: Predictions that Didn't Come True"
 author: "David Kane"
 date: last-modified
 published-title: Date
+# NOTE: the abstract lives in YAML, so its numbers CANNOT be computed
+# inline with R and are hard-coded by necessity. If clean.csv is updated,
+# re-verify every figure below against the rendered body (especially the
+# claims keyed to the 33 colleges, the research universities, and
+# Harvard's 2010-2015 level).
 abstract: |
-  During *Students for Fair Admissions v. Harvard*, elite colleges and
-  universities made a collection of predictions, some quite specific,
-  about what would happen if SFFA were to win. Harvard's expert economist, David
-  Card, estimated that eliminating racial preferences would cut the Black
-  share of Harvard's admitted class from 14 percent to 6 percent. Fifteen
-  research universities assured the Supreme Court that no race-neutral
-  alternative could preserve the diversity of their classes. Thirty-three
-  selective colleges and universities forecast Black enrollment declines
-  of 50 to 70 percent. Using Common Data Set and IPEDS records assembled for
-  sixty-three selective institutions through fall 2025, I test these
-  predictions against post-ruling enrollment. None came to pass. Once the
-  incompatible definitions of population and race underlying the
-  litigation figures are reconciled, Harvard's Black enrollment matches
-  its 2010-2015 level. Black enrollment at the research
-  universities is essentially unchanged. Average Black enrollment
-  among the thirty-three colleges exceeds its pre-litigation benchmark.
-  Extending the analysis to the forty-seven top-ranked national
-  universities and liberal arts colleges shows the same stability. Admissions policies
-  at elite colleges and universities have not meaningfully changed.
+  A landmark 29 June 2023 U.S. Supreme Court decision (*SFFA v.
+  Harvard*) held that race-based admissions at colleges and universities
+  were unconstitutional. During the case, elite schools made predictions
+  about what would happen if SFFA were to win (as it went on to do).
+  Thirty-three selective schools predicted Black enrollment declines of
+  50 to 70 percent. Harvard's expert witness, David Card, estimated that
+  eliminating racial preferences would cut the Black share of Harvard's
+  admitted class from 14 percent to 6 percent. Years have passed since
+  the 2023 Supreme Court decision. Here, I test the predictions using
+  Common Data Set and IPEDS records assembled for sixty-three selective
+  institutions through fall 2025. Once the incompatible definitions of
+  population and race underlying the litigation figures are reconciled,
+  I find that: (1) Average Black enrollment among the 33 colleges
+  exceeds its pre-litigation benchmark. (2) Black enrollment at the
+  research universities is essentially unchanged. (3) Harvard's Black
+  enrollment matches its 2010-2015 level. The results raise the issue:
+  Does abiding by the decision not have the predicted effect, or are the
+  schools not abiding by the decision?
 
   *Keywords*: affirmative action, college admissions, expert testimony,
   Students for Fair Admissions, Common Data Set.
+
+  *JEL codes*: I23, I28, J7.
 fig-cap-location: top
 tbl-cap-location: top
 number-sections: false
@@ -49,6 +55,48 @@ library(ggplot2)
 library(scales)
 cds <- read.csv("../data/processed/clean.csv", check.names = FALSE)
 
+# School groups, defined once here so that counts quoted in early prose
+# (e.g. the Data section's filing coverage) can be computed inline.
+FIFTEEN <- c("brown","caltech","cmu","columbia","cornell","dartmouth",
+             "duke","emory","jhu","princeton","penn","uchicago",
+             "vanderbilt","wustl","yale")
+AMICI <- c("amherst","barnard","bates","bowdoin","brynmawr","carleton",
+           "colby","conncoll","davidson","fandm","hamilton","hampshire",
+           "haverford","macalester","middlebury","mtholyoke","oberlin",
+           "pomona","reed","sarahlawrence","smith","stolaf","swarthmore",
+           "trinity","union","vassar","wellesley","williams",
+           "bucknell","clark","tufts","washandlee","wesleyan")
+US_NEWS_UNIVS <- c(
+  "princeton", "mit", "harvard", "stanford", "yale", "uchicago",
+  "duke", "jhu", "northwestern", "penn", "caltech", "cornell",
+  "brown", "dartmouth", "columbia", "berkeley", "rice", "ucla",
+  "vanderbilt", "cmu", "umich", "notredame", "wustl", "emory",
+  "georgetown")
+# Service academies (Navy, Air Force, Army) are ranked in the US News
+# top-25 LACs but excluded from the analysis.
+US_NEWS_LACS <- c(
+  "williams", "amherst", "swarthmore", "bowdoin",
+  "cmc", "pomona", "wellesley", "carleton", "hmc",
+  "barnard", "davidson", "grinnell", "hamilton", "middlebury",
+  "smith", "vassar", "wesleyan", "washandlee", "colgate", "richmond",
+  "bates", "colby")
+TOPRANKED <- c(US_NEWS_UNIVS, US_NEWS_LACS)
+SCHOOLS63 <- union(c("harvard", FIFTEEN, AMICI), TOPRANKED)
+stopifnot(length(SCHOOLS63) == 63)
+
+# Fall 2025 filing coverage. "Usable" means the filing reports a Black
+# first-year count (Bryn Mawr's 2025-26 CDS omits the racial table and
+# is therefore not usable; Macalester's reports race but no Total row
+# and counts as usable here).
+has_2025_black <- cds |>
+  filter(year == 2025,
+         category == "Black or African American, non-Hispanic") |>
+  mutate(n = suppressWarnings(as.numeric(first_time_first_year))) |>
+  filter(!is.na(n)) |>
+  pull(school)
+n2025_63 <- sum(SCHOOLS63 %in% has_2025_black)
+n2025_47 <- sum(TOPRANKED %in% has_2025_black)
+
 harvard <- cds |>
   filter(school == "harvard") |>
   mutate(n = suppressWarnings(as.numeric(first_time_first_year))) |>
@@ -64,130 +112,122 @@ wide <- harvard |>
          black_share = black / us_total)
 ```
 
-## Introduction
-
 The Supreme Court's decision in *Students for Fair Admissions v. Harvard*
 (600 U.S. 181, decided June 29, 2023) prohibited the consideration of race
 in college admissions. During the litigation, the affected institutions
-committed themselves to forecasts, some unusually precise, of what such a
-prohibition would do. Harvard expert David Card simulated race-blind
-admission for the Class of 2019 and reported that the African American
+committed themselves to forecasts as to what such a
+prohibition would do. A coalition of 33 selective colleges filed an amicus
+brief insisting that Black enrollment would fall by 50 to 70 percent
+(Amherst Brief 2022, 13-14). Harvard expert David Card simulated race-blind
+admission for the Class of 2019 and reported that the Black
 share of admitted students would fall from 14 percent to 6 percent (Card
-2017, 103). Fifteen research universities assured the Court that no
-race-neutral alternative could fully replace the consideration of race in
-assembling their classes (Universities Brief 2022, 31). A coalition of
-thirty-three selective colleges filed an amicus
-brief forecasting declines in Black enrollment of 50 to 70 percent
-(Amherst Brief 2022, 13-14). Enrollment records for the first two
+2017, 103).
+
+Enrollment records for the first two
 admissions cycles conducted under the new legal regime, the entering
 classes of fall 2024 and fall 2025, are now available. These forecasts can
 therefore be evaluated against realized outcomes, a test that, to my
 knowledge, no published study has yet performed.
 
-The evaluation is less straightforward than it appears. The only enrollment statistics the
-public observes come from the Common Data Set (CDS), a standardized annual
+The evaluation is less straightforward than it appears. The only publicly available enrollment statistics
+come from the Common Data Set (CDS), a standardized annual
 disclosure filed by nearly every selective college, and from the federal
 IPEDS Fall Enrollment survey. Card's figures were computed on a different
 population (admitted rather than enrolled students, domestic applicants
 only) under a different racial classification scheme (Harvard's internal
 coding, which assigns multiracial applicants to single categories). The
 same student body therefore carries two Black shares that differ by
-roughly a factor of two depending on which convention is applied. Commentary
-since the ruling has routinely compared Card's simulated 6 percent with
-CDS-based figures near 6 percent and inferred that Harvard now admits
-without regard to race. The Harvard analysis below shows that this
-inference is an artifact of mismatched units. Once the expert-report metric and the federal metric
+roughly a factor of two depending on which convention is applied. Once the expert-report metric and the federal metric
 are placed on a common basis, Harvard's post-ruling classes are
 indistinguishable from the classes it enrolled while
-practicing the admissions system the Court struck down.
+practicing the admissions system it had prior to the decision.
 
-The paper's primary conclusion is that elite institutions, beginning with
-Harvard, enroll classes whose racial composition is essentially
+The paper's primary conclusion is that elite institutions enroll
+classes whose racial composition is essentially
 unchanged by *SFFA*, a stability their own litigation forecasts said
-race-neutral admissions could not produce. Four bodies of evidence
-support this conclusion. Black
-enrollment at Harvard, correctly converted, sits at its 2010-2015 level. Mean Black
-enrollment at the fifteen research universities that told the Court
-race-neutral admissions would undercut their diversity is within 3
-percent of its pre-litigation level, and six of the fifteen enroll
-more Black students, relative to class size, than before. Mean Black
-enrollment across the thirty-three amici colleges is above,
-not below, its pre-litigation benchmark, and only two signatories'
-post-ruling means sit below half of their own baselines. And the ratio of Asian to Black first-year students across
-the forty-seven top-ranked institutions has moved a small fraction of the
+race-neutral admissions could not produce. I support this conclusion
+with several bodies of evidence.
+
+<!-- The numbers in the four evidence paragraphs below are hard-coded
+     because knitr computes the underlying objects (rtab, tbl, pool50)
+     in chunks that run later in the document. Keep them in sync with
+     the Research Universities, Amici, and Top-Ranked Cohort sections,
+     and revisit if clean.csv is updated. -->
+Mean Black enrollment across the 33 amici colleges is above,
+not below, its pre-litigation benchmark.
+
+Mean Black enrollment at the 15 research universities that told the
+Court race-neutral admissions would undercut their diversity moved from
+7.4 to 7.2 percent of US first-years, and six of the fifteen enroll
+more Black students, relative to class size, than before.
+
+The ratio of Asian to Black first-year students across
+the 47 top-ranked institutions has moved a small fraction of the
 distance toward the levels observed at universities bound by California's
-Proposition 209, the nearest available race-blind benchmark.
+Proposition 209, the closest available approximation to a race-blind benchmark.
 
-A secondary conclusion concerns the role of economic expertise. Card's
-report was produced for litigation, was never published in a
-peer-reviewed outlet, and stated its predictions in units that correspond
-to no publicly reported statistic. The plaintiff-side analyses of the same
-data did enter the journals (Arcidiacono, Kinsler, and Ransom 2022a,
-2022b), but the defense simulation that became the public reference point
-did not, and no mapping between its conventions and the CDS categories has
-previously been published. Sixteen prominent economists, three of them
-Nobel laureates, nonetheless attested to the Court that the analysis was
-methodologically sound (Economics Professors Brief 2022), so its
-predictions carry the profession's endorsement rather than one expert's
-private judgment. The consequence is that the most widely cited
-prediction in the case is one that the public record cannot check without
-the conversion developed here, and that institutions with an interest in
-appearing compliant benefit from the resulting ambiguity. Harvard's own
-use of this ambiguity in its post-ruling disclosures is documented
-below. When expert economic analysis enters high-stakes litigation
-in units that resist verification, the discipline's standard remedy,
-replication against public data, is unavailable by construction.
+Black enrollment at Harvard, correctly converted, sits at its 2010-2015
+level.
 
-The remainder of the paper proceeds as follows. The next section
-reviews the literature on the magnitude of racial preferences in
-admissions. The section after it describes the litigation forecasts and
-their provenance. A results section describes the data, develops the
-conversion between the expert-report and federal metrics, and presents
-results for Harvard,
-including its post-ruling disclosure practice, for the research
-universities, and for the amici colleges. The paper then extends the
-analysis to the broader cohort of forty-seven top-ranked institutions,
-examines the two institutions, Amherst and Johns Hopkins, whose
-trajectories departed from the cohort pattern, and relates the results
-to the national test-taking population. A final section concludes.
+These results raise the issue: Does abiding by the decision not have
+the predicted effect, or are the schools not abiding by the decision?
+
+The paper also raises concerns about the role of economic expertise. Card's
+report was produced for litigation and stated its predictions in units
+that correspond to no publicly reported statistic. The analyses on the
+plaintiff's side did enter scholarly journals (Arcidiacono, Kinsler, and
+Ransom 2022a, 2022b), but the defense simulation by Card that became the
+public reference point did not, and no mapping between its conventions
+and the CDS categories has previously been published. Sixteen prominent
+economists—George A. Akerlof, Sandy Baum, Rebecca M. Blank, Hilary
+Hoynes, Guido W. Imbens, Kirabo Jackson, Rucker Johnson, Helen F. Ladd,
+David S. Lee, Trevon D. Logan, Michael McPherson, Jesse Rothstein,
+Robert M. Solow, Sarah Turner, Ebonya Washington, and Douglas
+Webber—three of them Nobel laureates, nonetheless attested to the Court
+that the analysis was methodologically sound (Economics Professors Brief
+2022). The most widely cited prediction in the case is one that the
+public record cannot check. Institutions with an interest in appearing
+compliant benefit from the resulting ambiguity. Harvard's own use of
+this ambiguity in its post-ruling disclosures is documented below. The
+conversion that I develop here may help in mitigating the ambiguity.
 
 ## Related Literature
 
 A substantial empirical literature, extending back three decades,
 estimates the magnitude of racial preferences at selective institutions,
-and its results are consistent enough to summarize briefly. Bowen and
-Bok, in work first published in 1998, calculated from the 1989 entering
+and its results are consistent enough to summarize briefly. William G.
+Bowen and Derek Bok, in work first published in 1998, calculated from the 1989 entering
 cohort of the College and Beyond schools that race-neutral admission
 would have reduced the Black share of matriculants from 7.1 percent to
 between 2.1 and 3.6 percent (Bowen and Bok 2018, 39). Espenshade and Chung (2005), simulating admissions at
 three elite private universities from 1997 application records, found
 that eliminating racial preferences would cut the acceptance rate of
-African American candidates from 33.7 to 12.2 percent, reduce the
-African American share of the admitted class from 9.0 to 3.3 percent,
+Black candidates from 33.7 to 12.2 percent, reduce the
+Black share of the admitted class from 9.0 to 3.3 percent,
 and leave Asian applicants filling nearly four of every five vacated
 seats. Arcidiacono and Lovenheim (2016) survey the broader literature
-and report effect sizes of the same order wherever selective admissions
+and report similar effect sizes wherever selective admissions
 are modeled. These simulations are the direct intellectual ancestors of
 the forecasts the amici colleges placed before the Supreme Court.
 
 The SFFA litigation itself generated the most detailed estimates in the
 literature, because discovery gave the experts on both sides access to
 complete applicant-level records. From the Harvard and UNC data,
-Arcidiacono, Kinsler, and Ransom published three peer-reviewed studies.
-They found that the typical African American admit to Harvard would have
+Peter Arcidiacono, Josh Kinsler, and Tyler Ransom published three
+peer-reviewed studies.
+They found that the typical Black admit to Harvard would have
 faced an admission rate roughly four times lower had the identical
-application been evaluated as white, with preferences largest for
+application been evaluated as White, with preferences largest for
 applicants from advantaged backgrounds (Arcidiacono, Kinsler, and Ransom
 2023), that Asian American applicants faced a penalty relative to
-observably similar white applicants (Arcidiacono, Kinsler, and Ransom
+observably similar White applicants (Arcidiacono, Kinsler, and Ransom
 2022a), and that preferences for legacies and athletes flowed
-overwhelmingly to white applicants (Arcidiacono, Kinsler, and Ransom
+overwhelmingly to White applicants (Arcidiacono, Kinsler, and Ransom
 2022b). Card's simulated decline from 14 to 6 percent, described in the
 next section, is the defense counterpart of these estimates. The two
 sides disputed modeling choices at length, but no expert in the case
 produced a model in which removing racial preferences left the racial
-composition of the class approximately unchanged. Effect sizes of this
-magnitude were common ground.
+composition of the class approximately unchanged. 
 
 A complementary quasi-experimental literature studies what happens when
 selective institutions actually stop considering race. California's
@@ -200,10 +240,9 @@ institutions and lowering their subsequent wages. Hinrichs (2012) finds
 in national data that statewide bans leave aggregate minority enrollment
 roughly unchanged while reducing it sharply at the most selective
 institutions, the segment occupied by every school studied here. These
-episodes supply the empirical benchmark this paper uses. Where
+episodes supply an empirical benchmark. Where
 race-conscious admission genuinely ends at a highly selective
-institution, the compositional change is large and immediate, and it
-appears in exactly the enrollment statistics examined below.
+institution, the compositional change is large and immediate.
 
 The stakes of the compositional question are documented by Chetty,
 Deming, and Friedman (2026), who estimate the causal effect of
@@ -213,13 +252,15 @@ the consequence of admission rather than its determinants, but their
 findings explain why the demographics of a few dozen institutions
 enrolling a fraction of one percent of American undergraduates command
 the attention they do. The first post-ruling cycle has begun to attract
-systematic study: Bloem et al. (2026) link national testing cohorts to
+systematic study. Bloem et al. (2026) link national testing cohorts to
 fall 2024 enrollment records and document underrepresented minority
 enrollees cascading down the selectivity distribution in the ruling's
-first year, with their subject being aggregate enrollment patterns
-rather than the litigation record. What no part of this literature yet
-contains is a comparison of the litigation-era predictions with realized
-post-ruling enrollment, stated in the units the predictions were issued.
+first year. Their estimates are measured against
+the fall 2021-2023 entering classes, the elevated post-2020 cohorts
+examined below. Measured against the 2010-2015 litigation-era baseline,
+the same institutions show the stability documented in this paper. What no part of this literature yet
+contains is a comparison of the *SFFA* predictions with realized
+post-ruling enrollment, stated in the units in which the predictions were issued and measured against the baseline the predictions themselves referenced.
 The prediction side of the record closed in 2023. The outcome side, now
 two entering classes deep, sits in public filings, and the remainder of
 this paper performs the comparison.
@@ -231,36 +272,33 @@ Harvard's internal records for applicants to the Classes of 2014 through
 2019 and then simulated the Class of 2019 admissions cycle with the race
 coefficients set to zero:
 
-> "In my simulation, the share of African-American students in the admitted
+> In my simulation, the share of African-American students in the admitted
 > class would drop from 14% to 6%. The fraction of Hispanic or Other students
 > would fall from 14% to 9%. The fraction of admitted students who are
 > Asian-American would rise from 24% to 27%. And the fraction of admitted
-> students who are White would rise from 40% to 48%."
+> students who are White would rise from 40% to 48%.
 > (Card 2017, 103)
 
-The baseline of 14 percent corresponds to 234 African American admits
-among the 1,679 domestic admits in the simulation sample (Card 2017,
-125).^[Card's simulation sample comprises the admits to the Class of
-2019 who appear in his preferred year-by-year regression model,
-estimated on a corrected and expanded version of the applicant data
-assembled by the plaintiff's expert. Its admitted class consists of 676
-White, 402 Asian American, 233 Hispanic or Other, 234 African American,
-and 134 race-missing admits (Card 2017, 125, Exhibit 45). Harvard
-admitted roughly 2,000 students in the cycle, so several hundred admits,
-internationals and applicants outside the regression sample, are
-excluded. The calibration does not require Card's sample to match the
-enrolled class member for member. The conversion factor absorbs all
-scope differences between the two populations and requires only that
-their relationship be stable across the calibration cohorts, which the
-flat time series in Card's exhibits (Card 2017, 90-93) supports.]
-Domestic status, defined as citizenship or permanent residency,
-restricts the sample throughout the report (Card 2017, nn. 6, 8), and race
-follows Harvard's internal classification, under which an applicant
-marking more than one race is assigned to a single category. The report's
-time-series exhibits (Card 2017, 90-93) indicate that the domestic-admit
-Black share remained close to 14 percent over the full estimation window,
-so the Class of 2019 baseline is representative of the period rather than
-an outlier.
+The simulation's baseline of 14 percent has a specific and unfamiliar
+meaning. Card's sample contains the 1,679 admitted students to the Class
+of 2019 who appear in his preferred regression model, and 234 of them,
+or 14 percent, are recorded as African American (Card 2017, 125). Three
+restrictions separate this population from anything in a public filing.
+It counts admitted students rather than enrolled ones. It is limited to
+domestic applicants, defined as citizens and permanent residents, a
+restriction that runs throughout the report (Card 2017, nn. 6, 8). And
+it classifies race using Harvard's internal scheme, which assigns an
+applicant marking more than one race to a single category, so Card's
+Black count is broader than the single-race Black line in a federal
+filing. Harvard admitted roughly 2,000 students in the cycle, and the
+several hundred missing from the sample are internationals and
+applicants outside the regression model. None of this makes the sample
+unusable as a baseline. The conversion developed below does not require
+Card's sample to match the enrolled class member for member, only that
+the relationship between his population and the enrolled class be
+stable, an assumption that cannot be verified from public data and
+whose plausible failures, examined below, mostly run against the paper's
+conclusion.
 
 Two amicus briefs, both filed August 1, 2022, carried versions of these
 forecasts to the Supreme Court, and their quantitative commitments differ
@@ -273,15 +311,15 @@ one explicit number is Harvard-specific: the trial record showed that the
 race-neutral alternatives proposed by the petitioner "would lead to a near
 33% reduction in the number of African American students admitted" at
 Harvard (Universities Brief 2022, 25, quoting the district court's
-findings).^[The underlying finding summarizes the simulations of the
-petitioner's expert: African American representation in Harvard's
-incoming class "would fall nearly one-third to approximately 10% of the
-class" (*SFFA v. Harvard*, 397 F. Supp. 3d at 178-84, reviewing
-race-neutral alternatives).] The 33 percent figure is smaller than Card's 57 percent
+findings). The finding the brief quotes summarizes the race-neutral
+simulations offered by the petitioner's expert, under which African
+American representation in Harvard's incoming class "would fall nearly
+one-third to approximately 10% of the class" (*SFFA v. Harvard*, 397
+F. Supp. 3d at 178-84). The 33 percent figure is smaller than Card's 57 percent
 relative decline because it describes a different counterfactual, the
 petitioner's proposed alternatives with their compensating policy changes,
 rather than the removal of race with nothing else altered. Both figures
-descend from the same expert analysis. Regarding their own campuses, the
+rest on the same underlying applicant data. Regarding their own campuses, the
 fifteen universities made no numerical forecast. Their claims were
 qualitative but unambiguous in direction: exclusively race-neutral
 admissions "would undercut Amici's efforts to attain 'the benefits of
@@ -293,16 +331,16 @@ requested rule would visibly reduce racial diversity at their own
 institutions.
 
 The second brief, organized by Amherst and joined by thirty-two other
-colleges, made the broadest quantitative claims in the record:
+colleges and universities, made the broadest quantitative claims in the record:
 
-> "Black enrollment would likely decline between 50% and 70%; the
+> Black enrollment would likely decline between 50% and 70%; the
 > probability of Black applicants receiving offers of admission would drop
 > to half that of white students; and the percentage of Black students
 > matriculating would drop from roughly 7.1% of the student body to 2.1%.
 > Strictly enforced, a 'do not consider race' policy would 'presumably take
 > [B]lack enrollments . . . back to early 1960s levels, before colleges and
 > universities began to make serious efforts to recruit minority
-> students.'"
+> students.'
 > (Amherst Brief 2022, 13-14)
 
 The brief's footnote for the entire quoted passage is Bowen and Bok (2018,
@@ -330,18 +368,16 @@ sides. A group of economists filed in support of the petitioner attacking
 the lower courts' reliance on Card's model (Economists Brief 2022).
 Sixteen economists and statisticians answered in support of Harvard,
 among them three Nobel laureates, George Akerlof, Robert Solow, and Guido
-Imbens, the last a co-recipient of the 2021 prize awarded to Card
-himself. Their brief attested that Card "is one of the most outstanding
+Imbens, the last a co-recipient of the 2021 prize that Card
+shared. Their brief attested that Card "is one of the most outstanding
 and respected scholars in the field of econometrics and applied
 economics," that "his statistical analyses in this case were
 methodologically sound," and that "the criticisms of the lower courts'
 consideration of Dr. Card's analyses in the Brief of Economists as Amici
 Curiae in Support of Petitioner . . . are not credible" (Economics
 Professors Brief 2022, 1-2).
-That exchange, whatever its merits, establishes that the simulation
-tested in this paper is not marginal work. Prominent members of the
-profession endorsed it to the Court, so the predictions tested below
-carry professional endorsement and not only one expert's judgment.
+Prominent economists endorsed Card's analysis to the Court, so the predictions tested below
+command professional endorsement and are not simply one paid expert's judgment.
 
 ## Post-SFFA Results
 
@@ -367,8 +403,8 @@ federal definitions. For any institution-year covered by both sources, the
 IPEDS record is used, since its uniform structure eliminates the parsing
 errors that school-specific PDF layouts occasionally introduce. CDS
 filings supply the years outside IPEDS coverage, most importantly fall
-2025, for which fifty-one of the sixty-three institutions had published a
-usable filing at the time of writing (thirty-nine of them among the
+2025, for which `r xfun::n2w(n2025_63)` of the sixty-three institutions had published a
+usable filing at the time of writing (`r xfun::n2w(n2025_47)` of them among the
 forty-seven top-ranked institutions, the count relevant to the cohort figures
 below). All statistics below refer to first-time first-year students.
 
@@ -387,60 +423,78 @@ below.
 
 #### Commensurability
 
-Three definitional wedges separate Card's metric from anything a CDS
-filing reports. The populations differ, since roughly 2,000 students are
-admitted to produce an entering class of roughly 1,600. The scope differs,
-since Card excludes international students while the CDS reports them on a
-separate line within the same table. The race coding differs, since
-Harvard's internal scheme assigns multiracial applicants to single
-categories, recording Black-identifying applicants as Black, while the
-federal scheme reports non-Hispanic multiracial students in a separate
-category and Hispanic students of any race as Hispanic.
+The three restrictions described in the forecasts section mean that Card's 14 percent
+corresponds to no number in a public filing. The federal side of the
+comparison has its own conventions. A CDS filing counts enrolled
+students, roughly 1,600 in Harvard's case, against the roughly 2,000
+admitted. It reports international students on a separate line of the
+same table rather than excluding them. And it applies the federal race
+rules, under which Hispanic students of any race are reported as
+Hispanic and non-Hispanic multiracial students occupy a dedicated
+category, so the single-race Black line is systematically narrower than
+Card's Black count.
 Matriculation rates do vary somewhat by race, with Black admits enrolling
-at moderately lower rates than white or Asian admits according to the
+at moderately lower rates than White or Asian admits according to the
 trial record (*SFFA v. Harvard*, 397 F. Supp. 3d at 155-56), but the
 magnitude is small relative to the classification wedge, and I treat the
 combined gap as a single conversion to be estimated rather than
 decomposed.
 
 The estimation exploits the fact that both metrics can be observed for the
-identical cohort. Card's baseline describes students admitted in the
+identical cohort, the one cohort for which this is possible. Card's
+baseline describes students admitted in the
 spring of 2015. Those who enrolled constitute the fall 2015 entering
 class, which appears in Harvard's CDS 2015-16 filing as 109 single-race
 Black first-years among 1,441 US first-years, or 7.56 percent. The ratio
 of the federal figure to the expert-report figure, computed on the
-underlying counts (109/1,441 divided by 234/1,679), is 0.543. Throughout
+underlying counts (109/1,441 divided by 234/1,679), is 0.543, and I use
+0.54 below. Throughout
 the paper, shares are displayed to one decimal and proportional changes
 to the nearest percent, and all calculations use unrounded values.
 
 ```{r}
 #| include: false
+# The conversion factor is calibrated on the single cohort observable in
+# both metrics: the Class of 2019, admitted spring 2015, entering fall
+# 2015. Card's side is 234/1,679 (Card 2017, 125); the CDS side is
+# Harvard's fall 2015 filing, taken from clean.csv. base_share (the fall
+# 2010-2015 CDS mean) anchors the CDS-side pre/post comparison only.
 baseline <- wide |> filter(year %in% 2010:2015)
 base_share <- mean(baseline$black_share)
-card_baseline <- 0.14
-factor <- base_share / card_baseline    # CDS units per Card unit
+card_cal <- 234 / 1679
+cds_cal <- wide$black_share[wide$year == 2015]
+factor <- cds_cal / card_cal    # CDS units per Card unit
 ```
 
-A second calibration uses the full estimation window rather than a single
-cohort. Averaging Harvard's CDS shares over the six entering classes of
-fall 2010 through fall 2015 gives
-`r sprintf("%.2f", 100*base_share)` percent, and dividing by the 14
-percent that Card's exhibits show for the same window yields
-`r sprintf("%.3f", factor)`. The two calibrations agree to two decimal
-places, and I use 0.54 below. A prediction stated in Card's units is
+A prediction stated in Card's units is
 converted to the federal metric by multiplication by this factor, so the
 simulated race-blind share of 6 percent corresponds to
-`r sprintf("%.1f", 100 * 0.06 * factor)` percent on a CDS filing (3.23 on
-the six-cohort calibration, 3.26 on the single-cohort one). This
+`r sprintf("%.1f", 100 * 0.06 * factor)` percent on a CDS filing. This
 converted benchmark, rather than the unconverted 6 percent, is the
 quantity against which post-ruling filings should be compared.
 
+<!-- Evidence for "the yield differences documented at trial amounted to
+     a few percentage points" (below): the district court's findings,
+     397 F. Supp. 3d at 155-56 (ECF Doc. 672 at 29), state the DIRECTION
+     only: admitted Asian American students matriculate at a higher rate
+     than White students, and Hispanic, African American, Native
+     American, and multiracial admits at lower rates, citing trial
+     exhibit PX324 and Fitzsimmons testimony (Oct. 18 Tr. 80:21-81:5).
+     PX324 holds the actual rates and is not in our documents/
+     collection. "A few percentage points" is our bounding
+     characterization of the channel's effect on shares: Harvard's
+     overall yield is roughly 80 percent (about 2,000 admits for a class
+     of about 1,600, 397 F. Supp. 3d at 134), and even a 10-point lower
+     Black yield would move the Black share of enrollees only ~1.5
+     percentage points below the admit share (0.139*0.70 /
+     (0.139*0.70 + 0.861*0.80) = 12.4% vs 13.9%), second order against
+     the ~2x classification wedge. -->
 The conversion factor bundles the multiracial and Hispanic
 reassignments, the admit-to-enrollee step, and the domestic-scope
-adjustment, all measured on 2010-2015 cohorts, and may have drifted
+adjustment, all measured on the fall 2015 cohort, and may have drifted
 since. National rates of multiracial identification have risen
 since then, which would push the current factor below 0.54 and the
-converted benchmark below 3.2 percent. Nondisclosure of race has also
+converted benchmark below 3.3 percent. Nondisclosure of race has also
 risen, which depresses measured single-race shares in recent filings.
 Both developments bias the comparison toward finding compliance.
 Matriculation rates are a third potential source of drift, since
@@ -458,24 +512,26 @@ Harvard's CDS filing for 2025-26 reports 97 Black first-year students in
 an entering class of 1,673, which is 5.8 percent of the whole class and
 6.8 percent of US first-years. Read against the unconverted simulation, a
 figure of 5.8 percent suggests that Card's race-blind counterfactual has
-essentially been realized. Read against the converted benchmark of 3.2
+essentially been realized. Read against the converted benchmark of 3.3
 percent, it indicates the opposite. @tbl-harvard assembles the comparison in
 both metrics, averaging the two post-ruling classes to reduce
-year-to-year noise, to parallel the six-cohort averaging of the
+year-to-year noise, to parallel the 2010-2015 averaging of the
 baseline.
 
 ```{r}
 #| echo: false
 #| label: tbl-harvard
-#| tbl-cap: "Black share of Harvard's entering class under the federal (CDS) metric and the expert-report (Card) metric. The CDS metric is the single-race Black share of enrolled US first-years. The conversion factor between metrics is 0.54, calibrated on the Classes of 2014-19 as described in the text."
+#| tbl-cap: "Black share of Harvard's entering class under the federal (CDS) metric and the expert-report (Card) metric. The CDS metric is the single-race Black share of enrolled US first-years. The conversion factor between metrics is 0.54, calibrated on the Class of 2019, the one cohort observable in both metrics. Card-unit entries other than the calibration cohort are obtained by conversion; the fall 2010-2015 average is a CDS-side quantity only."
 post <- wide |> filter(year %in% 2024:2025)
 post_share <- mean(post$black_share)
 tibble::tibble(
-  ` ` = c("Estimation window (Classes of 2014-19, avg)",
+  ` ` = c("Calibration cohort (Class of 2019, entered fall 2015)",
+          "Fall 2010-2015 average",
           "Race-blind simulation (Card 2017)",
           "Post-ruling classes (Classes of 2028-29, avg)"),
-  `CDS units`  = sprintf("%.1f%%", 100 * c(base_share, 0.06 * factor, post_share)),
-  `Card units` = sprintf("%.1f%%", 100 * c(card_baseline, 0.06, post_share / factor))
+  `CDS units`  = sprintf("%.1f%%", 100 * c(cds_cal, base_share, 0.06 * factor, post_share)),
+  `Card units` = c(sprintf("%.1f%%", 100 * card_cal), "—",
+                   sprintf("%.1f%%", 100 * c(0.06, post_share / factor)))
 ) |> kable(align = "lrr")
 ```
 
@@ -483,11 +539,11 @@ The entering classes of fall 2024 and fall 2025 carried US Black shares of
 8.14 and 6.82 percent respectively, averaging
 `r sprintf("%.2f", 100*post_share)` percent. The 2010-2015 mean is
 `r sprintf("%.2f", 100*base_share)` percent. The post-ruling average sits
-within a twentieth of a percentage point of the pre-ruling average, and
-both display as 7.5 percent at the paper's reporting precision. Expressed in
-Card's own units, Harvard enrolled classes near 14 percent Black
-throughout the litigation window and enrolls classes near
-`r sprintf("%.1f", 100*post_share/factor)` percent Black now. If the
+within about a twentieth of a percentage point of the pre-ruling average, and
+both display as 7.5 percent at the paper's reporting precision. Converted
+into Card's own units, the post-ruling classes correspond to
+`r sprintf("%.1f", 100*post_share/factor)` percent Black, against the
+calibration cohort's 13.9. If the
 race-blind counterfactual in the expert report is taken at face value, the
 gap between what a compliant Harvard would report and what Harvard does
 report exceeds a factor of two.
@@ -501,16 +557,14 @@ while leaving the denominator intact, and the bias can only run
 downward. The direction of this bias runs toward compliance, not
 away from it, so it cannot generate a spurious finding of no change. Its
 scale is also limited. Harvard's unknown-race share averaged 5.3 percent
-over the 2010-2015 calibration cohorts, reached a low of 2.4 percent in
+over the 2010-2015 baseline cohorts, reached a low of 2.4 percent in
 2023, and averages near 8 percent in the post-ruling classes. Relative to
 the calibration period, the increase is under three percentage points,
 and Card's own sample carried an 8 percent race-missing rate. The second
 objection concerns drift in the conversion factor, addressed above:
 plausible drift lowers the converted benchmark and widens, rather than
-narrows, the measured gap. The conservative statement of the Harvard
-result is that the filings contain no evidence of movement toward the
-race-blind benchmark of a magnitude the expert report would allow one to
-detect.
+narrows, the measured gap. In summary, the filings contain no evidence
+of movement toward race-blind admissions.
 
 #### Post-Ruling Disclosure Practice
 
@@ -526,14 +580,13 @@ year. The corresponding IPEDS figure for the identical class is 8.1
 percent. For the fall 2025 class, the university moved its demographic
 announcement to late October, when federal reporting obligations come due,
 and reported 11.5 percent on the same disclosers-only basis (Harvard Crimson
-2025), against 6.8 percent of US first-years in its CDS filing.^[The
-announcement counted 1,675 enrolling students against the CDS filing's
-1,673 first-time first-years, a difference presumably attributable to the
-timing of the fall census.] An
+2025), against 6.8 percent of US first-years in its CDS filing. The two
+sources describe the same students, 1,675 enrolling students in the
+announcement against 1,673 first-time first-years in the filing, a
+difference presumably attributable to the timing of the fall census. An
 institution whose public number reproduces its litigation-era level while
 its federal number halves that level enjoys considerable interpretive
-latitude, and the coexistence of the two metrics has to date attracted
-essentially no comment. Where the categories of expert analysis, public
+latitude. Where the categories of expert analysis, public
 communication, and
 statutory reporting fail to correspond, enrollment outcomes cannot be
 monitored by inspection, and claims of compliance or of catastrophe can
@@ -552,10 +605,8 @@ Harvard, over the same pre-period, for each signatory.
 ```{r}
 #| echo: false
 #| label: tbl-fifteen
-#| tbl-cap: "Black share of first-year US students at the fifteen research universities that filed the Universities Brief, ordered by proportional change. The pre-period comprises the entering classes of fall 2010-2015. The post-period averages fall 2024 and fall 2025 where both filings exist. Changes are computed on unrounded shares."
-FIFTEEN <- c("brown","caltech","cmu","columbia","cornell","dartmouth",
-             "duke","emory","jhu","princeton","penn","uchicago",
-             "vanderbilt","wustl","yale")
+#| tbl-cap: "Black share of first-year US students at the fifteen research universities that filed the Universities Brief, ordered by proportional change. The pre-period comprises the entering classes of fall 2010-2015. The post-period averages fall 2024 and fall 2025 where both filings exist. Changes are computed on unrounded shares and may differ slightly from values recomputed from the rounded shares shown."
+# FIFTEEN is defined in the setup chunk.
 UNAMES <- c(brown = "Brown", caltech = "Caltech",
   cmu = "Carnegie Mellon", columbia = "Columbia", cornell = "Cornell",
   dartmouth = "Dartmouth", duke = "Duke", emory = "Emory",
@@ -610,21 +661,26 @@ bind_rows(rtab, r_avg) |>
   kable(align = "lrrr")
 ```
 
+<!-- "decline" below assumes r_avg$change is negative; the school names
+     (Carnegie Mellon, Caltech, Yale, WashU, Penn) and the claims "no
+     signatory sits at half its baseline" / "a single one" are hand-checked
+     against tbl-fifteen. Revisit if clean.csv is updated. -->
 The group mean moved from
 `r sprintf("%.1f", 100*mean(rtab$litigation, na.rm=TRUE))` percent to
 `r sprintf("%.1f", 100*mean(rtab$post, na.rm=TRUE))` percent, a relative
-decline of about 3 percent. Six of the fifteen enroll a higher Black
+decline of about `r sprintf("%.0f", abs(100*r_avg$change))` percent.
+`r xfun::n2w(sum(rtab$change > 0, na.rm = TRUE), cap = TRUE)` of the fifteen enroll a higher Black
 share than in the pre-period. No signatory sits at half its baseline, and
 a single one, Carnegie Mellon, shows a decline exceeding even the 33
 percent figure the brief quoted for a milder counterfactual at Harvard.
-Caltech's large proportional increase reflects a very low base, from 1.6
-to 6.5 percent, and Yale, Washington University, and Penn all enroll
-between 24 and 31 percent more Black first-years, relative to class size,
+Caltech's large proportional increase reflects a very low base, from
+`r sprintf("%.1f", 100*rtab$litigation[rtab$school == "caltech"])`
+to `r sprintf("%.1f", 100*rtab$post[rtab$school == "caltech"])` percent,
+and Yale, Washington University, and Penn all enroll
+between `r {three <- rtab$change[rtab$school %in% c("yale", "wustl", "penn")]; sprintf("%.0f and %.0f", 100*min(three), 100*max(three))}` percent more Black first-years, relative to class size,
 than they did in the pre-period. If the signatories complied with the
 ruling, their own filings refute their claim that compliance would
-visibly reduce their racial diversity. The remaining evidence supports
-the alternative reading, that admissions practice did not become
-race-neutral.
+visibly reduce their racial diversity. 
 
 ### The Amici Colleges
 
@@ -639,13 +695,7 @@ therefore understates underlying stability.
 
 ```{r}
 #| include: false
-AMICI <- c("amherst","barnard","bates","bowdoin","brynmawr","carleton",
-           "colby","conncoll","davidson","fandm","hamilton","hampshire",
-           "haverford","macalester","middlebury","mtholyoke","oberlin",
-           "pomona","reed","sarahlawrence","smith","stolaf","swarthmore",
-           "trinity","union","vassar","wellesley","williams",
-           "bucknell","clark","tufts","washandlee","wesleyan")
-
+# AMICI is defined in the setup chunk.
 ab <- cds |>
   filter(school %in% AMICI,
          category %in% c("Black or African American, non-Hispanic",
@@ -669,19 +719,26 @@ tbl <- period_avg(2010:2015, "litigation") |>
   left_join(period_avg(2024:2025, "post"),   by = "school") |>
   mutate(change = post / litigation - 1) |>
   arrange(change)
+
+# Helpers for inline prose below.
+half_n <- sum(tbl$post <= 0.5 * tbl$litigation, na.rm = TRUE)
+base_ratio <- function(s) tbl$post[tbl$school == s] / tbl$litigation[tbl$school == s]
+hv2025 <- ab |> filter(school == "haverford", year == 2025)
 ```
 
 @tbl-amici reports whole-class Black shares for every signatory, ordered by
 proportional change, together with the group mean. The pre-period matches
 the Harvard estimation window, the entering classes of fall 2010 through
 fall 2015. Post-ruling entries reflect fall 2024 alone where no usable
-2025-26 filing exists. Bryn Mawr published a 2025-26 CDS that omits the
-racial composition table.
+2025-26 filing exists. 
+
+<!-- Bryn Mawr published a 2025-26 CDS that omits the racial composition table.-->
+
 
 ```{r}
 #| echo: false
 #| label: tbl-amici
-#| tbl-cap: "Whole-class Black share for all thirty-three signatories of the Amherst brief, ordered by proportional change. The pre-period comprises the entering classes of fall 2010-2015. The post-period averages fall 2024 and fall 2025, or reflects fall 2024 alone where no usable 2025-26 filing exists. Changes are computed on unrounded shares."
+#| tbl-cap: "Whole-class Black share for all thirty-three signatories of the Amherst brief, ordered by proportional change. The pre-period comprises the entering classes of fall 2010-2015. The post-period averages fall 2024 and fall 2025, or reflects fall 2024 alone where no usable 2025-26 filing exists. Changes are computed on unrounded shares and may differ slightly from values recomputed from the rounded shares shown."
 NAMES <- c(amherst = "Amherst", barnard = "Barnard", bates = "Bates",
   bowdoin = "Bowdoin", brynmawr = "Bryn Mawr", carleton = "Carleton",
   colby = "Colby", conncoll = "Connecticut College", davidson = "Davidson",
@@ -739,30 +796,42 @@ two-year averages. Of the thirty-three,
 `r xfun::n2w(sum(!is.na(tbl$y2024) & !is.na(tbl$y2025)))` have filings for both
 post-ruling years, and the mean over that balanced panel is
 `r sprintf("%.1f%%", 100*mean(tbl$post[!is.na(tbl$y2024) & !is.na(tbl$y2025)]))`,
-materially identical to the full-group figure.
+similar to the full-group figure.
 
+<!-- The school names (Amherst, Haverford, Vassar, Bates), the ordering
+     claims, and the windows sentence at the end of this paragraph
+     ("two under three of the windows and one under the fourth", computed
+     in the hidden windows chunk below, which runs after this prose) are
+     hand-checked against the tables. Revisit if clean.csv is updated. -->
 Interpreting the brief's 2.1 percent endpoint as an absolute level would
 misapply it, since that figure describes Bowen and Bok's 1989 cohort
-rather than these colleges, whose own pre-period mean was 4.9 percent.
+rather than these colleges, whose own pre-period mean was
+`r sprintf("%.1f", 100*mean(tbl$litigation, na.rm=TRUE))` percent.
 The transferable content of the forecast is proportional. Applied to each
 school's own baseline, even the mildest version implies a post-ruling
-share no greater than half the pre-ruling share. Two signatories out of
+share no greater than half the pre-ruling share.
+`r xfun::n2w(half_n, cap = TRUE)` signatories out of
 thirty-three satisfy this criterion. Amherst's post-ruling average is
-0.37 of its baseline, and Haverford's is 0.42, a position produced by its
-fall 2025 filing, which reports eight Black first-year students in a
-class of 397. The next closest are Vassar at 0.52 and Bates at 0.67, and
+`r sprintf("%.2f", base_ratio("amherst"))` of its baseline, and Haverford's is
+`r sprintf("%.2f", base_ratio("haverford"))`, a position produced by its
+fall 2025 filing, which reports `r xfun::n2w(hv2025$black)` Black first-year students in a
+class of `r hv2025$total`. The next closest are Vassar at
+`r sprintf("%.2f", base_ratio("vassar"))` and Bates at
+`r sprintf("%.2f", base_ratio("bates"))`, and
 no other signatory falls below two thirds of its baseline. Because the
-choice of pre-period is not dictated by the brief, @tbl-windows repeats
-the calculation for four alternatives, including the complete set of
+choice of pre-period is not dictated by the brief, I repeated the
+calculation for four alternative windows, including the complete set of
 filings that were public on the day the brief was signed. The group mean
 and the implied forecast interval are insensitive to the choice, and the
 count of signatories below half their baseline is two under three of the
 windows and one under the fourth.
 
 ```{r}
-#| echo: false
-#| label: tbl-windows
-#| tbl-cap: "Sensitivity of the amici evaluation to the choice of pre-period. The final column counts signatories whose post-ruling mean share is at or below one half of their own baseline."
+#| include: false
+# Sensitivity of the amici evaluation to the choice of pre-period,
+# summarized in the prose above (table not shown). inv columns: baseline
+# mean, post-ruling mean, and the count of signatories at or below one
+# half of their own baseline.
 windows <- list(`Fall 2010-15 (litigation estimation window)` = 2010:2015,
                 `Fall 2016-19`  = 2016:2019,
                 `Fall 2020-23 (final preference-era classes)`  = 2020:2023,
@@ -773,43 +842,6 @@ inv <- t(sapply(windows, function(yrs) {
   c(base = mean(x$base, na.rm = TRUE), post = mean(x$post, na.rm = TRUE),
     n = sum(x$post <= 0.5 * x$base, na.rm = TRUE))
 }))
-data.frame(
-  `Baseline window` = rownames(inv),
-  `Baseline mean` = sprintf("%.1f%%", 100 * inv[, "base"]),
-  `Forecast implies` =
-      sprintf("%.1f%% to %.1f%%", 100 * inv[, "base"] * .3,
-                                  100 * inv[, "base"] * .5),
-  `Observed post-ruling mean` = sprintf("%.1f%%", 100 * inv[, "post"]),
-  `Schools at or below half` = inv[, "n"],
-  check.names = FALSE) |>
-  kable(align = "lrrrr", row.names = FALSE)
-```
-
-Amherst's forecast was the only institution-specific one in the brief,
-and its trajectory is unique in the group. The internal-planning estimate concerned combined Native American,
-Black, and Hispanic enrollment. That combined share averaged 25.2 percent
-of Amherst's entering class over the pre-period and stood at 23.2 percent
-in fall 2023, the final cohort admitted under racial preferences. The
-fall 2024 class registered 13.5 percent, or 0.54 of baseline, with the
-Black component alone falling from an 11.8 percent baseline to 2.9
-percent. The college's own forecast of a reduction by approximately half
-was thus realized in the first post-ruling cycle, and only there. In fall
-2025 the combined share returned to 21.2 percent and the Black share to
-5.8 percent. Whatever admissions technology produced the 2024 outcome was
-available to the institution and was discontinued after one year. The
-reversal is examined in institutional detail below.
-
-```{r}
-#| include: false
-URM <- c("Black or African American, non-Hispanic", "Hispanic/Latino",
-         "American Indian or Alaska Native, non-Hispanic",
-         "Native Hawaiian or other Pacific Islander, non-Hispanic")
-amh <- cds |>
-  filter(school == "amherst", category %in% c(URM, "Total")) |>
-  mutate(n = suppressWarnings(as.numeric(first_time_first_year))) |>
-  group_by(year) |>
-  summarise(urm_share = sum(n[category %in% URM], na.rm = TRUE) /
-                        sum(n[category == "Total"]), .groups = "drop")
 ```
 
 ## The Top-Ranked Cohort
@@ -820,29 +852,15 @@ service academies, brings the total to forty-seven institutions. Unlike
 the three groups examined so far, these forty-seven never acted
 collectively in the litigation, and several filed nothing at
 all. The question here is not whether a specific forecast held but whether
-the patterns documented for the litigants extend across the market segment
+the patterns documented for the litigation participants extend across the market segment
 they occupy. @fig-black plots the US Black share of each school's
 entering class from fall 2006 through fall 2025 together with the
 cross-sectional median.
 
 ```{r}
 #| include: false
-US_NEWS_UNIVS <- c(
-  "princeton", "mit", "harvard", "stanford", "yale", "uchicago",
-  "duke", "jhu", "northwestern", "penn", "caltech", "cornell",
-  "brown", "dartmouth", "columbia", "berkeley", "rice", "ucla",
-  "vanderbilt", "cmu", "umich", "notredame", "wustl", "emory",
-  "georgetown")
-# Service academies (Navy, Air Force, Army) are ranked in the US News
-# top-25 LACs but excluded from the analysis.
-US_NEWS_LACS <- c(
-  "williams", "amherst", "swarthmore", "bowdoin",
-  "cmc", "pomona", "wellesley", "carleton", "hmc",
-  "barnard", "davidson", "grinnell", "hamilton", "middlebury",
-  "smith", "vassar", "wesleyan", "washandlee", "colgate", "richmond",
-  "bates", "colby")
-TOPRANKED <- c(US_NEWS_UNIVS, US_NEWS_LACS)
-
+# TOPRANKED (US News top-25 universities + top-25 LACs, less the service
+# academies) is defined in the setup chunk.
 pool50 <- cds |>
   filter(school %in% TOPRANKED, year %in% 2006:2025,
          category %in% c("Black or African American, non-Hispanic",
@@ -858,31 +876,41 @@ pool50 <- cds |>
          us_total = total - nonres) |>
   filter(is.finite(us_total), us_total >= 100)
 
-spaghetti50 <- function(df, title, subtitle, y_label, y_format) {
+# Tufte-styled spaghetti plot: no grid, recessive axes, direct labels in
+# place of a legend, and a dashed rule (rather than a shaded band) marking
+# the ruling.
+spaghetti50 <- function(df, title, y_format) {
   med <- df |> group_by(year) |>
     summarise(y = median(y, na.rm = TRUE), .groups = "drop")
+  med_end <- med |> filter(year == max(year))
   ggplot(df, aes(year, y, group = school)) +
-    annotate("rect", xmin = 2023.5, xmax = 2025.5,
-             ymin = -Inf, ymax = Inf, fill = "grey55", alpha = 0.18) +
-    geom_line(color = "grey75", linewidth = 0.35, na.rm = TRUE) +
+    geom_vline(xintercept = 2023.5, color = "grey60",
+               linewidth = 0.4, linetype = "22") +
+    geom_line(color = "grey80", linewidth = 0.3, na.rm = TRUE) +
     geom_line(data = med, aes(year, y), inherit.aes = FALSE,
-              color = "darkorange", linewidth = 1.4) +
-    scale_x_continuous(breaks = seq(2006, 2024, 2),
+              color = "darkorange", linewidth = 1.2) +
+    annotate("text", x = med_end$year + 0.35, y = med_end$y,
+             label = "Median", color = "darkorange", fontface = "bold",
+             hjust = 0, size = 4.2) +
+    annotate("text", x = 2023.3, y = Inf, label = "SFFA ruling",
+             color = "grey45", hjust = 1, vjust = 1.5, size = 3.4) +
+    scale_x_continuous(breaks = seq(2008, 2024, 4),
                        limits = c(2005.7, 2025.5), expand = c(0, 0)) +
     scale_y_continuous(labels = y_format) +
-    labs(title = title, subtitle = subtitle, x = NULL, y = y_label) +
+    coord_cartesian(clip = "off") +
+    labs(title = title, x = NULL, y = NULL) +
     theme_minimal(base_size = 12) +
     theme(
-      plot.title          = element_text(face = "bold", size = 14,
-                                         margin = margin(b = 4)),
+      panel.grid          = element_blank(),
+      axis.line.x         = element_line(color = "grey55", linewidth = 0.35),
+      axis.ticks.x        = element_line(color = "grey55", linewidth = 0.35),
+      axis.ticks.y        = element_line(color = "grey55", linewidth = 0.35),
+      axis.ticks.length   = unit(3, "pt"),
+      axis.text           = element_text(color = "grey30", size = 12),
+      plot.title          = element_text(face = "bold", size = 19,
+                                         margin = margin(b = 14)),
       plot.title.position = "plot",
-      plot.subtitle       = element_text(color = "grey25",
-                                         margin = margin(b = 12)),
-      panel.grid.minor    = element_blank(),
-      panel.grid.major.x  = element_line(color = "grey94"),
-      panel.grid.major.y  = element_line(color = "grey92"),
-      axis.title.y        = element_text(color = "grey25"),
-      axis.text           = element_text(color = "grey40")
+      plot.margin         = margin(6, 52, 6, 6)
     )
 }
 ```
@@ -892,12 +920,10 @@ spaghetti50 <- function(df, title, subtitle, y_label, y_format) {
 #| fig-width: 10
 #| fig-height: 5.5
 #| label: fig-black
-#| fig-cap: "US Black share of the entering class at the forty-seven institutions in the 2026 US News top-25 National Universities and top-25 National Liberal Arts Colleges (service academies excluded), fall 2006 through fall 2025. Grey lines are individual institutions, the orange line is the cross-sectional median, and the shaded region covers the two post-ruling cycles. The fall 2025 median is computed over the thirty-nine institutions with usable filings. Sources: IPEDS Fall Enrollment and CDS item B2."
+#| fig-cap: "US Black share of the entering class at the forty-seven institutions in the 2026 US News top-25 National Universities and top-25 National Liberal Arts Colleges (service academies excluded), fall 2006 through fall 2025. Grey lines are individual institutions, the orange line is the cross-sectional median, and the dashed vertical line marks the SFFA ruling. The fall 2025 median is computed over the thirty-nine institutions with usable filings. Sources: IPEDS Fall Enrollment and CDS item B2."
 spaghetti50(
   pool50 |> filter(!is.na(black)) |> mutate(y = black / us_total),
-  title    = "Black share of first-year US students, top-ranked institutions",
-  subtitle = "Grey: individual schools. Orange: median. Shaded: post-SFFA cycles.",
-  y_label  = "Black share of first-year US students",
+  title    = "Black Share of First-Year US Students, Top-Ranked Institutions",
   y_format = label_percent(accuracy = 1))
 ```
 
@@ -911,16 +937,15 @@ disclosure does not manufacture this stability. The eight cohort schools
 without a usable 2025 filing entered fall 2024 with a median Black share
 of 6.8 percent, against 5.4 percent for the thirty-nine that later
 filed, so the missing schools, if anything, depress the observed 2025
-median, and the full-panel figure would likely sit higher.
+median. The full-panel figure will likely be higher.
 
 The 2020-2022 increase identifies the presence of discretionary
 control. Between the fall 2020 and fall 2022 entering
 classes, the median Black share rose more than a full percentage point,
 with relative increases above 20 percent at many institutions, over an
-interval in which the score distribution of the national applicant pool
-and its racial composition were essentially static (the College Board's
-annual Total Group reports show group means and shares nearly unchanged
-over these years). The proximate cause
+interval in which the academic quality and racial composition of the national applicant pool were essentially static. (The College Board's
+annual Total Group reports for these cohorts show group means and shares
+nearly unchanged; College Board 2020, 2021, 2022.) The proximate cause
 was not a change in applicant characteristics but an institutional
 response to the events of 2020. The episode establishes that these
 institutions possessed, and exercised, the capacity to shift Black
@@ -941,21 +966,35 @@ most heavily between the Asian and Black margins.
 #| echo: false
 #| fig-width: 10
 #| fig-height: 5.5
+#| warning: false
 #| label: fig-ratio
-#| fig-cap: "Ratio of Asian to Black first-year US students at the same forty-seven institutions. Institution-years with fewer than five Black first-years are excluded. The upper band of trajectories consists of Berkeley and UCLA, which have operated under California's Proposition 209 since 1996, and the four STEM-intensive institutions (Caltech, MIT, Carnegie Mellon, Harvey Mudd). Sources: IPEDS Fall Enrollment and CDS item B2."
+#| fig-cap: "Ratio of Asian to Black first-year US students at the same forty-seven institutions. Institution-years with fewer than five Black first-years are excluded. Grey lines are individual institutions, the orange line is the cross-sectional median, and the dashed vertical line marks the SFFA ruling. The four labeled institutions, drawn in darker grey, are Berkeley and UCLA, whose admissions California's Proposition 209 (adopted 1996) has bound since the fall 1998 entering class, and two STEM-intensive schools, Caltech and Carnegie Mellon. Sources: IPEDS Fall Enrollment and CDS item B2."
+ratio_df <- pool50 |> filter(!is.na(black), !is.na(asian), black >= 5) |>
+  mutate(y = asian / black)
+# Right-margin labels for the four schools named in the text. Label y
+# positions are each school's final observed ratio (Berkeley 20.8 and
+# CMU 13.7 in 2025, UCLA 9.9 in 2025, Caltech 7.5 in 2024). Revisit
+# positions if clean.csv is updated.
+ratio_labels <- tibble::tibble(
+  school = c("berkeley", "cmu", "ucla", "caltech"),
+  label  = c("Berkeley", "Carnegie Mellon", "UCLA", "Caltech"),
+  y_lab  = c(20.8, 13.7, 9.9, 7.5))
 spaghetti50(
-  pool50 |> filter(!is.na(black), !is.na(asian), black >= 5) |>
-    mutate(y = asian / black),
-  title    = "Asian / Black ratio of first-year US students, top-ranked institutions",
-  subtitle = "Grey: individual schools. Orange: median. Shaded: post-SFFA cycles.",
-  y_label  = "Asian first-years per Black first-year",
-  y_format = label_number(accuracy = 1))
+  ratio_df,
+  title    = "Asian / Black Ratio of First-Year US Students, Top-Ranked Institutions",
+  y_format = label_number(accuracy = 1)) +
+  geom_line(data = ratio_df |> filter(school %in% ratio_labels$school),
+            color = "grey55", linewidth = 0.45, na.rm = TRUE) +
+  annotate("text", x = 2025.45, y = ratio_labels$y_lab,
+           label = ratio_labels$label, color = "grey35",
+           hjust = 0, size = 3.5) +
+  theme(plot.margin = margin(6, 112, 6, 6))
 ```
 
 The cohort median drifted from approximately 1.9 in 2006 to 2.6 by 2023
-and averages 3.1 across the two post-ruling cycles. The institutions
-operating under a legal prohibition on racial preferences, Berkeley and
-UCLA, together with the STEM-intensive schools whose applicant pools skew
+and averages 3.1 across the two post-ruling cycles. Berkeley and
+UCLA, the California institutions bound by Proposition
+209, together with the STEM-intensive schools whose applicant pools skew
 heavily Asian, occupy ratios between 6 and 13 at the median and up to 25.8
 in Berkeley's case (2,396 Asian against 93 Black first-year US students in
 2017). California's applicant pool contains proportionally more Asian and
@@ -963,15 +1002,15 @@ fewer Black students than the national pool serving the private
 institutions, and the University of California has admitted test-blind
 since 2021, so these values mark the general region rather than the
 exact level that race-blind selection would imply elsewhere. The
-post-ruling movement of the private-school median, roughly half a point,
+post-ruling movement of the cohort median, roughly half a point,
 covers a small fraction of the interval separating it from that region.
 
 Individual trajectories within the cohort followed a common sequence. The
 first post-ruling cycle produced large single-school deviations, with
 Stanford rising to 7.4 against a historical range of 2 to 3, Cornell to
-6.8, Amherst to 7.0, Brown to 5.0, and Johns Hopkins and MIT to 11.8 and
-11.3. In the second cycle most of these reverted, Amherst to 2.0, Brown to
-3.3, Cornell to 6.0, and MIT to 6.5, while Stanford continued to 9.7 and
+6.8, Amherst to 7.0, Brown to 5.0, and Johns Hopkins to
+11.8. In the second cycle most of these reverted, Amherst to 2.0, Brown to
+3.3, and Cornell to 6.0, while Stanford continued to 9.7 and
 Johns Hopkins remained at 11.2. The modal institution experimented with a
 substantially higher ratio for one cycle and then returned to its
 historical position.
@@ -981,10 +1020,17 @@ historical position.
 The aggregate stability documented above conceals two exceptions, one at
 each end of the range of institutional response.
 
-Amherst's forecast came true, and the college's public posture
-after the fall 2024 release treated the outcome as vindication. The
-college announced that 3 percent of the Class of 2028 identified as Black
-under federal reporting rules, against 11 percent the year before, with
+Amherst's forecast came true, for exactly one cycle. The brief's one
+institution-specific estimate, drawn from the college's internal
+planning, concerned combined Native American, Black, and Hispanic
+enrollment. That combined share averaged 25.2 percent of Amherst's
+entering class over the pre-period and stood at 23.2 percent in fall
+2023, the final cohort admitted under racial preferences. The fall 2024
+class registered 13.5 percent, or 0.54 of baseline, with the Black
+component alone falling from an 11.8 percent baseline to 2.9 percent.
+The college's public posture treated the outcome as vindication. It
+announced that 3 percent of the Class of 2028 identified as Black under
+federal reporting rules, against 11 percent the year before, with
 domestic students of color falling from 47 to 38 percent of the class
 (Amherst Student 2024a). National coverage presented the numbers as the
 realization of the college's own brief. President Michael Elliott called
@@ -997,13 +1043,12 @@ student newspaper examined at length (Amherst Student 2024b). The
 next cycle reversed the outcome. The college expanded digital and
 in-person recruiting, joined the STARS rural-recruitment network, admitted
 a record share of first-generation students, and released its class data a
-month later than usual (Amherst College 2025; Amherst Student 2025). Its
-Asian-to-Black ratio traced the same arc as the underrepresented shares
-reported earlier, rising to 7.0 in the first post-ruling cycle and
-returning to 2.0 in the second. The
-institution that treated the ruling as binding produced its own forecast
-for exactly one cycle and then rebuilt the prior composition by other
-means.
+month later than usual (Amherst College 2025; Amherst Student 2025). The
+combined underrepresented share returned to 21.2 percent, the Black share
+to 5.8 percent, and the Asian-to-Black ratio traced the same arc, rising
+to 7.0 in the first post-ruling cycle and returning to 2.0 in the second.
+The institution that treated the ruling as binding matched its own
+forecast for exactly one cycle and then went back toward the typical racial composition.
 
 Johns Hopkins, by contrast, has presented itself as complying, and its
 filings support the presentation. Its announced Class of 2028
@@ -1025,19 +1070,19 @@ cycles, leaving it, with Stanford, one of only two institutions still
 outside its historical range in the second year. Where a school actually
 stopped considering race, the movements were large and immediate, and at
 Hopkins they persisted, above all in the Asian share. Nothing similar
-appears at the other forty-five institutions.
+appears at the forty-five institutions other than Hopkins and Stanford.
 
 ### The Test-Taking Population
 
-The operative benchmark in this paper for what race-blind elite
-admissions produces is the Proposition 209 institutions, not any
-test-score cutoff. National testing data nonetheless explain why that
-benchmark sits so far above the private-school ratios. The College
+In the absence of racial preferences, the racial composition of an
+elite entering class should, all else equal, resemble the racial
+composition of the students who meet elite academic standards. National
+testing data describe that population. The College
 Board's summary of the 2,004,965 SAT takers in the high school graduating
 class of 2025 reports mean total scores of 1,229 among the 217,459 Asian
-test-takers and 904 among the 250,887 African American test-takers, a
+test-takers and 904 among the 250,887 Black test-takers, a
 difference exceeding 300 points against group standard deviations near
-200 (196 and 212 for the African American and Asian distributions,
+200 (196 and 212 for the Black and Asian distributions,
 estimated from the report's score-band tables) (College Board 2025). Distributions separated by that
 distance thin at very different rates in the upper tail. In the
 1400-to-1600 band, approximately the range from which the institutions
@@ -1046,51 +1091,59 @@ studied here draw most of their admits, the report counts 56,539 Asian,
 Board 2025, score-distribution tables by race and ethnicity), an
 Asian-to-Black ratio of 22.5 between two groups of comparable overall
 size. No party to the litigation proposed admission by test score alone,
-and holistic race-neutral review would not reproduce the top-band ratio.
-The tail arithmetic shows something narrower: any selection process that
-weights academic credentials heavily and applies no racial offsets will
-generate ratios in the general region the California universities
-actually occupy, and the private institutions' enrolled ratio of 2 to 3,
-essentially unchanged across the ruling, is not the output of such a
+and holistic review weighs more than scores, so the top-band ratio is a rough guide rather than a point prediction. But any selection process
+that weights academic credentials heavily and applies no racial offsets
+would land far closer to that guide than to the enrolled ratio of 2 to
+3, which is little changed after *SFFA* and is not the output of such a
 process.
 
 ## Conclusion
 
+<!-- The numbers in the conclusion are hard-coded for readability; every
+     one restates a figure computed in the body (tbl-fifteen, tbl-amici,
+     fig-ratio and surrounding prose). Keep them in sync, and revisit if
+     clean.csv is updated. -->
 Two admissions cycles after *SFFA v. Harvard*, the enrollment records of
-the institutions most affected by the decision show the following.
-Harvard's Black enrollment share, expressed in any internally consistent
-metric, equals its level in the years when it used the admissions system
-the Supreme Court found unlawful. At the fifteen research universities
-that assured the Court that race-neutral admissions would undercut their
-diversity, the mean Black share of US first-years moved from 7.4 to 7.2
-percent, and six signatories sit above their baselines. Among the thirty-three colleges that jointly
+the institutions most affected by the decision show the following:
+
+Among the 33 colleges that jointly
 forecast declines of 50 to 70 percent, mean Black share is marginally
 higher than in the corresponding benchmark period, and thirty-one of them
 never approached the mildest version of their own forecast. The ratio of
 Asian to Black first-years, the summary statistic most relevant to the
 underlying litigation and the one least vulnerable to measurement
-objections, moved from roughly 2.5 to roughly 3.1 against race-blind
-benchmarks two to eight times higher. The parsimonious reading of this
-evidence is that elite institutions have not meaningfully changed the
-admissions policies the ruling was intended to end. What has changed is
-calibration: the enrollment level being produced, and its uniformity
-across institutions, are consistent with management toward
-inconspicuousness rather than with either continuation of pre-ruling
-levels or genuine race-blindness. That characterization is an
-interpretation of the pattern, not a finding the data compel.
+objections, moved from roughly 2.6 to roughly 3.1 against race-blind
+benchmarks two to eight times higher.
 
-The data cannot identify the mechanism. Whether present practice reflects
+At the 15 research universities
+that assured the Court that race-neutral admissions would undercut their
+diversity, the mean Black share of US first-years moved from 7.4 to 7.2
+percent, and six signatories sit above their baselines.
+
+Harvard's Black enrollment share, expressed in any internally consistent
+metric, equals its level in the years when it used the admissions system
+the Supreme Court found unlawful.
+
+The parsimonious reading of this
+evidence is that elite institutions have not meaningfully changed the
+admissions policies the ruling was intended to end. That characterization is an
+interpretation of the pattern, not a finding the data compel. The data
+cannot identify the mechanism. Whether present practice reflects
 consideration of race as such, which the Court prohibited, or of
 experiential factors correlated with race, which the Court permitted, is
-not answerable from aggregate filings, and I do not claim otherwise. What
+not answerable from aggregate filings, and I do not claim otherwise.
+
+What
 the analysis does establish is that the quantitative expertise deployed in
 the litigation has functioned, after the fact, to obscure the question. The most cited prediction in the case was stated
 in units that no public statistic reports, by an expert whose analysis
 never faced peer review but was certified as sound to the Supreme Court
-by sixteen economists including three Nobel laureates, and it is now
-routinely compared against filings
-computed under incompatible definitions, generating an appearance of
-compliance that a factor-of-two conversion dissolves. Economists who
+by sixteen economists including three Nobel laureates, and any
+comparison of it against filings
+computed under incompatible definitions generates an appearance of
+compliance that a factor-of-two conversion dissolves.
+
+Economists who
 supply litigation estimates in nonpublic units might reasonably be
 expected to publish the mapping to public categories at the same time.
 Absent such mappings, predictions of this kind are unfalsifiable in
@@ -1179,6 +1232,18 @@ Highly Selective Private Colleges. *Quarterly Journal of Economics*
 141(1): 51-145.
 [Link](https://academic.oup.com/qje/article-abstract/141/1/51/8306880)
 
+College Board. 2020. *2020 Total Group SAT Suite of Assessments Annual
+Report*. New York: College Board.
+[Link](https://reports.collegeboard.org/media/pdf/2020-total-group-sat-suite-assessments-annual-report.pdf)
+
+College Board. 2021. *2021 Total Group SAT Suite of Assessments Annual
+Report*. New York: College Board.
+[Link](https://reports.collegeboard.org/media/2022-04/2021-total-group-sat-suite-of-assessments-annual-report%20%281%29.pdf)
+
+College Board. 2022. *2022 Total Group SAT Suite of Assessments Annual
+Report*. New York: College Board.
+[Link](https://reports.collegeboard.org/media/pdf/2022-total-group-sat-suite-of-assessments-annual-report.pdf)
+
 College Board. 2025. *2025 Total Group SAT Suite of Assessments Annual
 Report*. New York: College Board.
 [Link](https://reports.collegeboard.org/media/pdf/2025-total-group-sat-suite-of-assessments-annual-report%20ADA-v0.2_0.pdf)
@@ -1244,4 +1309,14 @@ College*, 397 F. Supp. 3d 126 (D. Mass. 2019).
 
 *Students for Fair Admissions v. President and Fellows of Harvard
 College*, 600 U.S. 181 (2023).
+
+## About the Author {.unnumbered}
+
+David Kane (www.davidkane.info) is a visiting assistant professor at New College of Florida.
+He is the former Preceptor in Statistical Methods and Mathematics in the
+Department of Government at Harvard University. He served as an officer
+in the United States Marine Corps from 1988 to 1991. Prior to returning
+to academia in 2018, he worked in quantitative finance for two decades,
+mostly as an equity portfolio manager at firms including Numeric, Geode,
+Millennium, Point72 (formerly SAC), Acadian and Hutchin Hill. He can be reached at dave.kane@gmail.com.
 
