@@ -153,21 +153,21 @@ with several bodies of evidence.
      in chunks that run later in the document. Keep them in sync with
      the Research Universities, Amici, and Top-Ranked Cohort sections,
      and revisit if clean.csv is updated. -->
-Mean Black enrollment across the 33 amici colleges is above,
-not below, its pre-litigation benchmark.
+- Mean Black enrollment across the 33 amici colleges is above,
+  not below, its pre-litigation benchmark.
 
-Mean Black enrollment at the 15 research universities that told the
-Court race-neutral admissions would undercut their diversity moved from
-7.4 to 7.2 percent of US first-years, and six of the fifteen enroll
-more Black students, relative to class size, than before.
+- Mean Black enrollment at the 15 research universities that told the
+  Court race-neutral admissions would undercut their diversity moved from
+  7.4 to 7.2 percent of US first-years, and six of the fifteen enroll
+  more Black students, relative to class size, than before.
 
-The ratio of Asian to Black first-year students across
-the 47 top-ranked institutions has moved a small fraction of the
-distance toward the levels observed at universities bound by California's
-Proposition 209, the closest available approximation to a race-blind benchmark.
+- The ratio of Asian to Black first-year students across
+  the 47 top-ranked institutions has moved a small fraction of the
+  distance toward the levels observed at universities bound by California's
+  Proposition 209, the closest available approximation to a race-blind benchmark.
 
-Black enrollment at Harvard, correctly converted, sits at its 2010-2015
-level.
+- Black enrollment at Harvard, correctly converted, sits at its 2010-2015
+  level.
 
 These results raise the issue: Does abiding by the decision not have
 the predicted effect, or are the schools not abiding by the decision?
@@ -1106,23 +1106,25 @@ process.
 Two admissions cycles after *SFFA v. Harvard*, the enrollment records of
 the institutions most affected by the decision show the following:
 
-Among the 33 colleges that jointly
-forecast declines of 50 to 70 percent, mean Black share is marginally
-higher than in the corresponding benchmark period, and thirty-one of them
-never approached the mildest version of their own forecast. The ratio of
-Asian to Black first-years, the summary statistic most relevant to the
-underlying litigation and the one least vulnerable to measurement
-objections, moved from roughly 2.6 to roughly 3.1 against race-blind
-benchmarks two to eight times higher.
+- Among the 33 colleges that jointly
+  forecast declines of 50 to 70 percent, mean Black share is marginally
+  higher than in the corresponding benchmark period, and thirty-one of them
+  never approached the mildest version of their own forecast.
 
-At the 15 research universities
-that assured the Court that race-neutral admissions would undercut their
-diversity, the mean Black share of US first-years moved from 7.4 to 7.2
-percent, and six signatories sit above their baselines.
+- At the 15 research universities
+  that assured the Court that race-neutral admissions would undercut their
+  diversity, the mean Black share of US first-years moved from 7.4 to 7.2
+  percent, and six signatories sit above their baselines.
 
-Harvard's Black enrollment share, expressed in any internally consistent
-metric, equals its level in the years when it used the admissions system
-the Supreme Court found unlawful.
+- Across the 47 top-ranked institutions, the ratio of
+  Asian to Black first-years, the summary statistic most relevant to the
+  underlying litigation and the one least vulnerable to measurement
+  objections, moved from roughly 2.6 to roughly 3.1 against race-blind
+  benchmarks two to eight times higher.
+
+- Harvard's Black enrollment share, expressed in any internally consistent
+  metric, equals its level in the years when it used the admissions system
+  the Supreme Court found unlawful.
 
 The parsimonious reading of this
 evidence is that elite institutions have not meaningfully changed the
@@ -1318,5 +1320,6 @@ Department of Government at Harvard University. He served as an officer
 in the United States Marine Corps from 1988 to 1991. Prior to returning
 to academia in 2018, he worked in quantitative finance for two decades,
 mostly as an equity portfolio manager at firms including Numeric, Geode,
-Millennium, Point72 (formerly SAC), Acadian and Hutchin Hill. He can be reached at dave.kane@gmail.com.
+Millennium, Point72 (formerly SAC), Acadian, and Hutchin Hill. His email
+is dave.kane@gmail.com.
 
