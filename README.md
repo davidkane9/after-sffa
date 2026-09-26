@@ -1,7 +1,8 @@
 # After *SFFA v. Harvard*: Predictions that Didn't Come True
 
 Replication package for David Kane, "After *SFFA v. Harvard*:
-Predictions that Didn't Come True" (submitted to Econ Journal Watch).
+Predictions that Didn't Come True" (accepted for publication in Econ
+Journal Watch).
 The paper tests
 the enrollment predictions made by elite colleges and their expert
 witnesses during *Students for Fair Admissions v. Harvard* against
@@ -22,7 +23,7 @@ below).
 - `paper/` — the manuscript:
   - `paper.qmd` — Quarto source; all statistics in the paper are
     computed in its R chunks directly from `data/processed/clean.csv`
-  - `paper.pdf`, `paper.docx` — rendered versions as submitted
+  - `paper.pdf`, `paper.docx` — rendered versions of the accepted paper
   - `ejw-reference.docx` — Word style template used by the docx render
 - `code/` — the Python pipeline that builds the dataset (details below)
 - `data/downloads/<school>/` — the primary sources: every CDS filing
@@ -33,8 +34,9 @@ below).
 - `data/processed/` — pipeline outputs, most importantly `clean.csv`,
   the analysis file the paper reads
 - `documents/` — primary-source litigation documents (expert reports,
-  court opinions, amicus briefs) and the College Board 2025 annual
-  report, with a README giving sources and citations
+  court opinions, amicus briefs), the College Board 2025 annual
+  report, and the three 2026 post-SFFA enrollment studies the paper
+  discusses (Snider; Murphy; Bloem et al.), with a README giving sources and citations
 
 ## Reproducing the paper (the short path)
 
